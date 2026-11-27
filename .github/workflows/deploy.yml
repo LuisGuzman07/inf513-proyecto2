@@ -159,7 +159,7 @@ jobs:
           </IfModule>
           HTACCESS
 
-          chmod -R 777 ~/app/backend/storage ~/app/backend/bootstrap/cache
+          chmod -R 777 ~/app/backend/storage ~/app/backend/bootstrap/cache 2>/dev/null || true
 
           cd ~/app/backend
           php artisan storage:link || true
