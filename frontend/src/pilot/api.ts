@@ -17,7 +17,13 @@ import type {
   AnonymousCandidateDetail,
 } from './types';
 
+const normalizedBase =
+  typeof __APP_BASE__ !== 'undefined' && __APP_BASE__ !== '/'
+    ? __APP_BASE__.replace(/\/+$/, '')
+    : '';
+
 export const pilotClient = axios.create({
+  baseURL: normalizedBase || undefined,
   withCredentials: true,
   withXSRFToken: true,
   headers: { Accept: 'application/json' },

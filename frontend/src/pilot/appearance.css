@@ -1,0 +1,119 @@
+/* Apariencia, modo noche y accesibilidad (CU10) */
+.pilot-identity *:focus-visible {
+  outline: 3px solid #1d4ed8 !important;
+  outline-offset: 2px;
+}
+
+.pilot-mode-dark {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+.pilot-mode-dark .pilot-frame,
+.pilot-mode-dark .pilot-frame-main,
+.pilot-mode-dark .pilot-frame-content {
+  background-color: #0f172a !important;
+  color: #f1f5f9 !important;
+}
+
+.pilot-mode-dark .pilot-frame-header,
+.pilot-mode-dark .ant-layout-footer {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  color: #f8fafc !important;
+}
+
+.pilot-mode-dark .pilot-frame-public-nav a,
+.pilot-mode-dark .pilot-frame-context {
+  color: #f8fafc !important;
+}
+
+.pilot-mode-dark .ant-card,
+.pilot-mode-dark .ant-modal-content,
+.pilot-mode-dark .ant-modal-header,
+.pilot-mode-dark .ant-drawer-content,
+.pilot-mode-dark .ant-drawer-header,
+.pilot-mode-dark .ant-popover-inner {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+  border-color: #334155 !important;
+}
+
+.pilot-mode-dark .ant-alert-info {
+  background-color: #172554 !important;
+  border-color: #1d4ed8 !important;
+}
+
+.pilot-mode-dark .ant-alert-success {
+  background-color: #052e16 !important;
+  border-color: #15803d !important;
+}
+
+.pilot-mode-dark .ant-alert-warning {
+  background-color: #422006 !important;
+  border-color: #a16207 !important;
+}
+
+.pilot-mode-dark .ant-alert-error {
+  background-color: #450a0a !important;
+  border-color: #b91c1c !important;
+}
+
+.pilot-mode-dark .ant-alert-message,
+.pilot-mode-dark .ant-alert-title,
+.pilot-mode-dark .ant-alert-description,
+.pilot-mode-dark .ant-card-head-title,
+.pilot-mode-dark .ant-modal-title,
+.pilot-mode-dark .ant-drawer-title,
+.pilot-mode-dark .ant-form-item-label > label,
+.pilot-mode-dark .ant-descriptions-item-label,
+.pilot-mode-dark .ant-descriptions-item-content {
+  color: #f8fafc !important;
+}
+
+.pilot-mode-dark .ant-descriptions-view,
+.pilot-mode-dark .ant-descriptions-row > th,
+.pilot-mode-dark .ant-descriptions-row > td {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+}
+
+.pilot-mode-dark .ant-table,
+.pilot-mode-dark .ant-table-thead > tr > th,
+.pilot-mode-dark .ant-table-tbody > tr > td {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+  border-color: #334155 !important;
+}
+
+.pilot-mode-dark .ant-table-tbody > tr:hover > td {
+  background-color: #334155 !important;
+}
+
+.pilot-high-contrast {
+  filter: contrast(1.12);
+}
+
+.pilot-high-contrast *:focus-visible {
+  outline: 4px solid #facc15 !important;
+  outline-offset: 2px;
+}
+
+.pilot-high-contrast .ant-card,
+.pilot-high-contrast .ant-btn,
+.pilot-high-contrast .ant-input,
+.pilot-high-contrast .ant-select-selector {
+  border-width: 2px !important;
+}
+
+.pilot-theme-ninos {
+  font-family: 'Nunito', 'Quicksand', 'Segoe UI', sans-serif;
+}
+
+.pilot-theme-jovenes {
+  font-family: 'Inter', 'Plus Jakarta Sans', 'Segoe UI', sans-serif;
+}
+
+.pilot-theme-adultos {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}

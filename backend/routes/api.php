@@ -1,25 +1,39 @@
 <?php
 
+use App\Http\Controllers\AdminCompanyController;
+use App\Http\Controllers\AdminDashboardController;
+use App\Http\Controllers\AdminRbacController;
+use App\Http\Controllers\AuditLogController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CandidateCvController;
 use App\Http\Controllers\CandidatePoolController;
 use App\Http\Controllers\CatalogController;
 use App\Http\Controllers\CompanyDirectoryController;
+use App\Http\Controllers\CompanyDonationController;
 use App\Http\Controllers\EvaluationController;
+use App\Http\Controllers\GlobalSearchController;
 use App\Http\Controllers\HealthController;
 use App\Http\Controllers\InstrumentBankController;
+use App\Http\Controllers\PageVisitController;
+use App\Http\Controllers\PaymentManagementController;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\ServiceAccessController;
 use App\Http\Controllers\ServiceRequestController;
 use App\Http\Controllers\ServiceRequestStaffController;
+use App\Http\Controllers\StripeWebhookController;
 use App\Http\Controllers\TalentDocumentController;
 use App\Http\Controllers\TalentReviewController;
 use App\Http\Controllers\TalentSubmissionController;
+use App\Http\Controllers\UiPreferenceController;
 use App\Http\Middleware\EnsurePilotEnabled;
 use App\Http\Middleware\RequirePilotSpaSession;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/health', HealthController::class);
+Route::post('/webhooks/stripe', [StripeWebhookController::class, 'handle']);
+Route::get('/buscar', [GlobalSearchController::class, 'index'])->middleware(['throttle:60,1']);
+Route::post('/visitas', [PageVisitController::class, 'store'])->middleware(['throttle:120,1']);
+Route::get('/visitas/resumen', [PageVisitController::class, 'summary'])->middleware(['throttle:120,1']);
 
 Route::post('/auth/login', [AuthController::class, 'login'])->name('login')->middleware([RequirePilotSpaSession::class, 'throttle:5,1']);
 Route::post('/auth/register', [AuthController::class, 'register'])->middleware([RequirePilotSpaSession::class, 'throttle:5,1']);
@@ -29,7 +43,24 @@ Route::get('/banco-candidatos', [CandidatePoolController::class, 'index'])->midd
 Route::get('/banco-candidatos/{candidateCode}', [CandidatePoolController::class, 'show'])->middleware(['throttle:60,1']);
 Route::middleware([RequirePilotSpaSession::class, 'auth:sanctum', EnsurePilotEnabled::class])->group(function () {
     Route::get('/auth/me', [AuthController::class, 'me']);
+    Route::get('/preferencias-ui', [UiPreferenceController::class, 'show']);
+    Route::put('/preferencias-ui', [UiPreferenceController::class, 'update']);
     Route::get('/empresa/mis-empresas', [CompanyDirectoryController::class, 'index']);
+    Route::middleware('permission:empresa.donativos.gestionar')->group(function () {
+        Route::get('/empresa/donativos', [CompanyDonationController::class, 'index']);
+        Route::get('/empresa/donativos/{donation}', [CompanyDonationController::class, 'show'])->whereUuid('donation');
+        Route::post('/empresa/donativos', [CompanyDonationController::class, 'store']);
+        Route::post('/empresa/donativos/{donation}/confirmar', [CompanyDonationController::class, 'confirm'])->whereUuid('donation');
+
+        Route::get('/empresa/metodos-pago', [PaymentManagementController::class, 'methodsIndex']);
+        Route::post('/empresa/metodos-pago', [PaymentManagementController::class, 'storeMethod']);
+        Route::patch('/empresa/metodos-pago/{paymentMethod}/predeterminado', [PaymentManagementController::class, 'setDefaultMethod'])->whereUuid('paymentMethod');
+        Route::delete('/empresa/metodos-pago/{paymentMethod}', [PaymentManagementController::class, 'destroyMethod'])->whereUuid('paymentMethod');
+
+        Route::get('/empresa/planes-pago', [PaymentManagementController::class, 'plansIndex']);
+        Route::post('/empresa/planes-pago', [PaymentManagementController::class, 'storePlan']);
+        Route::patch('/empresa/planes-pago/{paymentPlan}', [PaymentManagementController::class, 'updatePlanStatus'])->whereUuid('paymentPlan');
+    });
     Route::get('/servicios/acceso', [ServiceAccessController::class, 'show']);
     Route::post('/auth/logout', [AuthController::class, 'logout']);
     Route::get('/catalogo/facultades', [CatalogController::class, 'faculties']);
@@ -76,4 +107,37 @@ Route::middleware([RequirePilotSpaSession::class, 'auth:sanctum', EnsurePilotEna
     Route::post('/talento/evaluaciones/{assignment}/enviar', [EvaluationController::class, 'submit'])->whereUuid('assignment');
     Route::get('/personal/banco-candidatos', [CandidatePoolController::class, 'index']);
     Route::get('/personal/banco-candidatos/{candidateCode}', [CandidatePoolController::class, 'show']);
+
+    Route::middleware('permission:servicios.gestionar,admin.usuarios.gestionar')->group(function () {
+        Route::get('/personal/empresas', [AdminCompanyController::class, 'index']);
+        Route::post('/personal/empresas', [AdminCompanyController::class, 'store']);
+        Route::patch('/personal/empresas/{company}', [AdminCompanyController::class, 'update'])->whereUuid('company');
+        Route::post('/personal/empresas/{company}/vincular', [AdminCompanyController::class, 'linkUser'])->whereUuid('company');
+        Route::patch('/personal/empresas/{company}/usuarios/{companyUser}', [AdminCompanyController::class, 'toggleUserLink'])->whereUuid(['company', 'companyUser']);
+    });
+
+    Route::prefix('admin')->group(function () {
+        Route::middleware('permission:admin.usuarios.gestionar')->group(function () {
+            Route::get('/usuarios', [AdminRbacController::class, 'users']);
+            Route::get('/usuarios/{user}', [AdminRbacController::class, 'showUser']);
+            Route::patch('/usuarios/{user}/estado', [AdminRbacController::class, 'updateUserStatus']);
+            Route::put('/usuarios/{user}/roles', [AdminRbacController::class, 'syncUserRoles']);
+        });
+        Route::middleware('permission:admin.roles.gestionar')->group(function () {
+            Route::get('/roles', [AdminRbacController::class, 'roles']);
+            Route::post('/roles', [AdminRbacController::class, 'storeRole']);
+            Route::patch('/roles/{role}', [AdminRbacController::class, 'updateRole']);
+        });
+        Route::middleware('permission:admin.permisos.gestionar')->group(function () {
+            Route::get('/permisos', [AdminRbacController::class, 'permissions']);
+            Route::post('/permisos', [AdminRbacController::class, 'storePermission']);
+            Route::patch('/permisos/{permission}', [AdminRbacController::class, 'updatePermission']);
+        });
+        Route::middleware('permission:admin.auditoria.ver')->group(function () {
+            Route::get('/auditoria', [AuditLogController::class, 'index']);
+        });
+        Route::middleware('permission:admin.dashboard.ver')->group(function () {
+            Route::get('/dashboard', [AdminDashboardController::class, 'show']);
+        });
+    });
 });

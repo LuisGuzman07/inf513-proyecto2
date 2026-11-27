@@ -1,13 +1,31 @@
 import type { RawResult } from './evaluations-types';
 
+export type PilotRoleSummary = {
+  id: number;
+  slug: string;
+  name: string;
+};
+
+export type UiPreferences = {
+  theme_variant: 'ninos' | 'jovenes' | 'adultos';
+  color_mode: 'light' | 'dark' | 'auto';
+  font_scale: 'small' | 'normal' | 'large' | 'xlarge';
+  high_contrast: boolean;
+};
+
 export type PilotUser = {
   id: number;
   name: string;
   email: string;
   pilot_enabled: boolean;
+  is_active?: boolean;
   is_graduate: boolean;
   can_review_talent: boolean;
+  can_manage_services?: boolean;
   person_id: string | null;
+  ui_preferences?: UiPreferences | null;
+  roles?: PilotRoleSummary[];
+  permissions?: string[];
 };
 export type Mobility = {
   province: boolean | null;

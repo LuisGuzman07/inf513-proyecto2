@@ -17,6 +17,9 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware) {
         $middleware->statefulApi();
+        $middleware->alias([
+            'permission' => \App\Http\Middleware\RequirePermission::class,
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         $exceptions->shouldRenderJsonWhen(fn (Request $request) => $request->is('api/*') || $request->is('sanctum/*'));
@@ -43,8 +46,12 @@ return Application::configure(basePath: dirname(__DIR__))
                 429 => 'Demasiados intentos. Esperá un momento antes de volver a intentar.',
             ];
 
+            $customMessage = $exception instanceof HttpExceptionInterface ? trim($exception->getMessage()) : '';
+
             return response()->json([
-                'message' => $messages[$status] ?? 'No se pudo completar la solicitud.',
+                'message' => ($status === 403 && $customMessage !== '')
+                    ? $customMessage
+                    : ($messages[$status] ?? 'No se pudo completar la solicitud.'),
             ], $status)->header('Cache-Control', 'private, no-store');
         });
     })->create();

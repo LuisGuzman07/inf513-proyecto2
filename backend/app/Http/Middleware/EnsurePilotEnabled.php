@@ -11,13 +11,14 @@ class EnsurePilotEnabled
 {
     public function handle(Request $request, Closure $next): Response
     {
-        if (! $request->user()?->talent_pilot_enabled) {
+        $user = $request->user();
+        if (! $user || ! $user->isAccountActive()) {
             Auth::guard('web')->logout();
             if ($request->hasSession()) {
                 $request->session()->invalidate();
                 $request->session()->regenerateToken();
             }
-            abort(403, 'Cuenta no habilitada para el piloto.');
+            abort(403, 'Cuenta desactivada o no habilitada.');
         }
         $response = $next($request);
         $response->headers->set('Cache-Control', 'private, no-store');

@@ -3,7 +3,14 @@ import react from '@vitejs/plugin-react-swc';
 import path from 'path';
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, process.cwd(), '');
+  const appBase = env.APP_BASE_PATH || '/';
+  return {
+  base: appBase,
+  define: {
+    __APP_BASE__: JSON.stringify(appBase),
+  },
   plugins: [react()],
   server: {
     host: 'localhost',
@@ -29,4 +36,5 @@ export default defineConfig(({ mode }) => ({
       '@mocks': path.resolve(__dirname, './public/mocks'),
     },
   },
-}));
+  };
+});

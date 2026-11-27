@@ -79,6 +79,10 @@ import {
   InstrumentBankPage,
   InstrumentDetailPage,
 } from '../pilot/evaluations';
+import { AdminRolesPage, AdminUsersPage } from '../pilot/admin-rbac';
+import { AdminAuditPage, AdminDashboardPage } from '../pilot/admin-monitoring';
+import { AdminCompaniesPage } from '../pilot/admin-companies';
+import { CompanyDonationsPage } from '../pilot/company-donations';
 import { Alert } from 'antd';
 
 // Custom scroll restoration function
@@ -212,6 +216,42 @@ const router = createBrowserRouter([
             element: <ConsolidatedProfilePage />,
           },
         ],
+      },
+      {
+        element: (
+          <PilotGuard
+            permission={['servicios.gestionar', 'admin.usuarios.gestionar']}
+          />
+        ),
+        children: [{ path: '/personal/empresas', element: <AdminCompaniesPage /> }],
+      },
+      {
+        element: <PilotGuard permission="empresa.donativos.gestionar" />,
+        children: [
+          { path: '/empresa/donativos', element: <CompanyDonationsPage /> },
+        ],
+      },
+      {
+        element: <PilotGuard permission="admin.usuarios.gestionar" />,
+        children: [{ path: '/admin/usuarios', element: <AdminUsersPage /> }],
+      },
+      {
+        element: (
+          <PilotGuard
+            permission={['admin.roles.gestionar', 'admin.permisos.gestionar']}
+          />
+        ),
+        children: [{ path: '/admin/roles', element: <AdminRolesPage /> }],
+      },
+      {
+        element: <PilotGuard permission="admin.dashboard.ver" />,
+        children: [
+          { path: '/admin/dashboard', element: <AdminDashboardPage /> },
+        ],
+      },
+      {
+        element: <PilotGuard permission="admin.auditoria.ver" />,
+        children: [{ path: '/admin/auditoria', element: <AdminAuditPage /> }],
       },
     ],
   },
@@ -490,7 +530,9 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+], {
+  basename: typeof __APP_BASE__ !== 'undefined' ? __APP_BASE__ : '/',
+});
 
 // eslint-disable-next-line react-refresh/only-export-components
 export default router;

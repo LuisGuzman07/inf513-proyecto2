@@ -110,7 +110,9 @@ export class PilotSession {
           else if (
             current.is_graduate !== user.is_graduate ||
             current.can_review_talent !== user.can_review_talent ||
-            current.person_id !== user.person_id
+            current.person_id !== user.person_id ||
+            JSON.stringify(current.permissions ?? []) !==
+              JSON.stringify(user.permissions ?? [])
           )
             this.authenticate(current);
           else this.publish({ ...this.snapshot, user: current });
