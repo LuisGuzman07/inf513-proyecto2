@@ -14,27 +14,31 @@ export const institutionalColors = {
   infoBorder: '#C6D5EA',
 } as const;
 
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+
 export const institutionalAssets = {
   university: {
-    src: '/uagrm-logo.jpg',
+    src: `${base}uagrm-logo.jpg`,
     alt: 'Escudo de la Universidad Autónoma Gabriel René Moreno',
     width: 820,
     height: 800,
   },
   banner: {
-    src: '/uagrm-banner.png',
+    src: `${base}uagrm-banner.png`,
     alt: 'Universidad Autónoma Gabriel René Moreno',
     width: 707,
     height: 88,
   },
   career: {
-    src: '/adm-empresas-logo.jpg',
+    src: `${base}adm-empresas-logo.jpg`,
     alt: 'Carrera de Administración de Empresas',
     width: 1253,
     height: 1253,
   },
   building: {
-    src: '/adm-empresas-edificio.jpg',
+    src: `${base}adm-empresas-edificio.jpg`,
     alt: 'Edificio de la Carrera de Administración de Empresas de la UAGRM',
     width: 1280,
     height: 853,

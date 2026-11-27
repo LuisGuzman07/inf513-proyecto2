@@ -5,6 +5,13 @@ use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
 
+if (isset($_SERVER['REQUEST_URI']) && str_starts_with($_SERVER['REQUEST_URI'], '/inf513/grupo24sa/')) {
+    $_SERVER['REQUEST_URI'] = substr($_SERVER['REQUEST_URI'], strlen('/inf513/grupo24sa'));
+    if (isset($_SERVER['SCRIPT_NAME'])) {
+        $_SERVER['SCRIPT_NAME'] = '/index.php';
+    }
+}
+
 // Determine if the application is in maintenance mode...
 if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php')) {
     require $maintenance;
