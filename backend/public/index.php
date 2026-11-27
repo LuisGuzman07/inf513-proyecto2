@@ -5,8 +5,8 @@ use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
 
-if (isset($_SERVER['REQUEST_URI']) && str_starts_with($_SERVER['REQUEST_URI'], '/inf513/grupo24sa/')) {
-    $_SERVER['REQUEST_URI'] = substr($_SERVER['REQUEST_URI'], strlen('/inf513/grupo24sa'));
+if (isset($_SERVER['REQUEST_URI']) && str_starts_with($_SERVER['REQUEST_URI'], '/inf513/grupo24sa/proyecto2/')) {
+    $_SERVER['REQUEST_URI'] = substr($_SERVER['REQUEST_URI'], strlen('/inf513/grupo24sa/proyecto2'));
     if (isset($_SERVER['SCRIPT_NAME'])) {
         $_SERVER['SCRIPT_NAME'] = '/index.php';
     }

@@ -46,7 +46,7 @@ jobs:
       - name: Instalar dependencias y compilar Frontend para subcarpeta
         working-directory: frontend
         env:
-          APP_BASE_PATH: /inf513/grupo24sa/
+          APP_BASE_PATH: /inf513/grupo24sa/proyecto2/
         run: |
           pnpm install --frozen-lockfile
           pnpm test:run
@@ -79,11 +79,11 @@ jobs:
             -e "ssh -i ~/.ssh/id_ed25519" \
             Import_test/ "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/app/Import_test/"
 
-          ssh -i ~/.ssh/id_ed25519 "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" "rm -rf ~/assets"
+          ssh -i ~/.ssh/id_ed25519 "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" "mkdir -p ~/proyecto2 && rm -rf ~/proyecto2/assets"
 
           rsync -az \
             -e "ssh -i ~/.ssh/id_ed25519" \
-            frontend/dist/ "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/"
+            frontend/dist/ "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/proyecto2/"
 
       - name: Generar .env de producción y subirlo por SCP
         env:
@@ -100,7 +100,7 @@ jobs:
           APP_ENV=production
           APP_KEY=${APP_KEY}
           APP_DEBUG=false
-          APP_URL=https://www.tecnoweb.org.bo/inf513/grupo24sa
+          APP_URL=https://www.tecnoweb.org.bo/inf513/grupo24sa/proyecto2
           APP_LOCALE=es
           APP_FALLBACK_LOCALE=en
 
@@ -114,12 +114,12 @@ jobs:
 
           SESSION_DRIVER=file
           SESSION_LIFETIME=120
-          SESSION_PATH=/inf513/grupo24sa
+          SESSION_PATH=/inf513/grupo24sa/proyecto2
           FILESYSTEM_DISK=local
           QUEUE_CONNECTION=sync
           CACHE_STORE=file
 
-          FRONTEND_URL=https://www.tecnoweb.org.bo/inf513/grupo24sa
+          FRONTEND_URL=https://www.tecnoweb.org.bo/inf513/grupo24sa/proyecto2
           SANCTUM_STATEFUL_DOMAINS=www.tecnoweb.org.bo
 
           STRIPE_KEY=${STRIPE_KEY}
@@ -137,10 +137,16 @@ jobs:
 
           chmod 600 ~/app/backend/.env
 
-          cat > ~/.htaccess << 'HTACCESS'
+          ln -sfn ~/app ~/proyecto2/app
+
+          # Limpiar publicación anterior en la raíz ~/ si existía
+          rm -rf ~/assets ~/showcase
+          rm -f ~/.htaccess ~/index.html ~/uagrm-logo.jpg ~/uagrm-banner.png ~/adm-empresas-logo.jpg ~/adm-empresas-edificio.jpg
+
+          cat > ~/proyecto2/.htaccess << 'HTACCESS'
           <IfModule mod_rewrite.c>
               RewriteEngine On
-              RewriteBase /inf513/grupo24sa/
+              RewriteBase /inf513/grupo24sa/proyecto2/
 
               # Pasar Authorization header a PHP-FPM
               RewriteCond %{HTTP:Authorization} .
