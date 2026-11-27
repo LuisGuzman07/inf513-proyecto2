@@ -85,7 +85,7 @@ jobs:
             -e "ssh -i ~/.ssh/id_ed25519" \
             frontend/dist/ "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/"
 
-      - name: Configurar .htaccess, .env, permisos y base de datos en el servidor
+      - name: Generar .env de producción y subirlo por SCP
         env:
           APP_KEY: ${{ secrets.APP_KEY }}
           DB_DATABASE: ${{ secrets.DB_DATABASE }}
@@ -95,32 +95,7 @@ jobs:
           STRIPE_SECRET: ${{ secrets.STRIPE_SECRET }}
           STRIPE_WEBHOOK_SECRET: ${{ secrets.STRIPE_WEBHOOK_SECRET }}
         run: |
-          ssh -i ~/.ssh/id_ed25519 "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" bash -s << 'REMOTE'
-          set -e
-
-          cat > ~/.htaccess << 'HTACCESS'
-          <IfModule mod_rewrite.c>
-              RewriteEngine On
-              RewriteBase /inf513/grupo24sa/
-
-              # Pasar Authorization header a PHP-FPM
-              RewriteCond %{HTTP:Authorization} .
-              RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-
-              # Rutas de API y Sanctum hacia Laravel
-              RewriteRule ^(api|sanctum)(/.*)?$ app/backend/public/index.php [L,QSA]
-
-              # Archivos estáticos del frontend
-              RewriteCond %{REQUEST_FILENAME} -f [OR]
-              RewriteCond %{REQUEST_FILENAME} -d
-              RewriteRule ^ - [L]
-
-              # SPA React fallback
-              RewriteRule ^ index.html [L]
-          </IfModule>
-          HTACCESS
-
-          cat > ~/app/backend/.env << ENVFILE
+          cat > /tmp/backend.env << EOF
           APP_NAME="Grupo 24SA"
           APP_ENV=production
           APP_KEY=${APP_KEY}
@@ -151,12 +126,44 @@ jobs:
           STRIPE_SECRET=${STRIPE_SECRET}
           STRIPE_WEBHOOK_SECRET=${STRIPE_WEBHOOK_SECRET}
           STRIPE_CURRENCY=bob
-          ENVFILE
+          EOF
+          scp -i ~/.ssh/id_ed25519 /tmp/backend.env "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/app/backend/.env"
+          rm -f /tmp/backend.env
+
+      - name: Configurar .htaccess, permisos y base de datos en el servidor
+        run: |
+          ssh -i ~/.ssh/id_ed25519 "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" bash -s << 'REMOTE'
+          set -e
+
+          chmod 600 ~/app/backend/.env
+
+          cat > ~/.htaccess << 'HTACCESS'
+          <IfModule mod_rewrite.c>
+              RewriteEngine On
+              RewriteBase /inf513/grupo24sa/
+
+              # Pasar Authorization header a PHP-FPM
+              RewriteCond %{HTTP:Authorization} .
+              RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+              # Rutas de API y Sanctum hacia Laravel
+              RewriteRule ^(api|sanctum)(/.*)?$ app/backend/public/index.php [L,QSA]
+
+              # Archivos estáticos del frontend
+              RewriteCond %{REQUEST_FILENAME} -f [OR]
+              RewriteCond %{REQUEST_FILENAME} -d
+              RewriteRule ^ - [L]
+
+              # SPA React fallback
+              RewriteRule ^ index.html [L]
+          </IfModule>
+          HTACCESS
 
           chmod -R 777 ~/app/backend/storage ~/app/backend/bootstrap/cache
 
           cd ~/app/backend
           php artisan storage:link || true
+          php artisan config:clear
           php artisan migrate --force
           php artisan db:seed --class=RbacSeeder --force
           php artisan catalog:import
