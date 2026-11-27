@@ -181,6 +181,8 @@ export type StandardScoringResult = {
   absent: number;
   score: number;
   max_score: number;
+  percentage?: number;
+  model?: 'percentage';
   scoring_rule: string;
 };
 

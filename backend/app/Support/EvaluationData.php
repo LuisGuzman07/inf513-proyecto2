@@ -84,7 +84,19 @@ class EvaluationData
 
         if ($assignment->status === 'submitted') {
             if ($assignment->raw_result !== null) {
-                $data['raw_result'] = $assignment->raw_result;
+                $raw = $assignment->raw_result;
+                if (
+                    $instrument->scoring_enabled
+                    && $instrument->answer_type === \App\Models\InstrumentVersion::SINGLE_CHOICE
+                    && ! self::isMcClelland($instrument)
+                    && ! self::isDominos($instrument)
+                    && ! self::is16Fp($instrument)
+                    && ! self::isSoftSkills($instrument)
+                    && ! array_key_exists('percentage', $raw)
+                ) {
+                    $raw = self::calculatePercentageScore($instrument, $assignment->answers);
+                }
+                $data['raw_result'] = $raw;
             } elseif (self::isMcClelland($instrument)) {
                 $data['raw_result'] = self::calculateMcClellandScore($instrument, $assignment->answers);
             } elseif (self::isDominos($instrument)) {
@@ -93,6 +105,8 @@ class EvaluationData
                 $data['raw_result'] = self::calculate16FpScore($instrument, $assignment->answers);
             } elseif (self::isSoftSkills($instrument)) {
                 $data['raw_result'] = self::calculateSoftSkillsScore($instrument, $assignment->answers);
+            } elseif ($instrument->scoring_enabled && $instrument->answer_type === \App\Models\InstrumentVersion::SINGLE_CHOICE) {
+                $data['raw_result'] = self::calculatePercentageScore($instrument, $assignment->answers);
             }
         }
 
@@ -141,6 +155,41 @@ class EvaluationData
         $name = mb_strtolower($instrument->name ?? '');
 
         return str_contains($name, '16 fp') || str_contains($name, '16fp');
+    }
+
+    public static function calculatePercentageScore(mixed $instrument, mixed $answers): array
+    {
+        $answers = is_array($answers) ? $answers : (array) $answers;
+        $total = $instrument->exercises->count();
+        $correct = 0;
+        $incorrect = 0;
+        $absent = 0;
+
+        foreach ($instrument->exercises as $exercise) {
+            $ans = $answers[$exercise->source_id] ?? null;
+            if (! EvaluationAnswers::isAnswered($ans)) {
+                $absent++;
+                continue;
+            }
+            if (EvaluationAnswers::matchesSource($exercise, $ans)) {
+                $correct++;
+            } else {
+                $incorrect++;
+            }
+        }
+
+        $percentage = $total > 0 ? round(($correct / $total) * 100, 1) : 0;
+
+        return [
+            'model' => 'percentage',
+            'correct' => $correct,
+            'incorrect' => $incorrect,
+            'absent' => $absent,
+            'score' => $correct,
+            'max_score' => $total,
+            'percentage' => $percentage,
+            'scoring_rule' => 'source_percentage_v1',
+        ];
     }
 
     public static function calculateDominosScore(mixed $instrument, mixed $answers): array

@@ -279,21 +279,7 @@ class EvaluationController extends Controller
             } elseif (! $instrument->scoring_enabled || $instrument->answer_type !== InstrumentVersion::SINGLE_CHOICE) {
                 $item->raw_result = null;
             } else {
-                $correct = $incorrect = 0;
-                foreach ($instrument->exercises as $exercise) {
-                    if (! EvaluationAnswers::isAnswered($item->answers[$exercise->source_id])) {
-                        continue;
-                    }
-                    if (EvaluationAnswers::matchesSource($exercise, $item->answers[$exercise->source_id])) {
-                        $correct++;
-                    } else {
-                        $incorrect++;
-                    }
-                }
-                $item->raw_result = [
-                    'correct' => $correct, 'incorrect' => $incorrect, 'absent' => $absent,
-                    'score' => $correct, 'max_score' => 15, 'scoring_rule' => 'source_one_point_per_correct_v1',
-                ];
+                $item->raw_result = EvaluationData::calculatePercentageScore($instrument, $item->answers);
             }
             $item->status = 'submitted';
             $item->submitted_at = now();

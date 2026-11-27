@@ -37,6 +37,7 @@ import type { RecordDetail } from './types';
 import {
   DominosResultsView,
   Fp16ResultsView,
+  PercentageResultsView,
   SoftSkillsResultsView,
   isDominosName,
   is16FpName,
@@ -1370,6 +1371,19 @@ function EvaluationRunner({ initial }: { initial: EvaluationAssignment }) {
         </>
       );
     }
+    if (
+      data.raw_result &&
+      'correct' in data.raw_result &&
+      'max_score' in data.raw_result &&
+      !('detail' in data.raw_result)
+    ) {
+      return (
+        <>
+          <Link to="/portal/pruebas">Volver a mis pruebas</Link>
+          <PercentageResultsView assignment={data} result={data.raw_result} />
+        </>
+      );
+    }
     return (
       <>
         <Alert
@@ -2102,6 +2116,16 @@ function StaffResult({ item }: { item: StaffEvaluationAssignment }) {
       'model' in item.raw_result &&
       item.raw_result.model === 'habilidades_blandas' ? (
         <SoftSkillsResultsView assignment={item} result={item.raw_result} staffView />
+      ) : null}
+      {item.status === 'submitted' &&
+      !isMcClellandName(item.instrument.name) &&
+      !isDominosName(item.instrument.name) &&
+      !is16FpName(item.instrument.name) &&
+      !isSoftSkillsName(item.instrument.name) &&
+      item.raw_result &&
+      'correct' in item.raw_result &&
+      'max_score' in item.raw_result ? (
+        <PercentageResultsView assignment={item} result={item.raw_result} staffView />
       ) : null}
       {item.status === 'submitted' &&
       !isMcClellandName(item.instrument.name) &&

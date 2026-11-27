@@ -14,6 +14,7 @@ import type {
   RawResult,
   SoftSkillsItemResult,
   SoftSkillsResult,
+  StandardScoringResult,
 } from './evaluations-types';
 
 export function isDominosName(name?: string): boolean {
@@ -41,6 +42,89 @@ export function isSoftSkillsName(name?: string): boolean {
   if (!name) return false;
   const lower = name.toLowerCase();
   return lower.includes('habilidades blandas') || lower.includes('blandas');
+}
+
+// ---------------------------------------------------------------------------
+// Tests de Aptitud / Inteligencia / Conocimiento - Respuesta Porcentual
+// ---------------------------------------------------------------------------
+
+export function PercentageResultsView({
+  assignment,
+  result,
+  staffView = false,
+}: {
+  assignment: EvaluationAssignment;
+  result?: RawResult | null;
+  staffView?: boolean;
+}) {
+  const res: StandardScoringResult | null =
+    result && 'correct' in result && 'max_score' in result && !('detail' in result)
+      ? (result as StandardScoringResult)
+      : null;
+
+  if (!res) return null;
+
+  const percentage =
+    typeof res.percentage === 'number'
+      ? res.percentage
+      : res.max_score > 0
+      ? Math.round((res.score / res.max_score) * 1000) / 10
+      : 0;
+
+  const percentColor =
+    percentage >= 80
+      ? '#16a34a'
+      : percentage >= 50
+      ? '#2563eb'
+      : '#d97706';
+
+  return (
+    <div className="dominos-results-wrapper">
+      <Alert
+        type="success"
+        showIcon
+        message="Evaluación completada y calificada"
+        description={
+          staffView
+            ? 'Resultado porcentual directo registrado para el postulante.'
+            : 'Tus respuestas quedaron confirmadas y calificadas automáticamente.'
+        }
+      />
+
+      <div className="dominos-kpi-card">
+        <Typography.Title level={4} style={{ textAlign: 'center', margin: '0 0 4px' }}>
+          {assignment.instrument.name}
+        </Typography.Title>
+        <Typography.Paragraph type="secondary" style={{ textAlign: 'center', marginBottom: 20 }}>
+          Porcentaje de aciertos sobre {res.max_score} reactivos evaluados.
+        </Typography.Paragraph>
+
+        <div className="dominos-score-circle" style={{ borderColor: percentColor }}>
+          <span className="dominos-score-percent" style={{ color: percentColor }}>
+            {percentage}%
+          </span>
+          <span className="dominos-score-fraction">
+            {res.score} de {res.max_score} aciertos
+          </span>
+        </div>
+
+        <div className="dominos-stats-row">
+          <div className="dominos-stat-box dominos-stat-box--correct">
+            <span className="dominos-stat-value">{res.correct}</span>
+            <span className="dominos-stat-label">Correctas</span>
+          </div>
+          <div className="dominos-stat-box dominos-stat-box--incorrect">
+            <span className="dominos-stat-value">{res.incorrect}</span>
+            <span className="dominos-stat-label">Incorrectas</span>
+          </div>
+          <div className="dominos-stat-box dominos-stat-box--absent">
+            <span className="dominos-stat-value">{res.absent}</span>
+            <span className="dominos-stat-label">Sin responder</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 // ---------------------------------------------------------------------------
