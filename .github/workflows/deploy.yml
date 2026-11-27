@@ -1,0 +1,165 @@
+name: Deploy a Tecnoweb (INF513 - Grupo 24SA)
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar PHP 8.4
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: pdo_pgsql, mbstring, gd, intl, zip
+          coverage: none
+
+      - name: Instalar dependencias Laravel, ejecutar smoke tests y optimizar para producción
+        working-directory: backend
+        run: |
+          cp .env.example .env
+          composer install --no-interaction
+          php artisan key:generate --force
+          php artisan test
+          composer install --no-dev --optimize-autoloader --no-interaction
+
+      - name: Configurar pnpm 9.15.4
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.4
+
+      - name: Configurar Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+          cache-dependency-path: frontend/pnpm-lock.yaml
+
+      - name: Instalar dependencias y compilar Frontend para subcarpeta
+        working-directory: frontend
+        env:
+          APP_BASE_PATH: /inf513/grupo24sa/
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm test:run
+          pnpm build
+
+      - name: Preparar llave SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Subir Backend, Docs, Import_test y Frontend compilado por rsync
+        run: |
+          ssh -i ~/.ssh/id_ed25519 "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" \
+            "mkdir -p ~/app/backend ~/app/docs/data ~/app/Import_test ~/app/backend/storage/framework/{cache,sessions,views} ~/app/backend/storage/logs ~/app/backend/bootstrap/cache"
+
+          rsync -az --delete \
+            --exclude='.env' \
+            --exclude='storage/' \
+            --exclude='bootstrap/cache/*.php' \
+            -e "ssh -i ~/.ssh/id_ed25519" \
+            backend/ "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/app/backend/"
+
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/id_ed25519" \
+            docs/data/ "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/app/docs/data/"
+
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/id_ed25519" \
+            Import_test/ "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/app/Import_test/"
+
+          ssh -i ~/.ssh/id_ed25519 "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" "rm -rf ~/assets"
+
+          rsync -az \
+            -e "ssh -i ~/.ssh/id_ed25519" \
+            frontend/dist/ "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/"
+
+      - name: Configurar .htaccess, .env, permisos y base de datos en el servidor
+        env:
+          APP_KEY: ${{ secrets.APP_KEY }}
+          DB_DATABASE: ${{ secrets.DB_DATABASE }}
+          DB_USERNAME: ${{ secrets.DB_USERNAME }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          STRIPE_KEY: ${{ secrets.STRIPE_KEY }}
+          STRIPE_SECRET: ${{ secrets.STRIPE_SECRET }}
+          STRIPE_WEBHOOK_SECRET: ${{ secrets.STRIPE_WEBHOOK_SECRET }}
+        run: |
+          ssh -i ~/.ssh/id_ed25519 "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" bash -s << 'REMOTE'
+          set -e
+
+          cat > ~/.htaccess << 'HTACCESS'
+          <IfModule mod_rewrite.c>
+              RewriteEngine On
+              RewriteBase /inf513/grupo24sa/
+
+              # Pasar Authorization header a PHP-FPM
+              RewriteCond %{HTTP:Authorization} .
+              RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+              # Rutas de API y Sanctum hacia Laravel
+              RewriteRule ^(api|sanctum)(/.*)?$ app/backend/public/index.php [L,QSA]
+
+              # Archivos estáticos del frontend
+              RewriteCond %{REQUEST_FILENAME} -f [OR]
+              RewriteCond %{REQUEST_FILENAME} -d
+              RewriteRule ^ - [L]
+
+              # SPA React fallback
+              RewriteRule ^ index.html [L]
+          </IfModule>
+          HTACCESS
+
+          cat > ~/app/backend/.env << ENVFILE
+          APP_NAME="Grupo 24SA"
+          APP_ENV=production
+          APP_KEY=${APP_KEY}
+          APP_DEBUG=false
+          APP_URL=https://www.tecnoweb.org.bo/inf513/grupo24sa
+          APP_LOCALE=es
+          APP_FALLBACK_LOCALE=en
+
+          DB_CONNECTION=pgsql
+          DB_HOST=127.0.0.1
+          DB_PORT=5432
+          DB_DATABASE=${DB_DATABASE}
+          DB_USERNAME=${DB_USERNAME}
+          DB_PASSWORD=${DB_PASSWORD}
+          DB_SSLMODE=prefer
+
+          SESSION_DRIVER=file
+          SESSION_LIFETIME=120
+          SESSION_PATH=/inf513/grupo24sa
+          FILESYSTEM_DISK=local
+          QUEUE_CONNECTION=sync
+          CACHE_STORE=file
+
+          FRONTEND_URL=https://www.tecnoweb.org.bo/inf513/grupo24sa
+          SANCTUM_STATEFUL_DOMAINS=www.tecnoweb.org.bo
+
+          STRIPE_KEY=${STRIPE_KEY}
+          STRIPE_SECRET=${STRIPE_SECRET}
+          STRIPE_WEBHOOK_SECRET=${STRIPE_WEBHOOK_SECRET}
+          STRIPE_CURRENCY=bob
+          ENVFILE
+
+          chmod -R 777 ~/app/backend/storage ~/app/backend/bootstrap/cache
+
+          cd ~/app/backend
+          php artisan storage:link || true
+          php artisan migrate --force
+          php artisan db:seed --class=RbacSeeder --force
+          php artisan catalog:import
+          php artisan test:package-import --all
+          php artisan config:cache
+          php artisan route:cache
+          REMOTE
