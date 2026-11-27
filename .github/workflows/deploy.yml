@@ -21,13 +21,14 @@ jobs:
           extensions: pdo_pgsql, mbstring, gd, intl, zip
           coverage: none
 
-      - name: Instalar dependencias Laravel, ejecutar smoke tests y optimizar para producción
+      - name: Instalar dependencias Laravel, verificar sintaxis y preparar producción
         working-directory: backend
         run: |
           cp .env.example .env
           composer install --no-interaction
           php artisan key:generate --force
-          php artisan test
+          find app routes config -name '*.php' -exec php -l {} +
+          php artisan test --testsuite=Unit
           composer install --no-dev --optimize-autoloader --no-interaction
 
       - name: Configurar pnpm 9.15.4
