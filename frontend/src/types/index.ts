@@ -1,0 +1,102 @@
+import type {
+  Projects,
+  ProjectCategory,
+  ProjectStatus,
+  ProjectPriority,
+} from './projects';
+import type { Clients } from './clients';
+import type { CampaignAds } from './campaigns';
+import type { PostPlatform, Posts, PostCategory } from './posts';
+import type {
+  CommentsType,
+  CommentGender,
+  CommentsPlatform,
+  Comments,
+} from './comments';
+import type {
+  Bidding,
+  AuctionCreator,
+  AuctionSales,
+  AuctionTransactions,
+} from './bidding';
+import type {
+  LearningCourses,
+  RecommendedCourses,
+  Exam,
+  CommunityGroup,
+  StudyStatistics,
+} from './learnings.ts';
+import type {
+  TruckDelivery,
+  DeliveryAnalytics,
+  Truck,
+  DeliveryRequest,
+} from './logistics.ts';
+import type { Tasks, CountryOrder, ChannelUser } from './dashboard';
+import type { Notifications } from './notifications';
+import type { Employee } from './employee';
+import type { Faq } from './faq';
+import type { Pricing, License } from './pricing';
+import type { Session } from './session';
+import type { ActivityTimeline } from './timeline';
+import type {
+  TopProduct,
+  TopCategory,
+  TopSeller,
+  RecentOrder,
+} from './ecommerce';
+import type { SocialMedia } from './socialMedia';
+import type { Patient, Appointment, Doctor, Department } from './healthcare';
+import type { Invoice, Expense, Transaction, AccountSummary } from './finance';
+
+export type {
+  Projects,
+  ProjectStatus,
+  ProjectCategory,
+  ProjectPriority,
+  Clients,
+  CampaignAds,
+  PostCategory,
+  PostPlatform,
+  Posts,
+  Comments,
+  CommentGender,
+  CommentsType,
+  CommentsPlatform,
+  Bidding,
+  AuctionCreator,
+  AuctionSales,
+  AuctionTransactions,
+  LearningCourses,
+  RecommendedCourses,
+  Exam,
+  CommunityGroup,
+  StudyStatistics,
+  TruckDelivery,
+  DeliveryAnalytics,
+  Truck,
+  DeliveryRequest,
+  Tasks,
+  CountryOrder,
+  ChannelUser,
+  Notifications,
+  Employee,
+  Faq,
+  Pricing,
+  License,
+  Session,
+  ActivityTimeline,
+  TopProduct,
+  TopCategory,
+  TopSeller,
+  RecentOrder,
+  SocialMedia,
+  Patient,
+  Appointment,
+  Doctor,
+  Department,
+  Invoice,
+  Expense,
+  Transaction,
+  AccountSummary,
+};

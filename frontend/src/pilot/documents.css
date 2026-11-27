@@ -1,0 +1,156 @@
+.pilot-documents {
+  min-width: 0;
+}
+
+.pilot-documents > .ant-typography {
+  margin-block: 0 12px;
+}
+
+.pilot-documents .pilot-documents-note,
+.pilot-documents .ant-typography-secondary,
+.pilot-documents-state {
+  color: var(--pilot-secondary);
+}
+
+.pilot-documents-list {
+  border: 1px solid var(--pilot-border);
+  border-radius: 12px;
+  background: var(--pilot-surface);
+}
+
+.pilot-documents-row {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+  padding: 24px;
+  scroll-margin-block: 24px;
+}
+
+.pilot-documents-row + .pilot-documents-row {
+  border-top: 1px solid var(--pilot-border);
+}
+
+.pilot-documents-heading {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.pilot-documents-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 44px;
+  height: 44px;
+  border-radius: 8px;
+  font-size: 22px;
+  color: var(--pilot-blue);
+  background: var(--pilot-background);
+}
+
+.pilot-documents-heading-copy {
+  flex: 1 1 180px;
+  min-width: 0;
+}
+
+.pilot-documents .pilot-documents-title {
+  margin: 0 0 4px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.pilot-documents-state {
+  font-weight: 700;
+}
+
+.pilot-documents-current {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pilot-documents .pilot-documents-current,
+.pilot-documents .pilot-documents-selection {
+  margin: 0;
+}
+
+.pilot-documents-metadata {
+  flex: 1 1 240px;
+  min-width: 0;
+}
+
+.pilot-documents-version {
+  font-variant-numeric: tabular-nums;
+}
+
+.pilot-documents-row,
+.pilot-documents .ant-upload-list-item-name,
+.pilot-documents .ant-collapse-header-text {
+  overflow-wrap: anywhere;
+}
+
+.pilot-documents-upload {
+  align-items: flex-start;
+}
+
+.pilot-documents-upload > *,
+.pilot-documents .ant-upload {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.pilot-documents .ant-btn,
+.pilot-documents-modal .ant-btn {
+  min-height: 44px;
+  min-width: 44px;
+  height: auto;
+  white-space: normal;
+}
+
+.pilot-documents .ant-upload-list-item {
+  height: auto;
+  min-height: 44px;
+}
+
+.pilot-documents .ant-upload-list-item-name {
+  min-width: 0;
+  white-space: normal;
+  text-overflow: clip;
+}
+
+.pilot-documents .ant-upload-list .ant-upload-list-item-actions,
+.pilot-documents
+  .ant-upload-list
+  .ant-upload-list-item
+  .ant-upload-list-item-actions
+  .ant-btn {
+  opacity: 1;
+}
+
+.pilot-documents .ant-collapse-header {
+  min-height: 44px;
+  align-items: center;
+}
+
+.pilot-documents .ant-alert {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pilot-documents :focus-visible,
+.pilot-documents-row:focus,
+.pilot-documents-modal :focus-visible {
+  outline: 3px solid var(--pilot-blue, #2a3964);
+  outline-offset: 3px;
+}
+
+@media (max-width: 575px) {
+  .pilot-documents-row {
+    padding: 16px;
+  }
+
+  .pilot-documents-state {
+    flex-basis: 100%;
+  }
+}

@@ -1,0 +1,394 @@
+[
+  {
+    "number": 1,
+    "source_id": "hb-01",
+    "text": "Sé escuchar activamente a mi equipo y a mis superiores de forma respetuosa.",
+    "dimension": "Habilidades Comunicativas",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 2,
+    "source_id": "hb-02",
+    "text": "Me expreso de manera adecuada, estructurada y formal por escrito.",
+    "dimension": "Habilidades Comunicativas",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 3,
+    "source_id": "hb-03",
+    "text": "Me expreso adecuadamente, con fluidez y claridad de forma verbal.",
+    "dimension": "Habilidades Comunicativas",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 4,
+    "source_id": "hb-04",
+    "text": "Jerarquizo de forma correcta mis asuntos de trabajo y los comunico oportunamente.",
+    "dimension": "Habilidades Comunicativas",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 5,
+    "source_id": "hb-05",
+    "text": "Comprendo con facilidad las necesidades y posturas de los demás (empatía).",
+    "dimension": "Habilidades Comunicativas",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 6,
+    "source_id": "hb-06",
+    "text": "Tengo buen sentido del humor y sé utilizarlo en momentos oportunos y acertados.",
+    "dimension": "Habilidades Comunicativas",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 7,
+    "source_id": "hb-07",
+    "text": "Evito trabajar solo o de forma competitiva si esto perjudica al área.",
+    "dimension": "Trabajo en Equipo",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 8,
+    "source_id": "hb-08",
+    "text": "Escucho y aprecio de forma transparente las opiniones de todos mis compañeros.",
+    "dimension": "Trabajo en Equipo",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 9,
+    "source_id": "hb-09",
+    "text": "Soy incluyente con los miembros del equipo que suelen mantenerse al margen.",
+    "dimension": "Trabajo en Equipo",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 10,
+    "source_id": "hb-10",
+    "text": "Comunico de inmediato toda la información relevante al equipo para lograr el bien común.",
+    "dimension": "Trabajo en Equipo",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 11,
+    "source_id": "hb-11",
+    "text": "Administro mi tiempo diario y semanal de forma eficiente bajo prioridades claras.",
+    "dimension": "Manejo del Estrés y Conflictos",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 12,
+    "source_id": "hb-12",
+    "text": "Sé establecer un diálogo constructivo entre las exigencias del cliente y los criterios técnicos.",
+    "dimension": "Manejo del Estrés y Conflictos",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 13,
+    "source_id": "hb-13",
+    "text": "Me muestro amable, calmado y receptivo en los momentos de mayor nivel de estrés.",
+    "dimension": "Manejo del Estrés y Conflictos",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 14,
+    "source_id": "hb-14",
+    "text": "Soy capaz de auxiliar a mis compañeros sin descuidar mis metas en picos de trabajo.",
+    "dimension": "Manejo del Estrés y Conflictos",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 15,
+    "source_id": "hb-15",
+    "text": "Mantengo un balance saludable y una vida personal activa y rica fuera del trabajo.",
+    "dimension": "Manejo del Estrés y Conflictos",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 16,
+    "source_id": "hb-16",
+    "text": "Me cuido a mí mismo en periodos de alta demanda para asegurar mi rendimiento.",
+    "dimension": "Manejo del Estrés y Conflictos",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 17,
+    "source_id": "hb-17",
+    "text": "Cuido y mantengo una actitud de apoyo hacia mis compañeros bajo escenarios de presión.",
+    "dimension": "Manejo del Estrés y Conflictos",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 18,
+    "source_id": "hb-18",
+    "text": "En momentos de conflicto interno del equipo: Consigo mantenerme en una postura neutral.",
+    "dimension": "Manejo del Estrés y Conflictos",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 19,
+    "source_id": "hb-19",
+    "text": "En momentos de conflicto interno del equipo: Mantengo una visión objetiva enfocada en metas.",
+    "dimension": "Manejo del Estrés y Conflictos",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 20,
+    "source_id": "hb-20",
+    "text": "En momentos de conflicto interno del equipo: Ofrezco alternativas reales para solucionar diferencias.",
+    "dimension": "Manejo del Estrés y Conflictos",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 21,
+    "source_id": "hb-21",
+    "text": "Soy firmemente comprometido con la resolución completa de mis tareas diarias.",
+    "dimension": "Responsabilidad",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 22,
+    "source_id": "hb-22",
+    "text": "Obtengo excelentes resultados comerciales u operativos en las asignaciones que realizo.",
+    "dimension": "Responsabilidad",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 23,
+    "source_id": "hb-23",
+    "text": "Asumo con total madurez y responsabilidad los resultados directos de mis actos.",
+    "dimension": "Responsabilidad",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 24,
+    "source_id": "hb-24",
+    "text": "Puedo establecer plazos concretos y alcanzables de forma independiente para mis entregas.",
+    "dimension": "Responsabilidad",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 25,
+    "source_id": "hb-25",
+    "text": "Cuando desconozco una herramienta o concepto técnico lo reconozco abiertamente.",
+    "dimension": "Búsqueda de Información y Aprendizaje",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 26,
+    "source_id": "hb-26",
+    "text": "Soy completamente capaz de investigar de forma independiente para resolver un problema de trabajo.",
+    "dimension": "Búsqueda de Información y Aprendizaje",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 27,
+    "source_id": "hb-27",
+    "text": "Tengo plena seguridad en mi propia habilidad y agilidad de aprendizaje y adaptación.",
+    "dimension": "Búsqueda de Información y Aprendizaje",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 28,
+    "source_id": "hb-28",
+    "text": "Disfruto de forma genuina adquiriendo nuevas competencias aplicables a mi profesión.",
+    "dimension": "Búsqueda de Información y Aprendizaje",
+    "options": {
+      "a": "1 (Nivel bajo / Rara vez)",
+      "b": "2 (Nivel básico)",
+      "c": "3 (Nivel intermedio / Ocasional)",
+      "d": "4 (Nivel avanzado / Frecuente)",
+      "e": "5 (Nivel superlativo / Siempre)"
+    },
+    "correct_option": null
+  }
+]

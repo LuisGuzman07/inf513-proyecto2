@@ -1,0 +1,290 @@
+/*react transition group css*/
+.page-enter {
+  opacity: 0;
+}
+
+.page-enter-active {
+  opacity: 1;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+}
+
+.page-enter-active,
+.page-exit-active {
+  transition: opacity 200ms;
+}
+
+.fade-enter-active,
+.fade-exit-active {
+  transition: opacity 300ms;
+}
+
+/*====*/
+
+.right-to-left-enter {
+  transform: translateX(100%);
+}
+
+.right-to-left-enter-active {
+  transform: translateX(0);
+  transition: all 300ms ease;
+}
+
+.right-to-left-exit {
+  transform: translateX(0);
+}
+
+.right-to-left-exit-active {
+  transform: translateX(-100%);
+  transition: all 300ms ease;
+}
+
+/*====*/
+
+.left-to-right-enter {
+  transform: translateX(-100%);
+}
+
+.left-to-right-enter-active {
+  transform: translateX(0);
+  transition: all 300ms ease;
+}
+
+.left-to-right-exit {
+  transform: translateX(0);
+}
+
+.left-to-right-exit-active {
+  transform: translateX(100%);
+  transition: all 300ms ease;
+}
+
+/*===*/
+
+.top-to-bottom-enter {
+  transform: translateY(-100%);
+}
+
+.top-to-bottom-enter-active {
+  transform: translateY(0);
+  transition: all 300ms ease;
+}
+
+.top-to-bottom-exit {
+  transform: translateY(0);
+}
+
+.top-to-bottom-exit-active {
+  transform: translateY(100%);
+  transition: all 300ms ease;
+}
+
+/*===*/
+
+.bottom-to-top-enter {
+  transform: translateY(100%);
+}
+
+.bottom-to-top-enter-active {
+  transform: translateY(0);
+  transition: all 300ms ease;
+}
+
+.bottom-to-top-exit {
+  transform: translateY(0);
+}
+
+.bottom-to-top-exit-active {
+  transform: translateY(-100%);
+  transition: all 300ms ease;
+}
+
+/*UTILITIES*/
+
+.text-highlight {
+  background: linear-gradient(
+    45deg,
+    var(--text-highlight-from, #8e44ad),
+    var(--text-highlight-to, #3498db)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: right;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.text-black {
+  color: black !important;
+}
+
+.overflow-scroll {
+  overflow: auto;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-bolder {
+  font-weight: bolder;
+}
+
+/* Theme transition — smooth crossfade when toggling light/dark */
+@media (prefers-reduced-motion: no-preference) {
+  .ant-card,
+  .ant-btn,
+  .ant-tag,
+  .ant-menu-item,
+  .ant-float-btn,
+  .ant-avatar,
+  .ant-statistic {
+    transition:
+      background-color 0.3s ease,
+      border-color 0.3s ease,
+      box-shadow 0.3s ease;
+  }
+}
+
+/* ── Micro-interactions ── */
+
+/* Sidebar menu item hover pulse */
+.ant-menu-item {
+  transition:
+    transform 0.15s ease,
+    background-color 0.2s ease !important;
+}
+
+.ant-menu-item:active {
+  transform: scale(0.97);
+}
+
+/* Badge bounce on appear */
+@keyframes badge-bounce {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.ant-badge-count,
+.ant-badge-dot {
+  animation: badge-bounce 0.4s ease-out;
+}
+
+/* Button press effect */
+.ant-btn:active {
+  transform: scale(0.95) !important;
+  transition: transform 0.1s ease !important;
+}
+
+/* Float button hover glow */
+.ant-float-btn:hover {
+  transform: scale(1.08);
+  transition: transform 0.2s ease;
+}
+
+/* Avatar hover grow */
+.ant-avatar:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+/* Tag hover lift */
+.ant-tag {
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.ant-tag:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Progress bar shimmer */
+@keyframes progress-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.ant-progress-bg {
+  background-size: 200% 100%;
+  animation: progress-shimmer 2s ease-in-out infinite;
+}
+
+/* Stat number pulse on first render */
+@keyframes stat-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ant-statistic-content-value {
+  animation: stat-appear 0.5s ease-out;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .overflow-scroll {
+    overflow: hidden;
+  }
+}

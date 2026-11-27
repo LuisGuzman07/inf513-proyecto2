@@ -1,0 +1,4016 @@
+{
+  "schema_version": "1.0",
+  "catalog_version": "2026-10-07-investigacion-1",
+  "institucion": "Universidad Autónoma Gabriel René Moreno",
+  "estado": "catalogo_de_trabajo_con_fuentes_oficiales",
+  "consulta_fecha_local": "2026-10-07",
+  "zona_horaria": "America/La_Paz",
+  "nota_ids": "IDs uagrm-fac-* y uagrm-opcion-* son internos propuestos, no códigos oficiales. Las referencias_admisiones se transcriben desde URLs y no se certifican como claves institucionales globales.",
+  "fuentes": [
+    {
+      "id": "S01",
+      "url": "https://www.uagrm.edu.bo/facultades",
+      "title": "Directorio oficial de facultades y carreras"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.uagrm.edu.bo/admisiones/facultades",
+      "title": "Catálogo oficial de admisiones por facultad"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.uagrm.edu.bo/gaceta/carreras",
+      "title": "Índice oficial de carreras de la Gaceta"
+    },
+    {
+      "id": "S04",
+      "url": "https://files.uagrm.edu.bo/entidad/118/file/PEI_UAGRM_2026-2030.pdf",
+      "title": "PEI UAGRM 2026–2030, sección 3.2.2, tabla 4, páginas PDF 28–30"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.uagrm.edu.bo/facultades/fcet",
+      "title": "Página facultativa FCET, sección Nuestras Carreras"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.uagrm.edu.bo/facultades/fccascgf",
+      "title": "Página facultativa Ciencias Contables, sección Nuestras Carreras"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.uagrm.edu.bo/carreras/fp-cmg",
+      "title": "Mecánica General: tres programas de formación"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.uagrm.edu.bo/facultades/faichi",
+      "title": "Página facultativa Integral Chiquitana, sección Bienvenida"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/323-0-ingenieria-en-robotica",
+      "title": "Ficha oficial Ingeniería en Robótica"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/242-7-lenguas-modernas-y-filologia-hispanica-licenciatura-en-el-idioma-ingles",
+      "title": "Ficha oficial Lenguas Modernas, programa inglés"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/239-1-agropecuaria",
+      "title": "Ficha oficial Agropecuaria y facultades asociadas"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/234-6-ingenieria-del-petroleo-gas-y-energia-renovable",
+      "title": "Ficha oficial Petróleo, Gas y Energía Renovable"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.uagrm.edu.bo/facultades/fini",
+      "title": "Página facultativa Ichilo: menciones a oferta parcial y cambio de plan"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.uagrm.edu.bo/facultades/finor",
+      "title": "Página facultativa Norte: cambio de plan Informática/Sistemas"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/156-3-ciencia-politica-y-administracion-publica",
+      "title": "Ficha Ciencia Política, referencia 156-3"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/156-4-ciencia-politica-y-administracion-publica",
+      "title": "Ficha Ciencia Política, referencia 156-4"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-6-ingenieria-informatica",
+      "title": "Ficha Ingeniería Informática, referencia 187-6"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-5-administracion-educativa",
+      "title": "Ficha Administración Educativa"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-I-educacion-intercultural",
+      "title": "Ficha Educación Intercultural y facultades asociadas"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-6-educacion-primaria",
+      "title": "Ficha Educación Primaria"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/242-8-lenguas-modernas-y-filologia-hispanica-licenciatura-en-el-idioma-frances",
+      "title": "Ficha Lenguas Modernas, programa francés"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/242-9-lenguas-modernas-y-filologia-hispanica-licenciatura-en-filologia-hispanica",
+      "title": "Ficha Lenguas Modernas, programa filología hispánica"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-3-ingenieria-informatica",
+      "title": "Ficha Ingeniería Informática, referencia 187-3, oferta parcial Ichilo"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/129-1-medicina",
+      "title": "Ficha Medicina, incluye Chaco"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/139-3-medicina-veterinaria-y-zootecnia",
+      "title": "Ficha Medicina Veterinaria y Zootecnia, incluye Chiquitana"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/238-1-ingenieria-socio-ambiental",
+      "title": "Ficha Ingeniería Socio Ambiental y titulaciones intermedias"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-5-ingenieria-en-redes-y-telecomunicaciones",
+      "title": "Ficha Redes y Telecomunicaciones, oferta parcial en Ichilo"
+    }
+  ],
+  "facultades": [
+    {
+      "id": "uagrm-fac-faichi",
+      "nombre": "Facultad Integral Chiquitana",
+      "grupo": "integral_provincial",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/faichi",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fini",
+      "nombre": "Facultad Integral de Ichilo",
+      "grupo": "integral_provincial",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fini",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fivc",
+      "nombre": "Facultad Integral de los Valles Cruceños",
+      "grupo": "integral_provincial",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fivc",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fich",
+      "nombre": "Facultad Integral del Chaco",
+      "grupo": "integral_provincial",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fich",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fine",
+      "nombre": "Facultad Integral del Noreste",
+      "grupo": "integral_provincial",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fine",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-finor",
+      "nombre": "Facultad Integral del Norte",
+      "grupo": "integral_provincial",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/finor",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fp",
+      "nombre": "Facultad Politécnica",
+      "grupo": "facultad_ciudad",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fp",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fca",
+      "nombre": "Facultad de Ciencias Agrícolas",
+      "grupo": "facultad_ciudad",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fca",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fccascgf",
+      "nombre": "Facultad de Ciencias Contables, Auditoría, Sistemas de Control de Gestión y Finanzas",
+      "grupo": "facultad_ciudad",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fccascgf",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fcee",
+      "nombre": "Facultad de Ciencias Económicas y Empresariales",
+      "grupo": "facultad_ciudad",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fcee",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fcet",
+      "nombre": "Facultad de Ciencias Exactas y Tecnología",
+      "grupo": "facultad_ciudad",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fcet",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fcfb",
+      "nombre": "Facultad de Ciencias Farmacéuticas y Bioquímicas",
+      "grupo": "facultad_ciudad",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fcfb",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fcjpsrrii",
+      "nombre": "Facultad de Ciencias Jurídicas, Políticas, Sociales y Relaciones Internacionales",
+      "grupo": "facultad_ciudad",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fcjpsrrii",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fcv",
+      "nombre": "Facultad de Ciencias Veterinarias",
+      "grupo": "facultad_ciudad",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fcv",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fcsh",
+      "nombre": "Facultad de Ciencias de la Salud Humana",
+      "grupo": "facultad_ciudad",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fcsh",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fchda",
+      "nombre": "Facultad de Ciencias del Hábitat, Diseño y Arte",
+      "grupo": "facultad_ciudad",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fchda",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-fh",
+      "nombre": "Facultad de Humanidades",
+      "grupo": "facultad_ciudad",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/fh",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    },
+    {
+      "id": "uagrm-fac-ficct",
+      "nombre": "Facultad de Ingeniería en Ciencias de la Computación y Telecomunicaciones",
+      "grupo": "facultad_ciudad",
+      "url_oficial": "https://www.uagrm.edu.bo/facultades/ficct",
+      "fecha_consulta": "2026-10-07",
+      "estado": "catalogo_de_trabajo_no_aprobado_por_administracion"
+    }
+  ],
+  "opciones_carrera_por_facultad": [
+    {
+      "id": "uagrm-opcion-faichi-contaduria-publica",
+      "facultad_id": "uagrm-fac-faichi",
+      "nombre": "Contaduría Pública",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Contaduría Pública",
+        "CONTADURÍA PÚBLICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/faichi-contaduria-publica"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/105-5-contaduria-publica"
+        }
+      ],
+      "referencias_admisiones": [
+        "105-5"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-faichi-ingenieria-agropecuaria",
+      "facultad_id": "uagrm-fac-faichi",
+      "nombre": "Ingeniería Agropecuaria",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Agropecuaria",
+        "AGROPECUARIA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/faichi-ingenieria-agropecuaria"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/239-1-agropecuaria"
+        },
+        {
+          "source_id": "S11",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/239-1-agropecuaria"
+        }
+      ],
+      "referencias_admisiones": [
+        "239-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-faichi-zootecnia",
+      "facultad_id": "uagrm-fac-faichi",
+      "nombre": "Zootecnia",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Zootecnia",
+        "ZOOTECNIA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/faichi-zootecnia"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/143-0-zootecnia"
+        }
+      ],
+      "referencias_admisiones": [
+        "143-0"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-faichi-derecho",
+      "facultad_id": "uagrm-fac-faichi",
+      "nombre": "Derecho",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "DERECHO"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/157-1-derecho"
+        },
+        {
+          "source_id": "S08",
+          "url": "https://www.uagrm.edu.bo/facultades/faichi"
+        }
+      ],
+      "referencias_admisiones": [
+        "157-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-faichi-medicina-veterinaria-y-zootecnia",
+      "facultad_id": "uagrm-fac-faichi",
+      "nombre": "Medicina Veterinaria y Zootecnia",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "MEDICINA VETERINARIA Y ZOOTECNIA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/139-3-medicina-veterinaria-y-zootecnia"
+        },
+        {
+          "source_id": "S25",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/139-3-medicina-veterinaria-y-zootecnia"
+        }
+      ],
+      "referencias_admisiones": [
+        "139-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fini-administracion-de-empresas",
+      "facultad_id": "uagrm-fac-fini",
+      "nombre": "Administración de Empresas",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Administración de Empresas",
+        "ADMINISTRACIÓN DE EMPRESAS"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fini-cae"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/101-4-administracion-de-empresas"
+        }
+      ],
+      "referencias_admisiones": [
+        "101-4"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Hay referencias oficiales a oferta parcial y cambios de plan en Ichilo. No inferir facultad de titulación definitiva desde una oferta de semestres iniciales."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fini-ciencias-de-la-educacion",
+      "facultad_id": "uagrm-fac-fini",
+      "nombre": "Ciencias de la Educación",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ciencias de la Educación",
+        "CIENCIAS DE LA EDUCACIÓN"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fini-ciencias-de-la-educacion"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-N-ciencias-de-la-educacion"
+        }
+      ],
+      "referencias_admisiones": [
+        "145-N"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Hay referencias oficiales a oferta parcial y cambios de plan en Ichilo. No inferir facultad de titulación definitiva desde una oferta de semestres iniciales."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fini-contaduria-publica",
+      "facultad_id": "uagrm-fac-fini",
+      "nombre": "Contaduría Pública",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Contaduría Pública",
+        "CONTADURÍA PÚBLICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fini-cc"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/105-5-contaduria-publica"
+        }
+      ],
+      "referencias_admisiones": [
+        "105-5"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Hay referencias oficiales a oferta parcial y cambios de plan en Ichilo. No inferir facultad de titulación definitiva desde una oferta de semestres iniciales."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fini-derecho",
+      "facultad_id": "uagrm-fac-fini",
+      "nombre": "Derecho",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Derecho",
+        "DERECHO"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fini-derecho"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/157-1-derecho"
+        }
+      ],
+      "referencias_admisiones": [
+        "157-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Hay referencias oficiales a oferta parcial y cambios de plan en Ichilo. No inferir facultad de titulación definitiva desde una oferta de semestres iniciales."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fini-enfermeria",
+      "facultad_id": "uagrm-fac-fini",
+      "nombre": "Enfermería",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Enfermería",
+        "ENFERMERÍA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fini-enfermeria"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/131-3-enfermeria"
+        }
+      ],
+      "referencias_admisiones": [
+        "131-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Hay referencias oficiales a oferta parcial y cambios de plan en Ichilo. No inferir facultad de titulación definitiva desde una oferta de semestres iniciales."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fini-ingenieria-agropecuaria",
+      "facultad_id": "uagrm-fac-fini",
+      "nombre": "Ingeniería Agropecuaria",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Agropecuaria",
+        "AGROPECUARIA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fini-ingenieria-agropecuaria"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/239-1-agropecuaria"
+        },
+        {
+          "source_id": "S11",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/239-1-agropecuaria"
+        }
+      ],
+      "referencias_admisiones": [
+        "239-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Hay referencias oficiales a oferta parcial y cambios de plan en Ichilo. No inferir facultad de titulación definitiva desde una oferta de semestres iniciales."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fini-ingenieria-comercial",
+      "facultad_id": "uagrm-fac-fini",
+      "nombre": "Ingeniería Comercial",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Comercial",
+        "INGENIERÍA COMERCIAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fini-ingenieria-comercial"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/102-4-ingenieria-comercial"
+        }
+      ],
+      "referencias_admisiones": [
+        "102-4"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Hay referencias oficiales a oferta parcial y cambios de plan en Ichilo. No inferir facultad de titulación definitiva desde una oferta de semestres iniciales."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fini-ingenieria-financiera",
+      "facultad_id": "uagrm-fac-fini",
+      "nombre": "Ingeniería Financiera",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Financiera",
+        "INGENIERÍA FINANCIERA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fini-cif"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/144-0-ingenieria-financiera"
+        }
+      ],
+      "referencias_admisiones": [
+        "144-0"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Hay referencias oficiales a oferta parcial y cambios de plan en Ichilo. No inferir facultad de titulación definitiva desde una oferta de semestres iniciales."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fini-ingenieria-industrial",
+      "facultad_id": "uagrm-fac-fini",
+      "nombre": "Ingeniería Industrial",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Industrial",
+        "INGENIERÍA INDUSTRIAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fini-ingenieria-industrial"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/122-3-ingenieria-industrial"
+        }
+      ],
+      "referencias_admisiones": [
+        "122-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Hay referencias oficiales a oferta parcial y cambios de plan en Ichilo. No inferir facultad de titulación definitiva desde una oferta de semestres iniciales."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fini-ingenieria-en-sistemas",
+      "facultad_id": "uagrm-fac-fini",
+      "nombre": "Ingeniería en Sistemas",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería en Sistemas",
+        "INGENIERÍA EN SISTEMAS"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fini-ingenieria-en-sistemas"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-4-ingenieria-en-sistemas"
+        }
+      ],
+      "referencias_admisiones": [
+        "187-4"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Hay referencias oficiales a oferta parcial y cambios de plan en Ichilo. No inferir facultad de titulación definitiva desde una oferta de semestres iniciales."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fini-medicina-veterinaria-y-zootecnia",
+      "facultad_id": "uagrm-fac-fini",
+      "nombre": "Medicina Veterinaria y Zootecnia",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Medicina Veterinaria y Zootécnica",
+        "MEDICINA VETERINARIA Y ZOOTECNIA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fini-veterinaria"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/139-3-medicina-veterinaria-y-zootecnia"
+        },
+        {
+          "source_id": "S25",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/139-3-medicina-veterinaria-y-zootecnia"
+        }
+      ],
+      "referencias_admisiones": [
+        "139-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Etiqueta de selector normalizada; conservar nombre fuente. No determina equivalencia de títulos o niveles.",
+        "Hay referencias oficiales a oferta parcial y cambios de plan en Ichilo. No inferir facultad de titulación definitiva desde una oferta de semestres iniciales."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fini-ingenieria-en-redes-y-telecomunicaciones",
+      "facultad_id": "uagrm-fac-fini",
+      "nombre": "Ingeniería en Redes y Telecomunicaciones",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "INGENIERÍA EN REDES Y TELECOMUNICACIONES"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-5-ingenieria-en-redes-y-telecomunicaciones"
+        },
+        {
+          "source_id": "S27",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-5-ingenieria-en-redes-y-telecomunicaciones"
+        }
+      ],
+      "referencias_admisiones": [
+        "187-5"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Hay referencias oficiales a oferta parcial y cambios de plan en Ichilo. No inferir facultad de titulación definitiva desde una oferta de semestres iniciales."
+      ],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fini-ingenieria-informatica",
+      "facultad_id": "uagrm-fac-fini",
+      "nombre": "Ingeniería Informática",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "INGENIERÍA INFORMÁTICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-3-ingenieria-informatica"
+        },
+        {
+          "source_id": "S23",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-3-ingenieria-informatica"
+        }
+      ],
+      "referencias_admisiones": [
+        "187-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Hay referencias oficiales a oferta parcial y cambios de plan en Ichilo. No inferir facultad de titulación definitiva desde una oferta de semestres iniciales."
+      ],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fivc-contaduria-publica",
+      "facultad_id": "uagrm-fac-fivc",
+      "nombre": "Contaduría Pública",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Contaduría Pública",
+        "CONTADURÍA PÚBLICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fivc-ccp"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/105-5-contaduria-publica"
+        }
+      ],
+      "referencias_admisiones": [
+        "105-5"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fivc-ingenieria-agropecuaria",
+      "facultad_id": "uagrm-fac-fivc",
+      "nombre": "Ingeniería Agropecuaria",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Agropecuaria",
+        "INGENIERÍA AGROPECUARIA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fivc-ingenieria-agropecuaria"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/401-3-ingenieria-agropecuaria"
+        }
+      ],
+      "referencias_admisiones": [
+        "401-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fivc-ingenieria-en-sistemas",
+      "facultad_id": "uagrm-fac-fivc",
+      "nombre": "Ingeniería en Sistemas",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería en Sistemas",
+        "INGENIERÍA EN SISTEMAS"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fivc-cis"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-4-ingenieria-en-sistemas"
+        }
+      ],
+      "referencias_admisiones": [
+        "187-4"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fivc-industrializacion-de-alimentos",
+      "facultad_id": "uagrm-fac-fivc",
+      "nombre": "Industrialización de Alimentos",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "INDUSTRIALIZACIÓN DE ALIMENTOS"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/168-0-industrializacion-de-alimentos"
+        }
+      ],
+      "referencias_admisiones": [
+        "168-0"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Enlace de ficha devolvió 404; asociación observada solamente en listado de admisiones. Confirmar."
+      ],
+      "evidencia": "listada_en_admisiones",
+      "requiere_revision_catalogo": true
+    },
+    {
+      "id": "uagrm-opcion-fich-administracion-de-empresas",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Administración de Empresas",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Administración de Empresas",
+        "ADMINISTRACIÓN DE EMPRESAS"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fich-administracion-de-empresas"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/101-4-administracion-de-empresas"
+        }
+      ],
+      "referencias_admisiones": [
+        "101-4"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-ciencias-de-la-educacion",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Ciencias de la Educación",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ciencias de la Educación",
+        "CIENCIAS DE LA EDUCACIÓN"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fich-ciencias-de-la-educacion"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-N-ciencias-de-la-educacion"
+        }
+      ],
+      "referencias_admisiones": [
+        "145-N"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-contaduria-publica",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Contaduría Pública",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Contaduría Pública",
+        "CONTADURÍA PÚBLICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fich-ccp"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/105-5-contaduria-publica"
+        }
+      ],
+      "referencias_admisiones": [
+        "105-5"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-derecho",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Derecho",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Derecho",
+        "DERECHO"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fich-derecho"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/157-1-derecho"
+        }
+      ],
+      "referencias_admisiones": [
+        "157-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-enfermeria",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Enfermería",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Enfermería",
+        "ENFERMERÍA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fich-enfermeria"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/131-3-enfermeria"
+        }
+      ],
+      "referencias_admisiones": [
+        "131-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-ingenieria-industrial",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Ingeniería Industrial",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Industrial",
+        "INGENIERÍA INDUSTRIAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fich-ci"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/122-3-ingenieria-industrial"
+        }
+      ],
+      "referencias_admisiones": [
+        "122-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-ingenieria-informatica",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Ingeniería Informática",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Informática",
+        "INGENIERÍA INFORMÁTICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fich-ingenieria-informatica"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-6-ingenieria-informatica"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-3-ingenieria-informatica"
+        },
+        {
+          "source_id": "S23",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-3-ingenieria-informatica"
+        }
+      ],
+      "referencias_admisiones": [
+        "187-6",
+        "187-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Una etiqueta agrupa varias referencias de admisiones. No fusionar planes académicos por compartir nombre; referencias conservadas."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-ingenieria-del-petroleo-y-gas-natural",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Ingeniería del Petróleo y Gas Natural",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería del Petróleo y Gas Natural"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fich-cipgn"
+        }
+      ],
+      "referencias_admisiones": [],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-ingenieria-en-agropecuaria",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Ingeniería en Agropecuaria",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería en Agropecuaria",
+        "INGENIERÍA EN AGROPECUARIA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fich-ingenieria-en-agropecuaria"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/236-3-ingenieria-en-agropecuaria"
+        }
+      ],
+      "referencias_admisiones": [
+        "236-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-ingenieria-en-sistemas",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Ingeniería en Sistemas",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería en Sistemas",
+        "INGENIERÍA EN SISTEMAS"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fich-cs"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-4-ingenieria-en-sistemas"
+        }
+      ],
+      "referencias_admisiones": [
+        "187-4"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-monitoreo-socioambiental",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Monitoreo Socioambiental",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Monitoreo Socioambiental"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fich-monitoreo-socioambiental"
+        },
+        {
+          "source_id": "S26",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/238-1-ingenieria-socio-ambiental"
+        }
+      ],
+      "referencias_admisiones": [],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "La ficha S26 presenta Ingeniería a nivel licenciatura y Monitoreo como titulaciones intermedias técnicas. Mantener opciones/niveles separados; no tratar los títulos como equivalentes."
+      ],
+      "evidencia": "listada_en_directorio",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-odontologia",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Odontología",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Odontología",
+        "ODONTOLOGÍA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fich-co"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/132-0-odontologia"
+        }
+      ],
+      "referencias_admisiones": [
+        "132-0"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-educacion-intercultural",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Educación Intercultural",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "EDUCACIÓN INTERCULTURAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-I-educacion-intercultural"
+        },
+        {
+          "source_id": "S19",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-I-educacion-intercultural"
+        }
+      ],
+      "referencias_admisiones": [
+        "145-I"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-ingenieria-del-petroleo-gas-y-energia-renovable",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Ingeniería del Petróleo, Gas y Energía Renovable",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "INGENIERÍA DEL PETRÓLEO, GAS Y ENERGIA RENOVABLE"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/234-6-ingenieria-del-petroleo-gas-y-energia-renovable"
+        },
+        {
+          "source_id": "S12",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/234-6-ingenieria-del-petroleo-gas-y-energia-renovable"
+        }
+      ],
+      "referencias_admisiones": [
+        "234-6"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-ingenieria-socio-ambiental",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Ingeniería Socio Ambiental",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "INGENIERÍA SOCIO AMBIENTAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/238-1-ingenieria-socio-ambiental"
+        },
+        {
+          "source_id": "S26",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/238-1-ingenieria-socio-ambiental"
+        }
+      ],
+      "referencias_admisiones": [
+        "238-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "La ficha S26 presenta Ingeniería a nivel licenciatura y Monitoreo como titulaciones intermedias técnicas. Mantener opciones/niveles separados; no tratar los títulos como equivalentes."
+      ],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fich-medicina",
+      "facultad_id": "uagrm-fac-fich",
+      "nombre": "Medicina",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "MEDICINA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/129-1-medicina"
+        },
+        {
+          "source_id": "S24",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/129-1-medicina"
+        }
+      ],
+      "referencias_admisiones": [
+        "129-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fine-ciencias-de-la-educacion",
+      "facultad_id": "uagrm-fac-fine",
+      "nombre": "Ciencias de la Educación",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ciencias de la Educación",
+        "CIENCIAS DE LA EDUCACIÓN"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fine-ciencias-de-la-educacion"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-N-ciencias-de-la-educacion"
+        }
+      ],
+      "referencias_admisiones": [
+        "145-N"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fine-contaduria-publica",
+      "facultad_id": "uagrm-fac-fine",
+      "nombre": "Contaduría Pública",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Contaduría Pública",
+        "CONTADURÍA PÚBLICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fine-contaduria"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/105-5-contaduria-publica"
+        }
+      ],
+      "referencias_admisiones": [
+        "105-5"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fine-derecho",
+      "facultad_id": "uagrm-fac-fine",
+      "nombre": "Derecho",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Derecho",
+        "DERECHO"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fine-derecho"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/157-1-derecho"
+        }
+      ],
+      "referencias_admisiones": [
+        "157-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fine-enfermeria",
+      "facultad_id": "uagrm-fac-fine",
+      "nombre": "Enfermería",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Enfermería",
+        "ENFERMERÍA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fine-enfermeria"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/131-3-enfermeria"
+        }
+      ],
+      "referencias_admisiones": [
+        "131-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fine-ingenieria-agroindustrial",
+      "facultad_id": "uagrm-fac-fine",
+      "nombre": "Ingeniería Agroindustrial",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Agroindustrial",
+        "INGENIERÍA AGROINDUSTRIAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fine-ingeniera-agroindustrial"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/240-0-ingenieria-agroindustrial"
+        }
+      ],
+      "referencias_admisiones": [
+        "240-0"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fine-ingenieria-agropecuaria",
+      "facultad_id": "uagrm-fac-fine",
+      "nombre": "Ingeniería Agropecuaria",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Agropecuaria",
+        "AGROPECUARIA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fine-ingenieria-agropecuaria"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/239-1-agropecuaria"
+        },
+        {
+          "source_id": "S11",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/239-1-agropecuaria"
+        }
+      ],
+      "referencias_admisiones": [
+        "239-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-finor-ciencias-de-la-educacion",
+      "facultad_id": "uagrm-fac-finor",
+      "nombre": "Ciencias de la Educación",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ciencias de la Educación",
+        "CIENCIAS DE LA EDUCACIÓN"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/finor-ciencias-de-la-educacion"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-N-ciencias-de-la-educacion"
+        }
+      ],
+      "referencias_admisiones": [
+        "145-N"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-finor-contaduria-publica",
+      "facultad_id": "uagrm-fac-finor",
+      "nombre": "Contaduría Pública",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Contaduría Pública",
+        "CONTADURÍA PÚBLICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/finor-ccp"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/105-5-contaduria-publica"
+        }
+      ],
+      "referencias_admisiones": [
+        "105-5"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-finor-derecho",
+      "facultad_id": "uagrm-fac-finor",
+      "nombre": "Derecho",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Derecho",
+        "DERECHO"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/finor-derecho"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/157-1-derecho"
+        }
+      ],
+      "referencias_admisiones": [
+        "157-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-finor-enfermeria",
+      "facultad_id": "uagrm-fac-finor",
+      "nombre": "Enfermería",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Enfermería",
+        "ENFERMERÍA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/finor-ce"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/131-3-enfermeria"
+        }
+      ],
+      "referencias_admisiones": [
+        "131-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-finor-ingenieria-comercial",
+      "facultad_id": "uagrm-fac-finor",
+      "nombre": "Ingeniería Comercial",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Comercial",
+        "INGENIERÍA COMERCIAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/finor-ingenieria-comercial"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/102-4-ingenieria-comercial"
+        }
+      ],
+      "referencias_admisiones": [
+        "102-4"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-finor-ingenieria-industrial",
+      "facultad_id": "uagrm-fac-finor",
+      "nombre": "Ingeniería Industrial",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Industrial",
+        "INGENIERÍA INDUSTRIAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/finor-ingenieria-industrial"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/122-2-ingenieria-industrial"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/122-3-ingenieria-industrial"
+        }
+      ],
+      "referencias_admisiones": [
+        "122-2",
+        "122-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Una etiqueta agrupa varias referencias de admisiones. No fusionar planes académicos por compartir nombre; referencias conservadas."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-finor-ingenieria-petrolera",
+      "facultad_id": "uagrm-fac-finor",
+      "nombre": "Ingeniería Petrolera",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Petrolera",
+        "INGENIERÍA PETROLERA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/finor-ingenieria-petrolera"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/125-2-ingenieria-petrolera"
+        }
+      ],
+      "referencias_admisiones": [
+        "125-2"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-finor-ingenieria-en-sistemas",
+      "facultad_id": "uagrm-fac-finor",
+      "nombre": "Ingeniería en Sistemas",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería en Sistemas",
+        "INGENIERÍA EN SISTEMAS"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/finor-ingenieria-en-sistemas"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-4-ingenieria-en-sistemas"
+        }
+      ],
+      "referencias_admisiones": [
+        "187-4"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-finor-medicina",
+      "facultad_id": "uagrm-fac-finor",
+      "nombre": "Medicina",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Medicina",
+        "MEDICINA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/finor-medicina"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/129-1-medicina"
+        },
+        {
+          "source_id": "S24",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/129-1-medicina"
+        }
+      ],
+      "referencias_admisiones": [
+        "129-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-finor-medicina-veterinaria-y-zootecnia",
+      "facultad_id": "uagrm-fac-finor",
+      "nombre": "Medicina Veterinaria y Zootecnia",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Medicina Veterinaria y Zootecnia",
+        "MEDICINA VETERINARIA Y ZOOTECNIA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/finor-medicina-veterinaria-y-zootecnia"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/139-3-medicina-veterinaria-y-zootecnia"
+        },
+        {
+          "source_id": "S25",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/139-3-medicina-veterinaria-y-zootecnia"
+        }
+      ],
+      "referencias_admisiones": [
+        "139-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fp-construcciones-civiles",
+      "facultad_id": "uagrm-fac-fp",
+      "nombre": "Construcciones Civiles",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Construcciones Civiles",
+        "CONSTRUCCIONES CIVILES"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fp-ccc"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/210-3-construcciones-civiles"
+        }
+      ],
+      "referencias_admisiones": [
+        "210-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fp-electricidad-industrial",
+      "facultad_id": "uagrm-fac-fp",
+      "nombre": "Electricidad Industrial",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Electricidad Industrial",
+        "ELECTRICIDAD INDUSTRIAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fp-cei"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/304-3-electricidad-industrial"
+        }
+      ],
+      "referencias_admisiones": [
+        "304-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fp-electronica",
+      "facultad_id": "uagrm-fac-fp",
+      "nombre": "Electrónica",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Electrónica",
+        "ELECTRÓNICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fp-ce"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/305-2-electronica"
+        }
+      ],
+      "referencias_admisiones": [
+        "305-2"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fp-ingenieria-en-agrimensura",
+      "facultad_id": "uagrm-fac-fp",
+      "nombre": "Ingeniería en Agrimensura",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería en Agrimensura",
+        "INGENIERÍA EN AGRIMENSURA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fp-cia"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/160-0-ingenieria-en-agrimensura"
+        }
+      ],
+      "referencias_admisiones": [
+        "160-0"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fp-ingenieria-en-materiales",
+      "facultad_id": "uagrm-fac-fp",
+      "nombre": "Ingeniería en Materiales",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería en Materiales",
+        "INGENIERÍA MATERIALES"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fp-cima"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/161-1-ingenieria-materiales"
+        }
+      ],
+      "referencias_admisiones": [
+        "161-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fp-ingenieria-en-metalurgia",
+      "facultad_id": "uagrm-fac-fp",
+      "nombre": "Ingeniería en Metalurgia",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería en Metalurgia",
+        "INGENIERÍA METALURGIA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fp-cime"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/161-0-ingenieria-metalurgia"
+        }
+      ],
+      "referencias_admisiones": [
+        "161-0"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fp-ofimatica",
+      "facultad_id": "uagrm-fac-fp",
+      "nombre": "Ofimática",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Licenciatura en Ofimática",
+        "OFIMÁTICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fp-ofimatica"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/162-0-ofimatica"
+        }
+      ],
+      "referencias_admisiones": [
+        "162-0"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Etiqueta de selector normalizada; conservar nombre fuente. No determina equivalencia de títulos o niveles."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fp-mecanica-general",
+      "facultad_id": "uagrm-fac-fp",
+      "nombre": "Mecánica General",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Mecánica General"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fp-cmg"
+        },
+        {
+          "source_id": "S07",
+          "url": "https://www.uagrm.edu.bo/carreras/fp-cmg"
+        }
+      ],
+      "referencias_admisiones": [],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fp-mecanica-automotriz",
+      "facultad_id": "uagrm-fac-fp",
+      "nombre": "Mecánica Automotriz",
+      "tipo": "programa_especifico",
+      "nombres_en_fuentes": [
+        "MECÁNICA AUTOMOTRIZ"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/301-6-mecanica-automotriz"
+        },
+        {
+          "source_id": "S07",
+          "url": "https://www.uagrm.edu.bo/carreras/fp-cmg"
+        }
+      ],
+      "referencias_admisiones": [
+        "301-6"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "carrera_general_nombre": "Mecánica General",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fp-mecanica-de-produccion",
+      "facultad_id": "uagrm-fac-fp",
+      "nombre": "Mecánica de Producción",
+      "tipo": "programa_especifico",
+      "nombres_en_fuentes": [
+        "MECÁNICA DE PRODUCCIÓN"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/301-5-mecanica-de-produccion"
+        },
+        {
+          "source_id": "S07",
+          "url": "https://www.uagrm.edu.bo/carreras/fp-cmg"
+        }
+      ],
+      "referencias_admisiones": [
+        "301-5"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "carrera_general_nombre": "Mecánica General",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fp-mecanica-industrial",
+      "facultad_id": "uagrm-fac-fp",
+      "nombre": "Mecánica Industrial",
+      "tipo": "programa_especifico",
+      "nombres_en_fuentes": [
+        "MECÁNICA INDUSTRIAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/301-4-mecanica-industrial"
+        },
+        {
+          "source_id": "S07",
+          "url": "https://www.uagrm.edu.bo/carreras/fp-cmg"
+        }
+      ],
+      "referencias_admisiones": [
+        "301-4"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "carrera_general_nombre": "Mecánica General",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fca-biologia",
+      "facultad_id": "uagrm-fac-fca",
+      "nombre": "Biología",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Biología",
+        "BIOLOGÍA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fca-biologia"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/140-4-biologia"
+        }
+      ],
+      "referencias_admisiones": [
+        "140-4"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fca-ciencias-ambientales",
+      "facultad_id": "uagrm-fac-fca",
+      "nombre": "Ciencias Ambientales",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ciencias Ambientales",
+        "CIENCIAS AMBIENTALES"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fca-ciencias-ambientales"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/171-1-ciencias-ambientales"
+        }
+      ],
+      "referencias_admisiones": [
+        "171-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fca-ingenieria-agronomica",
+      "facultad_id": "uagrm-fac-fca",
+      "nombre": "Ingeniería Agronómica",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Agronómica",
+        "INGENIERÍA AGRONÓMICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fca-ingenieria-agronomica"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/153-3-ingenieria-agronomica"
+        }
+      ],
+      "referencias_admisiones": [
+        "153-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fca-ingenieria-agricola",
+      "facultad_id": "uagrm-fac-fca",
+      "nombre": "Ingeniería Agrícola",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Agrícola (Montero)",
+        "INGENIERÍA AGRÍCOLA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fca-ingenieria-agricola-montero"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/154-1-ingenieria-agricola"
+        }
+      ],
+      "referencias_admisiones": [
+        "154-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Etiqueta de selector normalizada; conservar nombre fuente. No determina equivalencia de títulos o niveles."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fca-ingenieria-forestal",
+      "facultad_id": "uagrm-fac-fca",
+      "nombre": "Ingeniería Forestal",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Forestal",
+        "INGENIERÍA FORESTAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fca-cif"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/170-2-ingenieria-forestal"
+        }
+      ],
+      "referencias_admisiones": [
+        "170-2"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fccascgf-contaduria-publica",
+      "facultad_id": "uagrm-fac-fccascgf",
+      "nombre": "Contaduría Pública",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Contaduría Pública",
+        "CONTADURÍA PÚBLICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fccascgf-cp"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/105-5-contaduria-publica"
+        }
+      ],
+      "referencias_admisiones": [
+        "105-5"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fccascgf-informacion-y-control-de-gestion",
+      "facultad_id": "uagrm-fac-fccascgf",
+      "nombre": "Información y Control de Gestión",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Información y Control de Gestión",
+        "INFORMACIÓN Y CONTROL DE GESTIÓN"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fccascgf-icg"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/109-1-informacion-y-control-de-gestion"
+        }
+      ],
+      "referencias_admisiones": [
+        "109-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fccascgf-banca-seguros-y-valores",
+      "facultad_id": "uagrm-fac-fccascgf",
+      "nombre": "Banca, Seguros y Valores",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "BANCA, SEGUROS Y VALORES"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/177-0-banca-seguros-y-valores"
+        },
+        {
+          "source_id": "S06",
+          "url": "https://www.uagrm.edu.bo/facultades/fccascgf"
+        }
+      ],
+      "referencias_admisiones": [
+        "177-0"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcee-administracion-de-empresas",
+      "facultad_id": "uagrm-fac-fcee",
+      "nombre": "Administración de Empresas",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Administración de Empresas",
+        "ADMINISTRACIÓN DE EMPRESAS"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcee-administracion"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/101-4-administracion-de-empresas"
+        }
+      ],
+      "referencias_admisiones": [
+        "101-4"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcee-comercio-internacional",
+      "facultad_id": "uagrm-fac-fcee",
+      "nombre": "Comercio Internacional",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Comercio Internacional",
+        "COMERCIO INTERNACIONAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcee-comercio-internacional"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/152-0-comercio-internacional"
+        }
+      ],
+      "referencias_admisiones": [
+        "152-0"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcee-economia",
+      "facultad_id": "uagrm-fac-fcee",
+      "nombre": "Economía",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Economía",
+        "ECONOMÍA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcee-economia"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/108-5-economia"
+        }
+      ],
+      "referencias_admisiones": [
+        "108-5"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcee-ingenieria-comercial",
+      "facultad_id": "uagrm-fac-fcee",
+      "nombre": "Ingeniería Comercial",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Comercial",
+        "INGENIERÍA COMERCIAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcee-comercial"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/102-4-ingenieria-comercial"
+        }
+      ],
+      "referencias_admisiones": [
+        "102-4"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcee-ingenieria-financiera",
+      "facultad_id": "uagrm-fac-fcee",
+      "nombre": "Ingeniería Financiera",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Financiera",
+        "INGENIERÍA FINANCIERA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcee-financiera"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/144-0-ingenieria-financiera"
+        }
+      ],
+      "referencias_admisiones": [
+        "144-0"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcet-ingenieria-ambiental",
+      "facultad_id": "uagrm-fac-fcet",
+      "nombre": "Ingeniería Ambiental",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Ambiental",
+        "INGENIERÍA AMBIENTAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcet-ciam"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/142-1-ingenieria-ambiental"
+        }
+      ],
+      "referencias_admisiones": [
+        "142-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcet-ingenieria-civil",
+      "facultad_id": "uagrm-fac-fcet",
+      "nombre": "Ingeniería Civil",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Civil",
+        "INGENIERÍA CIVIL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcet-cic"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/117-2-ingenieria-civil"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/117-3-ingenieria-civil"
+        }
+      ],
+      "referencias_admisiones": [
+        "117-2",
+        "117-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Una etiqueta agrupa varias referencias de admisiones. No fusionar planes académicos por compartir nombre; referencias conservadas."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcet-ingenieria-electromecanica",
+      "facultad_id": "uagrm-fac-fcet",
+      "nombre": "Ingeniería Electromecánica",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Electromecánica",
+        "INGENIERÍA ELECTROMECÁNICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcet-cie"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/118-5-ingenieria-electromecanica"
+        }
+      ],
+      "referencias_admisiones": [
+        "118-5"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcet-ingenieria-industrial",
+      "facultad_id": "uagrm-fac-fcet",
+      "nombre": "Ingeniería Industrial",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Industrial",
+        "INGENIERÍA INDUSTRIAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcet-cii"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/122-3-ingenieria-industrial"
+        }
+      ],
+      "referencias_admisiones": [
+        "122-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcet-ingenieria-petrolera",
+      "facultad_id": "uagrm-fac-fcet",
+      "nombre": "Ingeniería Petrolera",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Petrolera",
+        "INGENIERÍA PETROLERA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcet-cip"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/125-2-ingenieria-petrolera"
+        }
+      ],
+      "referencias_admisiones": [
+        "125-2"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcet-ingenieria-quimica",
+      "facultad_id": "uagrm-fac-fcet",
+      "nombre": "Ingeniería Química",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Química",
+        "INGENIERÍA QUÍMICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcet-ciq"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/127-3-ingenieria-quimica"
+        }
+      ],
+      "referencias_admisiones": [
+        "127-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcet-ingenieria-de-alimentos",
+      "facultad_id": "uagrm-fac-fcet",
+      "nombre": "Ingeniería de Alimentos",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería de Alimentos",
+        "INGENIERÍA DE ALIMENTOS"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcet-cial"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/141-2-ingenieria-de-alimentos"
+        }
+      ],
+      "referencias_admisiones": [
+        "141-2"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcet-ingenieria-de-control-de-procesos",
+      "facultad_id": "uagrm-fac-fcet",
+      "nombre": "Ingeniería de Control de Procesos",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería de Control de Procesos",
+        "INGENIERÍA DE CONTROL DE PROCESOS"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcet-cicp"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/227-5-ingenieria-de-control-de-procesos"
+        }
+      ],
+      "referencias_admisiones": [
+        "227-5"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcet-ingenieria-mecatronica",
+      "facultad_id": "uagrm-fac-fcet",
+      "nombre": "Ingeniería Mecatrónica",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "INGENIERÍA MECATRONICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/181-0-ingenieria-mecatronica"
+        },
+        {
+          "source_id": "S05",
+          "url": "https://www.uagrm.edu.bo/facultades/fcet"
+        }
+      ],
+      "referencias_admisiones": [
+        "181-0"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcet-ingenieria-electronica",
+      "facultad_id": "uagrm-fac-fcet",
+      "nombre": "Ingeniería Electrónica",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "INGENIERÍA ELECTRÓNICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/118-7-ingenieria-electronica"
+        },
+        {
+          "source_id": "S05",
+          "url": "https://www.uagrm.edu.bo/facultades/fcet"
+        }
+      ],
+      "referencias_admisiones": [
+        "118-7"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcet-ingenieria-electrica",
+      "facultad_id": "uagrm-fac-fcet",
+      "nombre": "Ingeniería Eléctrica",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "INGENIERÍA ELÉCTRICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/118-6-ingenieria-electrica"
+        },
+        {
+          "source_id": "S05",
+          "url": "https://www.uagrm.edu.bo/facultades/fcet"
+        }
+      ],
+      "referencias_admisiones": [
+        "118-6"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcet-ingenieria-mecanica",
+      "facultad_id": "uagrm-fac-fcet",
+      "nombre": "Ingeniería Mecánica",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "INGENIERÍA MECÁNICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/118-8-ingenieria-mecanica"
+        },
+        {
+          "source_id": "S05",
+          "url": "https://www.uagrm.edu.bo/facultades/fcet"
+        }
+      ],
+      "referencias_admisiones": [
+        "118-8"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcfb-bioquimica",
+      "facultad_id": "uagrm-fac-fcfb",
+      "nombre": "Bioquímica",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Bioquímica",
+        "BIOQUÍMICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcfb-cb"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/106-1-bioquimica"
+        }
+      ],
+      "referencias_admisiones": [
+        "106-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcfb-farmacia",
+      "facultad_id": "uagrm-fac-fcfb",
+      "nombre": "Farmacia",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Farmacia",
+        "FARMACIA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcfb-cf"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/130-2-farmacia"
+        }
+      ],
+      "referencias_admisiones": [
+        "130-2"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcjpsrrii-ciencia-politica-y-administracion-publica",
+      "facultad_id": "uagrm-fac-fcjpsrrii",
+      "nombre": "Ciencia Política y Administración Pública",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ciencia Política y Administración Pública",
+        "CIENCIA POLÍTICA Y ADMINISTRACIÓN PÚBLICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcjpsrrii-ccpap"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/156-3-ciencia-politica-y-administracion-publica"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/156-4-ciencia-politica-y-administracion-publica"
+        }
+      ],
+      "referencias_admisiones": [
+        "156-3",
+        "156-4"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Una etiqueta agrupa varias referencias de admisiones. No fusionar planes académicos por compartir nombre; referencias conservadas."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcjpsrrii-derecho",
+      "facultad_id": "uagrm-fac-fcjpsrrii",
+      "nombre": "Derecho",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Derecho",
+        "DERECHO"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcjpsrrii-cd"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/157-1-derecho"
+        }
+      ],
+      "referencias_admisiones": [
+        "157-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcjpsrrii-relaciones-internacionales",
+      "facultad_id": "uagrm-fac-fcjpsrrii",
+      "nombre": "Relaciones Internacionales",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Relaciones Internacionales",
+        "RELACIONES INTERNACIONALES"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcjpsrrii-cri"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/150-1-relaciones-internacionales"
+        }
+      ],
+      "referencias_admisiones": [
+        "150-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcjpsrrii-trabajo-social",
+      "facultad_id": "uagrm-fac-fcjpsrrii",
+      "nombre": "Trabajo Social",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Trabajo Social",
+        "TRABAJO SOCIAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcjpsrrii-cts"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/159-2-trabajo-social"
+        }
+      ],
+      "referencias_admisiones": [
+        "159-2"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcv-medicina-veterinaria-y-zootecnia",
+      "facultad_id": "uagrm-fac-fcv",
+      "nombre": "Medicina Veterinaria y Zootecnia",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Medicina Veterinaria y Zootecnia",
+        "MEDICINA VETERINARIA Y ZOOTECNIA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcv-mvz"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/139-3-medicina-veterinaria-y-zootecnia"
+        },
+        {
+          "source_id": "S25",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/139-3-medicina-veterinaria-y-zootecnia"
+        }
+      ],
+      "referencias_admisiones": [
+        "139-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcsh-enfermeria",
+      "facultad_id": "uagrm-fac-fcsh",
+      "nombre": "Enfermería",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Enfermería",
+        "ENFERMERÍA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcsh-ce"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/131-3-enfermeria"
+        }
+      ],
+      "referencias_admisiones": [
+        "131-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcsh-medicina",
+      "facultad_id": "uagrm-fac-fcsh",
+      "nombre": "Medicina",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Medicina",
+        "MEDICINA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcsh-cm"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/129-1-medicina"
+        },
+        {
+          "source_id": "S24",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/129-1-medicina"
+        }
+      ],
+      "referencias_admisiones": [
+        "129-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fcsh-odontologia",
+      "facultad_id": "uagrm-fac-fcsh",
+      "nombre": "Odontología",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Odontología",
+        "ODONTOLOGÍA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fcsh-co"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/132-0-odontologia"
+        }
+      ],
+      "referencias_admisiones": [
+        "132-0"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fchda-arquitectura",
+      "facultad_id": "uagrm-fac-fchda",
+      "nombre": "Arquitectura",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Arquitectura",
+        "ARQUITECTURA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fchda-carq"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/104-2-arquitectura"
+        }
+      ],
+      "referencias_admisiones": [
+        "104-2"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fchda-arte",
+      "facultad_id": "uagrm-fac-fchda",
+      "nombre": "Arte",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Arte",
+        "ARTE"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fchda-cart"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/191-2-arte"
+        }
+      ],
+      "referencias_admisiones": [
+        "191-2"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fchda-diseno-integral",
+      "facultad_id": "uagrm-fac-fchda",
+      "nombre": "Diseño Integral",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Diseño Integral",
+        "DISEÑO INTEGRAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fchda-cdi"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/192-2-diseno-integral"
+        }
+      ],
+      "referencias_admisiones": [
+        "192-2"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fchda-planificacion-territorial",
+      "facultad_id": "uagrm-fac-fchda",
+      "nombre": "Planificación Territorial",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Planificación Territorial",
+        "PLANIFICACIÓN TERRITORIAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fchda-cpt"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/193-2-planificacion-territorial"
+        }
+      ],
+      "referencias_admisiones": [
+        "193-2"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fh-actividad-fisica",
+      "facultad_id": "uagrm-fac-fh",
+      "nombre": "Actividad Física",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Actividad Física",
+        "ACTIVIDAD FÍSICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fh-caf"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/405-2-actividad-fisica"
+        }
+      ],
+      "referencias_admisiones": [
+        "405-2"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fh-ciencias-de-la-comunicacion",
+      "facultad_id": "uagrm-fac-fh",
+      "nombre": "Ciencias de la Comunicación",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ciencias de la Comunicación",
+        "CIENCIAS DE LA COMUNICACIÓN"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fh-ccc"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/146-1-ciencias-de-la-comunicacion"
+        }
+      ],
+      "referencias_admisiones": [
+        "146-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fh-ciencias-de-la-educacion",
+      "facultad_id": "uagrm-fac-fh",
+      "nombre": "Ciencias de la Educación",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ciencias de la Educación",
+        "CIENCIAS DE LA EDUCACIÓN"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fh-cce"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-N-ciencias-de-la-educacion"
+        }
+      ],
+      "referencias_admisiones": [
+        "145-N"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fh-gestion-del-turismo",
+      "facultad_id": "uagrm-fac-fh",
+      "nombre": "Gestión del Turismo",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Gestión del Turismo",
+        "GESTIÓN DEL TURISMO"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fh-cgt"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/149-1-gestion-del-turismo"
+        }
+      ],
+      "referencias_admisiones": [
+        "149-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fh-lenguas-modernas-y-filologia-hispanica",
+      "facultad_id": "uagrm-fac-fh",
+      "nombre": "Lenguas Modernas y Filología Hispánica",
+      "tipo": "carrera_general",
+      "nombres_en_fuentes": [
+        "Lenguas Modernas y Filología Hispánica"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fh-clmfh"
+        }
+      ],
+      "referencias_admisiones": [],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fh-psicologia",
+      "facultad_id": "uagrm-fac-fh",
+      "nombre": "Psicología",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Psicología",
+        "PSICOLOGÍA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fh-cps"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/148-2-psicologia"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/148-1-psicologia"
+        }
+      ],
+      "referencias_admisiones": [
+        "148-2",
+        "148-1"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Una etiqueta agrupa varias referencias de admisiones. No fusionar planes académicos por compartir nombre; referencias conservadas."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fh-sociologia",
+      "facultad_id": "uagrm-fac-fh",
+      "nombre": "Sociología",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Sociología",
+        "SOCIOLOGÍA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/fh-cs"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/147-2-sociologia"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/147-3-sociologia"
+        }
+      ],
+      "referencias_admisiones": [
+        "147-2",
+        "147-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Una etiqueta agrupa varias referencias de admisiones. No fusionar planes académicos por compartir nombre; referencias conservadas."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fh-administracion-educativa",
+      "facultad_id": "uagrm-fac-fh",
+      "nombre": "Administración Educativa",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "ADMINISTRACIÓN EDUCATIVA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-5-administracion-educativa"
+        },
+        {
+          "source_id": "S18",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-5-administracion-educativa"
+        }
+      ],
+      "referencias_admisiones": [
+        "145-5"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fh-educacion-intercultural",
+      "facultad_id": "uagrm-fac-fh",
+      "nombre": "Educación Intercultural",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "EDUCACIÓN INTERCULTURAL"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-I-educacion-intercultural"
+        },
+        {
+          "source_id": "S19",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-I-educacion-intercultural"
+        }
+      ],
+      "referencias_admisiones": [
+        "145-I"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fh-educacion-primaria",
+      "facultad_id": "uagrm-fac-fh",
+      "nombre": "Educación Primaria",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "EDUCACIÓN PRIMARIA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-6-educacion-primaria"
+        },
+        {
+          "source_id": "S20",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/145-6-educacion-primaria"
+        }
+      ],
+      "referencias_admisiones": [
+        "145-6"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fh-lenguas-modernas-y-filologia-hispanica-licenciatura-en-el-idioma-ingles",
+      "facultad_id": "uagrm-fac-fh",
+      "nombre": "Lenguas Modernas y Filología Hispánica - Licenciatura en el Idioma Inglés",
+      "tipo": "programa_especifico",
+      "nombres_en_fuentes": [
+        "LENGUAS MODERNAS Y FILOLOGÍA HISPÁNICA - LICENCIATURA EN EL IDIOMA INGLÉS"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/242-7-lenguas-modernas-y-filologia-hispanica-licenciatura-en-el-idioma-ingles"
+        },
+        {
+          "source_id": "S10",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/242-7-lenguas-modernas-y-filologia-hispanica-licenciatura-en-el-idioma-ingles"
+        }
+      ],
+      "referencias_admisiones": [
+        "242-7"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fh-lenguas-modernas-y-filologia-hispanica-licenciatura-en-el-idioma-frances",
+      "facultad_id": "uagrm-fac-fh",
+      "nombre": "Lenguas Modernas y Filología Hispánica - Licenciatura en el Idioma Francés",
+      "tipo": "programa_especifico",
+      "nombres_en_fuentes": [
+        "LENGUAS MODERNAS Y FILOLOGÍA HISPÁNICA - LICENCIATURA EN EL IDIOMA FRANCÉS"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/242-8-lenguas-modernas-y-filologia-hispanica-licenciatura-en-el-idioma-frances"
+        },
+        {
+          "source_id": "S21",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/242-8-lenguas-modernas-y-filologia-hispanica-licenciatura-en-el-idioma-frances"
+        }
+      ],
+      "referencias_admisiones": [
+        "242-8"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-fh-lenguas-modernas-y-filologia-hispanica-licenciatura-en-filologia-hispanica",
+      "facultad_id": "uagrm-fac-fh",
+      "nombre": "Lenguas Modernas y Filología Hispánica - Licenciatura en Filología Hispánica",
+      "tipo": "programa_especifico",
+      "nombres_en_fuentes": [
+        "LENGUAS MODERNAS Y FILOLOGÍA HISPÁNICA - LICENCIATURA EN FILOLOGÍA HISPÁNICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/242-9-lenguas-modernas-y-filologia-hispanica-licenciatura-en-filologia-hispanica"
+        },
+        {
+          "source_id": "S22",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/242-9-lenguas-modernas-y-filologia-hispanica-licenciatura-en-filologia-hispanica"
+        }
+      ],
+      "referencias_admisiones": [
+        "242-9"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "admisiones_y_detalle_oficial",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-ficct-ingenieria-informatica",
+      "facultad_id": "uagrm-fac-ficct",
+      "nombre": "Ingeniería Informática",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería Informática",
+        "INGENIERÍA INFORMÁTICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/ficct-cii"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-6-ingenieria-informatica"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-3-ingenieria-informatica"
+        },
+        {
+          "source_id": "S23",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-3-ingenieria-informatica"
+        }
+      ],
+      "referencias_admisiones": [
+        "187-6",
+        "187-3"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [
+        "Una etiqueta agrupa varias referencias de admisiones. No fusionar planes académicos por compartir nombre; referencias conservadas."
+      ],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-ficct-ingenieria-en-redes-y-telecomunicaciones",
+      "facultad_id": "uagrm-fac-ficct",
+      "nombre": "Ingeniería en Redes y Telecomunicaciones",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería en Redes y Telecomunicaciones",
+        "INGENIERÍA EN REDES Y TELECOMUNICACIONES"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/ficct-cirt"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-5-ingenieria-en-redes-y-telecomunicaciones"
+        },
+        {
+          "source_id": "S27",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-5-ingenieria-en-redes-y-telecomunicaciones"
+        }
+      ],
+      "referencias_admisiones": [
+        "187-5"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-ficct-ingenieria-en-robotica",
+      "facultad_id": "uagrm-fac-ficct",
+      "nombre": "Ingeniería en Robótica",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería en Robótica",
+        "INGENIERÍA EN ROBOTICA"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/ficct-ir"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/323-0-ingenieria-en-robotica"
+        },
+        {
+          "source_id": "S09",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/323-0-ingenieria-en-robotica"
+        }
+      ],
+      "referencias_admisiones": [
+        "323-0"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    },
+    {
+      "id": "uagrm-opcion-ficct-ingenieria-en-sistemas",
+      "facultad_id": "uagrm-fac-ficct",
+      "nombre": "Ingeniería en Sistemas",
+      "tipo": "carrera_o_programa_listado",
+      "nombres_en_fuentes": [
+        "Ingeniería en Sistemas",
+        "INGENIERÍA EN SISTEMAS"
+      ],
+      "fuentes": [
+        {
+          "source_id": "S01",
+          "url": "https://www.uagrm.edu.bo/carreras/ficct-cis"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-4-ingenieria-en-sistemas"
+        }
+      ],
+      "referencias_admisiones": [
+        "187-4"
+      ],
+      "vigencia": "no_determinada",
+      "elegibilidad_proceso_a": "no_determinada",
+      "aprobacion_institucional": false,
+      "notas": [],
+      "evidencia": "listada_en_directorio_y_admisiones",
+      "requiere_revision_catalogo": false
+    }
+  ],
+  "pendientes": [
+    {
+      "id": "P01",
+      "tema": "Catálogo de graduados frente a oferta de admisión",
+      "detalle": "La oferta actual no constituye un catálogo histórico completo de titulados. No excluir titulados de planes o denominaciones anteriores por faltar en admisiones."
+    },
+    {
+      "id": "P02",
+      "tema": "Carrera, programa, modalidad, plan y nivel",
+      "detalle": "No son equivalentes. El selector agrupa etiquetas idénticas pero conserva referencias. Mecánica General tiene tres programas. Lenguas Modernas tiene programas por idioma/filología. Modalidad virtual no crea otra carrera automáticamente."
+    },
+    {
+      "id": "P03",
+      "tema": "Nombres facultativos históricos",
+      "detalle": "El PEI emplea Auditoría Financiera o Contaduría Pública mientras el sitio usa Ciencias Contables, Auditoría, Sistemas de Control de Gestión y Finanzas. También varía Ciencias Veterinarias y Zootecnia. Tratar como denominaciones candidatas a búsqueda, sin migración automática ni equivalencia temporal certificada."
+    },
+    {
+      "id": "P04",
+      "tema": "Oferta parcial y planes en provincias",
+      "detalle": "Ichilo menciona oferta hasta ciertos semestres para Comercial/Financiera; describe Petrolera bajo un encabezado Industrial. Norte e Ichilo documentan cambios Informática/Sistemas. La facultad del título debe ser confirmada, no inferida por la sede de primeros semestres."
+    },
+    {
+      "id": "P05",
+      "tema": "Ingeniería Agrícola en Montero",
+      "detalle": "El directorio la ubica bajo Ciencias Agrícolas. No reasignarla a Integral del Norte por la localidad."
+    },
+    {
+      "id": "P06",
+      "tema": "Monitoreo e Ingeniería Socio Ambiental",
+      "detalle": "La ficha S26 muestra Ingeniería a nivel licenciatura y Monitoreo como titulaciones técnicas intermedias. No fusionar títulos de niveles distintos; confirmar qué nivel participa en A."
+    },
+    {
+      "id": "P07",
+      "tema": "Petróleo y Gas Natural / Petróleo, Gas y Energía Renovable",
+      "detalle": "Ambas denominaciones aparecen en fuentes; no afirmar sustitución ni equivalencia sin resolución o confirmación."
+    },
+    {
+      "id": "P08",
+      "tema": "Elegibilidad de niveles técnicos",
+      "detalle": "Las fuentes incluyen técnicos medios/superiores y licenciaturas. Administración debe confirmar qué titulados participan; el catálogo no los admite ni rechaza."
+    },
+    {
+      "id": "P09",
+      "tema": "Cobertura de sedes y unidades",
+      "detalle": "Se incluyen las 18 facultades de los dos listados oficiales. Unidades académicas desconcentradas no se convierten en facultades nuevas. La cobertura completa por sede/plan/nivel queda pendiente."
+    }
+  ],
+  "normalizaciones_etiqueta": [
+    {
+      "facultad": "faichi",
+      "original": "AGROPECUARIA",
+      "selector": "Ingeniería Agropecuaria"
+    },
+    {
+      "facultad": "fini",
+      "original": "Medicina Veterinaria y Zootécnica",
+      "selector": "Medicina Veterinaria y Zootecnia"
+    },
+    {
+      "facultad": "fini",
+      "original": "AGROPECUARIA",
+      "selector": "Ingeniería Agropecuaria"
+    },
+    {
+      "facultad": "fine",
+      "original": "AGROPECUARIA",
+      "selector": "Ingeniería Agropecuaria"
+    },
+    {
+      "facultad": "fp",
+      "original": "Licenciatura en Ofimática",
+      "selector": "Ofimática"
+    },
+    {
+      "facultad": "fp",
+      "original": "INGENIERÍA MATERIALES",
+      "selector": "Ingeniería en Materiales"
+    },
+    {
+      "facultad": "fp",
+      "original": "INGENIERÍA METALURGIA",
+      "selector": "Ingeniería en Metalurgia"
+    },
+    {
+      "facultad": "fca",
+      "original": "Ingeniería Agrícola (Montero)",
+      "selector": "Ingeniería Agrícola"
+    }
+  ],
+  "limitaciones_acceso": [
+    {
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/177-0-banca-seguros-y-valores",
+      "resultado": "404 en ficha; nombre y asociación corroborados en página facultativa S06"
+    },
+    {
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/181-0-ingenieria-mecatronica",
+      "resultado": "404 en ficha; nombre y asociación corroborados en página facultativa S05"
+    },
+    {
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/168-0-industrializacion-de-alimentos",
+      "resultado": "404 en ficha; solo listado de admisiones consultado"
+    },
+    {
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-3-ingenieria-informatica",
+      "resultado": "Timeout inicial, resuelto en reintento: ficha completa leída"
+    },
+    {
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/187-5-ingenieria-en-redes-y-telecomunicaciones",
+      "resultado": "Timeout inicial, resuelto en reintento: ficha completa leída"
+    },
+    {
+      "url": "https://www.uagrm.edu.bo/admisiones/carreras/242-9-lenguas-modernas-y-filologia-hispanica-licenciatura-en-filologia-hispanica",
+      "resultado": "Timeout inicial, resuelto en reintento: ficha completa leída"
+    }
+  ],
+  "resumen": {
+    "facultades": 18,
+    "facultades_ciudad": 12,
+    "facultades_integrales": 6,
+    "opciones_facultad_carrera_programa": 121,
+    "opciones_revision_catalogo": 1,
+    "nota_conteo": "Asociaciones/etiquetas de selector, no carreras únicas ni oferta vigente certificada."
+  }
+}

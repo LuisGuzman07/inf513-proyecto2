@@ -1,0 +1,89 @@
+body:has(.functional-layout) {
+  overflow-x: auto;
+}
+.functional-layout {
+  min-height: 100vh;
+  font-family:
+    Lato,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+}
+.functional-layout > .ant-layout {
+  min-width: 0;
+}
+.functional-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+  z-index: 2;
+  align-self: flex-start;
+  height: 100vh;
+  border-right: 1px solid #e4e7ec;
+}
+.functional-header {
+  height: auto;
+  min-height: 80px;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  line-height: normal;
+  border-bottom: 1px solid #e4e7ec;
+}
+.functional-header-identity {
+  flex: 1;
+  min-width: 0;
+}
+.functional-header-identity > a {
+  min-width: 0;
+}
+.functional-navigation {
+  background: #ffffff;
+  padding: 0 24px;
+  border-bottom: 1px solid #e4e7ec;
+}
+.functional-navigation .ant-menu {
+  border-bottom: none;
+}
+.functional-brand {
+  padding: 24px 16px;
+  min-height: 80px;
+}
+.functional-sidebar-menu {
+  border-inline-end: none;
+}
+.functional-content {
+  padding: 32px;
+  min-width: 0;
+  background: #f5f6fa;
+}
+.functional-content > * {
+  max-width: 100%;
+  min-width: 0;
+}
+.functional-header .functional-brand-title {
+  max-width: 650px;
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #174a7e;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 767px) {
+  .functional-content {
+    padding: 24px 16px;
+  }
+  .functional-header {
+    padding: 16px;
+    align-items: flex-start;
+  }
+  .functional-header .functional-brand-title {
+    font-size: 14px;
+  }
+}

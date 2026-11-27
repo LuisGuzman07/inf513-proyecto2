@@ -1,0 +1,199 @@
+body:has(.pilot-frame) {
+  overflow-x: auto;
+}
+.pilot-frame .pilot-account-avatar {
+  min-width: 0;
+}
+.pilot-frame .pilot-account-avatar .ant-typography {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pilot-frame.ant-layout {
+  height: 100dvh;
+  min-width: 0;
+  overflow: hidden;
+  background: var(--pilot-background);
+}
+.pilot-frame-main.ant-layout {
+  min-width: 0;
+  min-height: 0;
+  background: var(--pilot-background);
+}
+.pilot-frame .pilot-frame-sidebar {
+  background: #1d294b;
+  overflow-y: auto;
+}
+.pilot-frame-sidebar .ant-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+}
+.pilot-frame-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.pilot-frame-crest {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.pilot-frame-brand .pilot-brand-wordmark,
+.pilot-frame-brand .pilot-brand-mark {
+  display: none;
+}
+.pilot-frame-sidebar .pilot-frame-brand,
+.pilot-frame-drawer .pilot-frame-brand {
+  min-height: 82px;
+  padding: 16px 22px;
+  border-bottom: 1px solid #35405e;
+}
+.pilot-frame-sidebar .pilot-brand,
+.pilot-frame-drawer .pilot-brand {
+  color: #fff;
+}
+.pilot-frame-sidebar .pilot-brand-copy,
+.pilot-frame-drawer .pilot-brand-copy {
+  font-size: 12px;
+}
+.pilot-frame-menu.ant-menu {
+  padding: 20px 10px;
+  border: 0;
+  background: #1d294b;
+  color: #c4cde0;
+}
+.pilot-frame-menu.ant-menu .ant-menu-item {
+  height: auto;
+  min-height: 44px;
+  padding-block: 12px;
+  line-height: 1.4;
+  border-radius: 8px;
+}
+.pilot-frame-menu .ant-menu-title-content {
+  white-space: normal;
+}
+.pilot-frame-menu.ant-menu .ant-menu-item-selected {
+  background: #880000;
+  color: #fff;
+}
+.pilot-frame-menu.ant-menu .ant-menu-item:not(.ant-menu-item-selected):hover {
+  background: #2a3964;
+  color: #fff;
+}
+.pilot-frame-menu :is(a, [tabindex]):focus-visible,
+.pilot-frame-drawer .ant-drawer-header .ant-drawer-close:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}
+.pilot-frame-note {
+  margin-top: auto;
+  padding: 20px 22px;
+  color: #c4cde0;
+  font-size: 12px;
+}
+.pilot-frame .pilot-frame-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  height: auto;
+  min-height: 82px;
+  padding: 16px 32px;
+  background: #fff;
+  border-bottom: 1px solid var(--pilot-border);
+  line-height: 1.4;
+}
+.pilot-frame-context {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.pilot-frame-context > span {
+  overflow-wrap: anywhere;
+}
+.pilot-frame-public-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.pilot-frame-public-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--pilot-secondary);
+  font-weight: 700;
+}
+.pilot-frame-public-nav a:hover,
+.pilot-frame-public-nav a[aria-current='page'] {
+  color: #880000;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+.pilot-frame .pilot-frame-content {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  overflow: auto;
+  padding: 24px 32px;
+  scrollbar-color: #8791a7 #edf1fa;
+}
+.pilot-frame-content > * {
+  min-width: 0;
+  max-width: 100%;
+}
+.pilot-frame-public .pilot-frame-content {
+  padding: 0;
+}
+.pilot-frame-drawer .ant-drawer-header,
+.pilot-frame-drawer .ant-drawer-body {
+  color: #fff;
+  background: #1d294b;
+}
+.pilot-frame-drawer .ant-drawer-title,
+.pilot-frame-drawer .ant-drawer-close {
+  color: #fff;
+}
+.pilot-frame-drawer .ant-drawer-close:hover,
+.pilot-frame-drawer .ant-drawer-close:focus-visible,
+.pilot-frame-drawer .ant-drawer-close:active {
+  color: #fff;
+  background: #35405e;
+}
+.pilot-frame-drawer .ant-drawer-body {
+  padding: 0;
+}
+@media (max-width: 991px) {
+  .pilot-frame .pilot-frame-header {
+    gap: 16px;
+    padding: 16px;
+  }
+  .pilot-frame-context {
+    font-size: 16px;
+  }
+  .pilot-frame .pilot-frame-content {
+    padding: 16px;
+  }
+  .pilot-frame-public .pilot-frame-content {
+    padding: 0;
+  }
+}
+@media (max-width: 575px) {
+  .pilot-frame-public .pilot-frame-header {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .pilot-frame-public-nav {
+    width: 100%;
+    justify-content: flex-end;
+    gap: 24px;
+  }
+  .pilot-frame-private .pilot-account-menu {
+    max-width: 160px;
+  }
+}

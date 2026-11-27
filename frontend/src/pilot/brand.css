@@ -1,0 +1,292 @@
+/* Local Latin subset covers Spanish UI; unmodified Lato under SIL OFL 1.1. */
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/lato/lato-latin-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/lato/lato-latin-700.woff2') format('woff2');
+}
+
+.pilot-identity {
+  color: var(--pilot-text);
+  background: var(--pilot-background);
+}
+
+.pilot-identity .pilot-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--pilot-blue);
+  line-height: 1.25;
+}
+
+.pilot-brand-mark {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* The supplied wordmark is white on transparency: give it the institutional
+   blue backing instead of shrinking it into an unreadable square. */
+.pilot-brand-wordmark {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  background: var(--pilot-blue);
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.pilot-brand-wordmark img {
+  display: block;
+  width: auto;
+  height: 36px;
+  object-fit: contain;
+}
+
+.pilot-brand-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 14px;
+}
+
+.pilot-brand-copy strong {
+  font-size: 20px;
+  letter-spacing: 0.04em;
+}
+
+.pilot-institution {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  min-width: 0;
+}
+
+.pilot-institution-banner {
+  display: block;
+  width: min(100%, 353px);
+  height: auto;
+  object-fit: contain;
+  /* Original banner is white on transparent; retain a contrasting backing. */
+  background: var(--pilot-blue);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.pilot-career {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: start;
+}
+
+.pilot-career-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.pilot-home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 32px;
+  align-items: stretch;
+}
+
+.pilot-home-copy {
+  min-width: 0;
+}
+
+.pilot-institution-photo {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-width: 0;
+  background: var(--pilot-blue);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Keep the building centered while trimming sky and foreground in tall panels. */
+.pilot-institution-photo img {
+  display: block;
+  width: 100%;
+  height: 0;
+  min-height: 280px;
+  flex: 1;
+  object-fit: cover;
+  object-position: 50% 48%;
+}
+
+.pilot-institution-photo figcaption {
+  padding: 12px 16px;
+  color: var(--pilot-surface);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.pilot-identity .template-app-header {
+  border-top: 4px solid var(--pilot-red);
+  border-bottom-color: var(--pilot-border);
+}
+
+.pilot-identity .template-app-sidebar {
+  background: var(--pilot-blue);
+  border-inline-end-color: var(--pilot-blue);
+}
+
+.pilot-identity .template-app-sidebar .functional-brand .ant-typography {
+  color: var(--pilot-surface);
+}
+
+.pilot-identity .template-app-sidebar .functional-sidebar-menu {
+  background: transparent;
+  color: var(--pilot-surface);
+}
+
+.pilot-identity .template-app-sidebar .ant-menu-item {
+  color: var(--pilot-surface);
+}
+
+.pilot-identity .template-app-sidebar .ant-menu-item-selected,
+.pilot-identity
+  .template-app-sidebar
+  .ant-menu-item:not(.ant-menu-item-selected):hover {
+  background: var(--pilot-surface);
+  color: var(--pilot-blue);
+}
+
+.pilot-identity .template-app-sidebar .ant-menu-item-selected {
+  font-weight: 700;
+}
+
+.pilot-identity .template-app-footer {
+  color: var(--pilot-secondary);
+  font-size: 14px;
+}
+
+.pilot-access {
+  max-width: 1200px;
+  margin-inline: auto;
+  border: 1px solid var(--pilot-border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.pilot-access .template-auth-introduction {
+  background: var(--pilot-blue) !important;
+  align-items: stretch;
+  padding: 32px;
+  text-align: start;
+  justify-content: flex-start;
+}
+
+.pilot-access .pilot-institution {
+  color: var(--pilot-surface);
+}
+
+.pilot-access .pilot-institution-photo {
+  flex: none;
+  margin-bottom: 24px;
+}
+
+.pilot-access .pilot-institution-photo img {
+  height: 220px;
+  min-height: 0;
+  flex: none;
+}
+
+.pilot-access .template-auth-introduction h2 {
+  margin-top: 0;
+  font-size: 24px;
+  line-height: 1.35;
+}
+
+.pilot-access .template-auth-description {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.pilot-access .template-auth-form-panel {
+  padding: 32px;
+  align-items: stretch;
+}
+
+.pilot-access .template-auth-form-panel > h1 {
+  font-size: 24px;
+  line-height: 1.35;
+}
+
+.pilot-identity :is(a, button, input, textarea, [tabindex]):focus-visible {
+  outline: 3px solid var(--pilot-blue);
+  outline-offset: 3px;
+}
+
+.pilot-identity .template-app-sidebar :is(a, button, [tabindex]):focus-visible {
+  outline-color: var(--pilot-surface);
+}
+
+@media (max-width: 991px) {
+  .pilot-home-hero {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .pilot-home-hero .pilot-institution-photo img {
+    height: 280px;
+    min-height: 0;
+    flex: none;
+  }
+
+  .pilot-access .template-auth-frame > .ant-col:last-child {
+    order: -1;
+  }
+}
+
+@media (max-width: 767px) {
+  .pilot-brand-mark {
+    width: 40px;
+    height: 40px;
+  }
+
+  .pilot-identity .pilot-brand {
+    gap: 8px;
+  }
+
+  .pilot-brand-copy strong {
+    font-size: 18px;
+  }
+
+  .pilot-brand-copy {
+    font-size: 12px;
+  }
+
+  .pilot-home-title.ant-typography {
+    font-size: 24px;
+    line-height: 1.35;
+  }
+
+  .pilot-access .template-auth-form-panel,
+  .pilot-access .template-auth-introduction {
+    padding: 24px 16px;
+  }
+
+  .pilot-home-hero .pilot-institution-photo img {
+    height: 220px;
+  }
+}

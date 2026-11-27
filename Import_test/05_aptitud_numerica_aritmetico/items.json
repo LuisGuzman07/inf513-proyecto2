@@ -1,0 +1,349 @@
+[
+  {
+    "number": 1,
+    "source_id": "arit-01",
+    "text": "Un hombre tiene 75 acciones que valen 50$ cada una. La empresa asigna un dividendo de 8% pagadero en acciones. ¿Cuántas acciones tendrá ahora?",
+    "options": {
+      "A": "81 acciones",
+      "B": "90 acciones",
+      "C": "80 acciones",
+      "D": "85 acciones"
+    },
+    "correct_option": "A"
+  },
+  {
+    "number": 2,
+    "source_id": "arit-02",
+    "text": "Si se remolca una gabarra a tres millas por hora, ¿cuántas horas necesitará para recorrer 28 millas?",
+    "options": {
+      "A": "10 horas 30 minutos",
+      "B": "9 horas 20 minutos",
+      "C": "12 horas",
+      "D": "9 horas 12 minutos"
+    },
+    "correct_option": "B"
+  },
+  {
+    "number": 3,
+    "source_id": "arit-03",
+    "text": "Una mujer compra fundas de almohada por un precio total de 8,46$, siendo la media de precio por unidad 2,82$. ¿Cuántas fundas compró?",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "3",
+      "D": "5"
+    },
+    "correct_option": "C"
+  },
+  {
+    "number": 4,
+    "source_id": "arit-04",
+    "text": "Una mecanógrafa utiliza un papel que longitudinalmente mide 9 pulgadas por 12 pulgadas. Deja una pulgada de margen a cada lado y una y media por arriba y por abajo. ¿Qué parte fraccional de la página utiliza para mecanografiar?",
+    "options": {
+      "A": "21/22",
+      "B": "7/12",
+      "C": "5/9",
+      "D": "3/4"
+    },
+    "correct_option": "B"
+  },
+  {
+    "number": 5,
+    "source_id": "arit-05",
+    "text": "Un chico deposita en su cuenta el dinero que ha ahorrado durante el verano. ¿Qué cantidad ha depositado si tiene 10 billetes de un dolar, 9 monedas de medio dolar, 8 de cuarto, 16 monedas de 10 centavos y 25 de cinco centavos?",
+    "options": {
+      "A": "16,20$",
+      "B": "17,42$",
+      "C": "18,60$",
+      "D": "19,35$"
+    },
+    "correct_option": "D"
+  },
+  {
+    "number": 6,
+    "source_id": "arit-06",
+    "text": "¿Cuántos minutos hay en un día?",
+    "options": {
+      "A": "60",
+      "B": "1440",
+      "C": "24",
+      "D": "1440 × 60"
+    },
+    "correct_option": "B"
+  },
+  {
+    "number": 7,
+    "source_id": "arit-07",
+    "text": "Un departamento municipal compra seis gruesas de lápices de dibujo. Cada gruesa son 12 docenas. Se utilizan 24 lápices a la semana. Las seis gruesas de lápices durarán",
+    "options": {
+      "A": "6 semanas",
+      "B": "24 semanas",
+      "C": "12 semanas",
+      "D": "36 semanas"
+    },
+    "correct_option": "D"
+  },
+  {
+    "number": 8,
+    "source_id": "arit-08",
+    "text": "Un funcionario de suministros tiene 600 blocks de notas. Entrega 3/8 del suministro a la División X, 1/4 a la División Y y 1/6 a la División Z. ¿Cuántos blocks le quedan?",
+    "options": {
+      "A": "48",
+      "B": "240",
+      "C": "125"
+    },
+    "correct_option": "C"
+  },
+  {
+    "number": 9,
+    "source_id": "arit-09",
+    "text": "Un pie cuadrado de linóleo cuesta 31 centavos. Poner 20 pies cuadrados costará",
+    "options": {
+      "A": "16,20$",
+      "B": "18,60$",
+      "C": "55,80$",
+      "D": "62,00$"
+    },
+    "correct_option": "D"
+  },
+  {
+    "number": 10,
+    "source_id": "arit-10",
+    "text": "Se utiliza un trozo de madera de 35 pies y 6 pulgadas de longitud para hacer 4 anaqueles iguales. La longitud de cada anaquel es",
+    "options": {
+      "A": "9 pies, 1 y 1/2 pulgadas",
+      "B": "8 pies, 10 y 1/2 pulgadas",
+      "C": "7 pies, 10 y 1/2 pulgadas",
+      "D": "7 pies, 1 y 1/2 pulgadas"
+    },
+    "correct_option": "B"
+  },
+  {
+    "number": 11,
+    "source_id": "arit-11",
+    "text": "Si 3 manzanas cuestan 24 centavos, ¿cuántas docenas se pueden comprar con 1,92$?",
+    "options": {
+      "A": "1 y 1/2",
+      "B": "1",
+      "C": "2",
+      "D": "5 y 1/3"
+    },
+    "correct_option": "C"
+  },
+  {
+    "number": 12,
+    "source_id": "arit-12",
+    "text": "¿Qué tiempo transcurre entre las 8.30 A.M. de hoy y las 3.15 A.M. de mañana?",
+    "options": {
+      "A": "17 3/4 horas",
+      "B": "18 2/3 horas",
+      "C": "18 1/2 horas",
+      "D": "18 3/4 horas"
+    },
+    "correct_option": "D"
+  },
+  {
+    "number": 13,
+    "source_id": "arit-13",
+    "text": "Un hombre deposita un cheque de 1.000$ para abrir una cuenta. Poco después retira 941,20. ¿Cuánto le queda en la cuenta?",
+    "options": {
+      "A": "56,72$",
+      "B": "58,80$",
+      "C": "59,09$",
+      "D": "60,60$"
+    },
+    "correct_option": "B"
+  },
+  {
+    "number": 14,
+    "source_id": "arit-14",
+    "text": "Un comerciante compra cuatro fundas de almohada a 4,98$ la pieza, 2 sábanas bajeras de 8,29$ la pieza y 2 sábanas encimeras a 8,09$ la pieza. ¿Cuál es la factura total?",
+    "options": {
+      "A": "52,58$",
+      "B": "51,68$",
+      "C": "52,68$",
+      "D": "21,36$"
+    },
+    "correct_option": "C"
+  },
+  {
+    "number": 15,
+    "source_id": "arit-15",
+    "text": "Un equipo juega 24 juegos de los que gana 18\\. ¿Qué porcentaje de juegos ha ganado?",
+    "options": {
+      "A": "50%",
+      "B": "80%",
+      "C": "75%",
+      "D": "85%"
+    },
+    "correct_option": "C"
+  },
+  {
+    "number": 16,
+    "source_id": "arit-16",
+    "text": "Patty compra una botella de colonia, 2 lápices de labios y 1 caja de polvos. La colonia cuesta a 4,98$ la botella, los lápices de labios, 2,29 cada uno, y los polvos 1,89$ la caja. ¿Qué cantidad paga Patty por los cosméticos?",
+    "options": {
+      "A": "9,16$",
+      "B": "9,45$",
+      "C": "11,45$",
+      "D": "11,89$"
+    },
+    "correct_option": "C"
+  },
+  {
+    "number": 17,
+    "source_id": "arit-17",
+    "text": "Si un sueldo de 20.000$ sufre un 20% de deducción, el sueldo neto es",
+    "options": {
+      "A": "14.000$",
+      "B": "15.500$",
+      "C": "16.000$",
+      "D": "18.000$"
+    },
+    "correct_option": "C"
+  },
+  {
+    "number": 18,
+    "source_id": "arit-18",
+    "text": "Si reparar 100 yardas cuadradas de pavimento cuesta 1.000$, el coste de reparación de una yarda cuadrada es",
+    "options": {
+      "A": "10$",
+      "B": "100$",
+      "C": "150$",
+      "D": "300$"
+    },
+    "correct_option": "A"
+  },
+  {
+    "number": 19,
+    "source_id": "arit-19",
+    "text": "Una mujer compra un vestido por 17,95$, un bolso por 10,95$ y un sombrero por 7,95$ ¿Cuál es la cantidad total pagada?",
+    "options": {
+      "A": "35,75$",
+      "B": "36,85$",
+      "C": "26,85$",
+      "D": "34,85$"
+    },
+    "correct_option": "B"
+  },
+  {
+    "number": 20,
+    "source_id": "arit-20",
+    "text": "Una esquiadora enciende fuego en la chimenea. Cada leño que pone arde media hora. Si al principio tenía 10 leños, ¿cuántas horas podrá tener encendido el fuego?",
+    "options": {
+      "A": "5 horas",
+      "B": "8 1/2 horas",
+      "C": "10 horas",
+      "D": "7 horas"
+    },
+    "correct_option": "A"
+  },
+  {
+    "number": 21,
+    "source_id": "arit-21",
+    "text": "Un joven ahorra 4,56$ el primer mes, 3,82$ el segundo y 5,06$ el tercero. ¿Cuánto ha ahorrado en total?",
+    "options": {
+      "A": "12,56$",
+      "B": "13,28$",
+      "C": "13,44$",
+      "D": "14,02$"
+    },
+    "correct_option": "C"
+  },
+  {
+    "number": 22,
+    "source_id": "arit-22",
+    "text": "Una mujer compra una lámpara de 37,50$. Entrega al dependiente 40,00$. ¿Qué vuelta han de darle?",
+    "options": {
+      "A": "3,50$",
+      "B": "2,50$",
+      "C": "2,75$",
+      "D": "3,25$"
+    },
+    "correct_option": "B"
+  },
+  {
+    "number": 23,
+    "source_id": "arit-23",
+    "text": "Gary se compra una camisa de 18,95$. Da al dependiente 20,00$. ¿Qué vuelta han de darle?",
+    "options": {
+      "A": "2,05$",
+      "B": "1,95$",
+      "C": "1,05$",
+      "D": "0,05$"
+    },
+    "correct_option": "C"
+  },
+  {
+    "number": 24,
+    "source_id": "arit-24",
+    "text": "John compra 20 elementos de fiesta por 66,00$. ¿Qué costó cada uno?",
+    "options": {
+      "A": "3,35$",
+      "B": "3,30$",
+      "C": "2,45$",
+      "D": "3,50$"
+    },
+    "correct_option": "B"
+  },
+  {
+    "number": 25,
+    "source_id": "arit-25",
+    "text": "Un oficial recorre 1.200 kilómetros en 20 horas. ¿Cuántos kilómetros por hora ha hecho de media?",
+    "options": {
+      "A": "45",
+      "B": "60",
+      "C": "50",
+      "D": "65"
+    },
+    "correct_option": "B"
+  },
+  {
+    "number": 26,
+    "source_id": "arit-26",
+    "text": "Un joven vende 88,50$ de dulces. Si recibe una comisión de 33⅓%, ¿a cuánto asciende la comisión?",
+    "options": {
+      "A": "29,50$",
+      "B": "40,00$",
+      "C": "50,00$",
+      "D": "62,50$"
+    },
+    "correct_option": "A"
+  },
+  {
+    "number": 27,
+    "source_id": "arit-27",
+    "text": "Si media taza de espinacas contiene 80 calorías y la misma cantidad de guisantes contiene 300 calorías, ¿cuántas tazas de espinacas se necesitan para obtener el mismo contenido calórico que ⅔ de taza de guisantes?",
+    "options": {
+      "A": "2/5 taza",
+      "B": "1⅓ tazas",
+      "C": "2 tazas",
+      "D": "2½ tazas"
+    },
+    "correct_option": "D"
+  },
+  {
+    "number": 28,
+    "source_id": "arit-28",
+    "text": "Cinco jóvenes comen 3 pastelitos de una caja que contiene 3 docenas, ¿qué porción de una docena queda?",
+    "options": {
+      "A": "1/8",
+      "B": "1/4",
+      "C": "3/4",
+      "D": "7/8"
+    },
+    "correct_option": "C"
+  },
+  {
+    "number": 29,
+    "source_id": "arit-29",
+    "text": "Una silla plegable tiene un precio de 29,50$. ¿Qué dinero se ahorra quien la compre con un descuento del 20%?",
+    "options": {
+      "A": "4,80$",
+      "B": "5,90$",
+      "C": "6,20$",
+      "D": "7,40$"
+    },
+    "correct_option": "B"
+  }
+]

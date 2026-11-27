@@ -1,0 +1,187 @@
+/* A05 · perfil interno consolidado. Adaptación de la referencia Figma
+   (RecordWorkspace) a los componentes AntD y a los tokens del piloto. */
+
+.pilot-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pilot-profile-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 18px;
+  align-items: start;
+}
+
+.pilot-profile-main,
+.pilot-profile-side {
+  min-width: 0;
+}
+
+.pilot-profile-main {
+  padding: 8px 20px 20px;
+  background: var(--pilot-surface);
+  border: 1px solid var(--pilot-border);
+  border-radius: 12px;
+}
+
+.pilot-profile-side {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: sticky;
+  top: 16px;
+}
+
+.pilot-profile-side a {
+  overflow-wrap: anywhere;
+}
+
+/* Etiqueta y valor en dos columnas; se apilan en pantallas angostas. */
+.pilot-profile-facts {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1px;
+  margin: 0;
+  background: var(--pilot-border);
+  border: 1px solid var(--pilot-border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.pilot-profile-fact {
+  display: grid;
+  gap: 2px;
+  padding: 10px 12px;
+  background: var(--pilot-surface);
+}
+
+.pilot-profile-fact dt {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--pilot-secondary);
+}
+
+.pilot-profile-fact dd {
+  margin: 0;
+  color: var(--pilot-text);
+  overflow-wrap: anywhere;
+}
+
+.pilot-profile-documents,
+.pilot-profile-list,
+.pilot-profile-history {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pilot-profile-documents > li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--pilot-border);
+}
+
+.pilot-profile-documents > li > div {
+  min-width: 0;
+  flex: 1 1 220px;
+}
+
+.pilot-profile-documents > li:last-child,
+.pilot-profile-list > li:last-child,
+.pilot-profile-history > li:last-child {
+  border-bottom: 0;
+}
+
+.pilot-profile-list > li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--pilot-border);
+}
+
+.pilot-profile-review {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.pilot-profile-evaluation .pilot-profile-facts {
+  margin-top: 8px;
+}
+
+.pilot-profile-meta {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: var(--pilot-secondary);
+  overflow-wrap: anywhere;
+}
+
+/* Historial: línea vertical con puntos, como la referencia. */
+.pilot-profile-history > li {
+  position: relative;
+  padding: 10px 0 10px 20px;
+  border-bottom: 1px solid var(--pilot-border);
+}
+
+.pilot-profile-history > li::before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 18px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--pilot-blue);
+}
+
+.pilot-profile-history > li::after {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 27px;
+  bottom: -1px;
+  width: 1px;
+  background: var(--pilot-border);
+}
+
+.pilot-profile-history > li:last-child::after {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .pilot-profile-facts {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .pilot-profile-fact {
+    grid-template-columns: minmax(132px, 190px) minmax(0, 1fr);
+    align-items: baseline;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .pilot-profile-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .pilot-profile-side {
+    position: static;
+  }
+
+  .pilot-profile-main {
+    padding: 8px 16px 16px;
+  }
+}

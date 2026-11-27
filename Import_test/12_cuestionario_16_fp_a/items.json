@@ -1,0 +1,1872 @@
+[
+    {
+        "number": 1,
+        "source_id": "fp16-001",
+        "text": "Entendí perfectamente las instrucciones de este cuestionario:",
+        "options": {
+            "a": "sí",
+            "b": "en duda",
+            "c": "no"
+        }
+    },
+    {
+        "number": 2,
+        "source_id": "fp16-002",
+        "text": "Estoy dispuesto a contestar cada pregunta tan sinceramente como me sea posible.",
+        "options": {
+            "a": "sí",
+            "b": "en duda",
+            "c": "no"
+        }
+    },
+    {
+        "number": 3,
+        "source_id": "fp16-003",
+        "text": "Preferiría tener una casa:",
+        "options": {
+            "a": "en una zona poblada",
+            "b": "intermedio",
+            "c": "aislada en un bosque"
+        }
+    },
+    {
+        "number": 4,
+        "source_id": "fp16-004",
+        "text": "Yo tengo la energía suficiente para enfrentarme a mis dificultades.",
+        "options": {
+            "a": "siempre",
+            "b": "generalmente",
+            "c": "pocas veces"
+        }
+    },
+    {
+        "number": 5,
+        "source_id": "fp16-005",
+        "text": "Me siento un poco nervioso ante los animales salvajes, aunque estén enjaulados.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 6,
+        "source_id": "fp16-006",
+        "text": "Evito criticar a las personas y a sus ideas.",
+        "options": {
+            "a": "siempre",
+            "b": "a veces",
+            "c": "nunca"
+        }
+    },
+    {
+        "number": 7,
+        "source_id": "fp16-007",
+        "text": "Yo hago observaciones sarcásticas a las personas que creo que se las merecen.",
+        "options": {
+            "a": "siempre",
+            "b": "a veces",
+            "c": "nunca"
+        }
+    },
+    {
+        "number": 8,
+        "source_id": "fp16-008",
+        "text": "Yo prefiero la música semiclásica que las canciones populares.",
+        "options": {
+            "a": "cierto",
+            "b": "intermedio",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 9,
+        "source_id": "fp16-009",
+        "text": "Si yo viera pelear a los niños de mi vecino:",
+        "options": {
+            "a": "dejaría que se arreglaran solos",
+            "b": "no sabría qué hacer",
+            "c": "intentaría reconciliarlos"
+        }
+    },
+    {
+        "number": 10,
+        "source_id": "fp16-010",
+        "text": "En las reuniones sociales:",
+        "options": {
+            "a": "me hago notar",
+            "b": "no sé",
+            "c": "prefiero permanecer a distancia"
+        }
+    },
+    {
+        "number": 11,
+        "source_id": "fp16-011",
+        "text": "Yo preferiría ser:",
+        "options": {
+            "a": "ingeniero constructor",
+            "b": "indeciso",
+            "c": "escritor de guiones (dramaturgo)"
+        }
+    },
+    {
+        "number": 12,
+        "source_id": "fp16-012",
+        "text": "Yo prefiero detenerme a observar a un artista pintando que a escuchar a algunas personas discutiendo violentamente.",
+        "options": {
+            "a": "cierto",
+            "b": "no sé",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 13,
+        "source_id": "fp16-013",
+        "text": "Casi siempre puedo tolerar a la gente vanidosa que se cree la gran cosa.",
+        "options": {
+            "a": "sí",
+            "b": "en duda",
+            "c": "no"
+        }
+    },
+    {
+        "number": 14,
+        "source_id": "fp16-014",
+        "text": "Cuando un hombre es deshonesto, casi siempre lo puedes notar en su cara.",
+        "options": {
+            "a": "sí",
+            "b": "en duda",
+            "c": "no"
+        }
+    },
+    {
+        "number": 15,
+        "source_id": "fp16-015",
+        "text": "Sería mejor que las vacaciones fueran más largas y que todos tuvieran que tomarlas.",
+        "options": {
+            "a": "de acuerdo",
+            "b": "indeciso",
+            "c": "en desacuerdo"
+        }
+    },
+    {
+        "number": 16,
+        "source_id": "fp16-016",
+        "text": "Preferiría correr el riesgo de un trabajo con un sueldo elevado aunque irregular, que un trabajo con un sueldo menor y constante.",
+        "options": {
+            "a": "sí",
+            "b": "en duda",
+            "c": "no"
+        }
+    },
+    {
+        "number": 17,
+        "source_id": "fp16-017",
+        "text": "Yo hablo sobre mis sentimientos:",
+        "options": {
+            "a": "sólo si es necesario",
+            "b": "intermedio",
+            "c": "cada vez que tengo la oportunidad"
+        }
+    },
+    {
+        "number": 18,
+        "source_id": "fp16-018",
+        "text": "En ocasiones tengo la sensación de un vago peligro, o un miedo súito por razones que no comprendo.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 19,
+        "source_id": "fp16-019",
+        "text": "Cuando me regañan por algo que no hice, no me siento culpable.",
+        "options": {
+            "a": "cierto",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 20,
+        "source_id": "fp16-020",
+        "text": "Con dinero puedo comprar casi todo.",
+        "options": {
+            "a": "sí",
+            "b": "dudoso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 21,
+        "source_id": "fp16-021",
+        "text": "En mis decisiones influyen más:",
+        "options": {
+            "a": "mis emociones",
+            "b": "mis sentimientos y razón por igual",
+            "c": "mis razonamientos"
+        }
+    },
+    {
+        "number": 22,
+        "source_id": "fp16-022",
+        "text": "La mayoría de las personas serían más felices si se relacionaran más con sus semejantes e hicieran lo mismo que otros.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 23,
+        "source_id": "fp16-023",
+        "text": "Cuando me veo en un espejo, algunas veces confundo cuál es la derecha y cuál es la izquierda.",
+        "options": {
+            "a": "cierto",
+            "b": "en duda",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 24,
+        "source_id": "fp16-024",
+        "text": "Cuando estoy platicando me gusta:",
+        "options": {
+            "a": "decir las cosas tal y como se me ocurren",
+            "b": "intermedio",
+            "c": "organizar primero mis pensamientos"
+        }
+    },
+    {
+        "number": 25,
+        "source_id": "fp16-025",
+        "text": "Cuando algo en verdad me pone furioso, generalmente me calmo rápidamente.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no. _(Fin de la Columna 1 en la Hoja de Respuestas)_"
+        }
+    },
+    {
+        "number": 26,
+        "source_id": "fp16-026",
+        "text": "Si yo tuviera el mismo sueldo y horario me gustaría más trabajar como:",
+        "options": {
+            "a": "carpintero o cocinero",
+            "b": "indeciso",
+            "c": "mesero en un buen restaurante"
+        }
+    },
+    {
+        "number": 27,
+        "source_id": "fp16-027",
+        "text": "Yo soy apto para:",
+        "options": {
+            "a": "algunos pocos empleos",
+            "b": "varios empleos",
+            "c": "muchos empleos"
+        }
+    },
+    {
+        "number": 28,
+        "source_id": "fp16-028",
+        "text": "\"Pala\" es a \"cavar\" como \"cuchillo\" es a:",
+        "options": {
+            "a": "afilado",
+            "b": "cortar",
+            "c": "puntiagudo"
+        }
+    },
+    {
+        "number": 29,
+        "source_id": "fp16-029",
+        "text": "A veces no puedo dormir porque una idea me da vueltas en la cabeza.",
+        "options": {
+            "a": "cierto",
+            "b": "dudoso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 30,
+        "source_id": "fp16-030",
+        "text": "En mi vida privada, casi siempre alcanzo las metas que me propongo.",
+        "options": {
+            "a": "cierto",
+            "b": "dudoso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 31,
+        "source_id": "fp16-031",
+        "text": "Cuando una ley es anticuada debe ser cambiada:",
+        "options": {
+            "a": "sólo después de una discusión considerable",
+            "b": "intermedio",
+            "c": "rápidamente"
+        }
+    },
+    {
+        "number": 32,
+        "source_id": "fp16-032",
+        "text": "Me disgusta trabajar en un proyecto en el que se toman medidas rápidas que afectan a otros.",
+        "options": {
+            "a": "cierto",
+            "b": "intermedio",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 33,
+        "source_id": "fp16-033",
+        "text": "La mayoría de la gente que conozco me considera como un conversador agradable.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 34,
+        "source_id": "fp16-034",
+        "text": "Cuando veo a personas desaliñadas y desaseadas, yo:",
+        "options": {
+            "a": "las acepto",
+            "b": "intermedio",
+            "c": "me disgusto"
+        }
+    },
+    {
+        "number": 35,
+        "source_id": "fp16-035",
+        "text": "Me siento un poco apenado si de repente me convierto en el centro de atención en una reunión social.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 36,
+        "source_id": "fp16-036",
+        "text": "Siempre me gusta participar en reuniones concurridas, por ejemplo: una fiesta, un mitin.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 37,
+        "source_id": "fp16-037",
+        "text": "En la escuela prefiero (o preferí):",
+        "options": {
+            "a": "la música",
+            "b": "indeciso",
+            "c": "los trabajos manuales"
+        }
+    },
+    {
+        "number": 38,
+        "source_id": "fp16-038",
+        "text": "Cuando estoy encargado de hacer algo, yo insisto en que se sigan mis instrucciones o bien renuncio:",
+        "options": {
+            "a": "sí",
+            "b": "a veces",
+            "c": "no"
+        }
+    },
+    {
+        "number": 39,
+        "source_id": "fp16-039",
+        "text": "Para los padres es más importante:",
+        "options": {
+            "a": "ayudar a sus niños a desarrollar sus afectos",
+            "b": "intermedio",
+            "c": "enseñar a sus niños cómo controlar sus emociones"
+        }
+    },
+    {
+        "number": 40,
+        "source_id": "fp16-040",
+        "text": "En una tarea de grupo, yo más bien trataría de:",
+        "options": {
+            "a": "imponer acuerdos",
+            "b": "intermedio",
+            "c": "hacer apuntes y ver que se obedezcan las reglas"
+        }
+    },
+    {
+        "number": 41,
+        "source_id": "fp16-041",
+        "text": "De vez en cuando siento la necesidad de realizar actividades físicas rudas o pesadas.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 42,
+        "source_id": "fp16-042",
+        "text": "Preferiría juntarme con gente bien educada a juntarme con individuos toscos y rebeldes.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 43,
+        "source_id": "fp16-043",
+        "text": "Me siento muy afligido cuando la gente me critica en público.",
+        "options": {
+            "a": "cierto",
+            "b": "intermedio",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 44,
+        "source_id": "fp16-044",
+        "text": "Cuando el jefe (o el maestro) me llama:",
+        "options": {
+            "a": "veo una oportunidad para hablar de cosas que me interesan",
+            "b": "indeciso",
+            "c": "temo haber hecho algo mal"
+        }
+    },
+    {
+        "number": 45,
+        "source_id": "fp16-045",
+        "text": "Lo que este mundo necesita son:",
+        "options": {
+            "a": "ciudadanos firmes y serios",
+            "b": "no sé",
+            "c": "\"idealistas\" con plans para mejorarlo"
+        }
+    },
+    {
+        "number": 46,
+        "source_id": "fp16-046",
+        "text": "En todo lo que leo, estoy siempre pendiente de las intenciones propagandistas.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 47,
+        "source_id": "fp16-047",
+        "text": "De adolescente participé en los deportes escolares:",
+        "options": {
+            "a": "pocas veces",
+            "b": "frecuentemente",
+            "c": "muy frecuentemente"
+        }
+    },
+    {
+        "number": 48,
+        "source_id": "fp16-048",
+        "text": "Yo conservo mi cuarto bien arreglado, con cada cosa en su lugar.",
+        "options": {
+            "a": "sí",
+            "b": "algunas veces",
+            "c": "no"
+        }
+    },
+    {
+        "number": 49,
+        "source_id": "fp16-049",
+        "text": "A veces me pongo tenso e inquieto cuando pienso en los sucesos del día.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 50,
+        "source_id": "fp16-050",
+        "text": "A veces dudo que la gente con la que hablo se interese realmente en lo que digo.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no. _(Fin de la Columna 2 en la Hoja de Respuestas)_"
+        }
+    },
+    {
+        "number": 51,
+        "source_id": "fp16-051",
+        "text": "Si tuviera que escoger, preferiría ser:",
+        "options": {
+            "a": "guardabosques",
+            "b": "indeciso",
+            "c": "maestro de escuela"
+        }
+    },
+    {
+        "number": 52,
+        "source_id": "fp16-052",
+        "text": "En santos y cumpleaños:",
+        "options": {
+            "a": "me gusta hacer regalos personales",
+            "b": "indeciso",
+            "c": "creo que es un poco molesto comprar regalos"
+        }
+    },
+    {
+        "number": 53,
+        "source_id": "fp16-053",
+        "text": "\"Cansado\" es a \"trabajo\" como \"orgullo\" es a:",
+        "options": {
+            "a": "sonrisa",
+            "b": "éxito",
+            "c": "felicidad"
+        }
+    },
+    {
+        "number": 54,
+        "source_id": "fp16-054",
+        "text": "¿Cuál de las siguientes palabras es de clase distinta a las otras dos?",
+        "options": {
+            "a": "vela",
+            "b": "luna",
+            "c": "luz eléctrica"
+        }
+    },
+    {
+        "number": 55,
+        "source_id": "fp16-055",
+        "text": "He sido abandonado por mis amigos:",
+        "options": {
+            "a": "casi nunca",
+            "b": "ocasionalmente",
+            "c": "muy a menudo"
+        }
+    },
+    {
+        "number": 56,
+        "source_id": "fp16-056",
+        "text": "Yo tengo algunas cualidades por lo que me siento superior a la mayoría de la gente.",
+        "options": {
+            "a": "sí",
+            "b": "dudoso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 57,
+        "source_id": "fp16-057",
+        "text": "Cuando me enojo, yo me esfuerzo por ocultar mis sentimientos a los demás.",
+        "options": {
+            "a": "cierto",
+            "b": "a veces",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 58,
+        "source_id": "fp16-058",
+        "text": "Me gusta asistir a espectáculos, o ir a fiestas:",
+        "options": {
+            "a": "más de una vez a la semana (más de lo normal)",
+            "b": "una vez a la semana (lo normal)",
+            "c": "menos de una vez a la semana (menos de lo normal)"
+        }
+    },
+    {
+        "number": 59,
+        "source_id": "fp16-059",
+        "text": "Pienso que suficiente libertad es más importante que las buenas costumbres y el respeto a la ley.",
+        "options": {
+            "a": "cierto",
+            "b": "indeciso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 60,
+        "source_id": "fp16-060",
+        "text": "En presencia de personas de mayor experiencia, edad o posición, tiendo a permanecer callado.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 61,
+        "source_id": "fp16-061",
+        "text": "Se me hace difícil hablar o recitar frente a un grupo numeroso.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 62,
+        "source_id": "fp16-062",
+        "text": "Cuando estoy en un lugar extraño, tengo un buen sentido de la orientación (encuentro fácilmente donde está el Norte, Sur, Este y Oeste).",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 63,
+        "source_id": "fp16-063",
+        "text": "Si alguien se enoja conmigo, yo:",
+        "options": {
+            "a": "trato de calmarlo",
+            "b": "indeciso",
+            "c": "me irrito"
+        }
+    },
+    {
+        "number": 64,
+        "source_id": "fp16-064",
+        "text": "Cuando leo un artículo tendencioso o injusto en una revista tiendo a olvidarlo, más que a sentir ganas de \"devolverles el golpe\".",
+        "options": {
+            "a": "cierto",
+            "b": "dudoso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 65,
+        "source_id": "fp16-065",
+        "text": "Tiendo a olvidar muchas cosas triviales y sin importancia, como nombres de calles o de tiendas.",
+        "options": {
+            "a": "sí",
+            "b": "algunas veces",
+            "c": "no"
+        }
+    },
+    {
+        "number": 66,
+        "source_id": "fp16-066",
+        "text": "Me gustaría llevar la vida de un veterinario, curando y operando animales.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 67,
+        "source_id": "fp16-067",
+        "text": "Yo como mis alimentos con placer, aunque no siempre tan cuidadosa y apropiadamente como algunas personas.",
+        "options": {
+            "a": "cierto",
+            "b": "intermedio",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 68,
+        "source_id": "fp16-068",
+        "text": "Algunas veces no tengo ganas de ver a nadie:",
+        "options": {
+            "a": "raras veces",
+            "b": "intermedio",
+            "c": "muy frecuentemente"
+        }
+    },
+    {
+        "number": 69,
+        "source_id": "fp16-069",
+        "text": "A veces las personas me dicen que muestro de manera demasiado clara mi excitación.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 70,
+        "source_id": "fp16-070",
+        "text": "De adolescente, si mi opinión era distinta a la de mis padres, yo por lo general:",
+        "options": {
+            "a": "la mantenía",
+            "b": "indeciso",
+            "c": "aceptaba la autoridad de mis padres"
+        }
+    },
+    {
+        "number": 71,
+        "source_id": "fp16-071",
+        "text": "Me gustaría tener una oficina para mí, que no fuera compartida con otra persona.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 72,
+        "source_id": "fp16-072",
+        "text": "Preferiría disfrutar la vida discretamente a mi manera, más que ser admirado por mis éxitos.",
+        "options": {
+            "a": "cierto",
+            "b": "indeciso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 73,
+        "source_id": "fp16-073",
+        "text": "Me siento maduro en la mayoría de mis actos:",
+        "options": {
+            "a": "verdadero",
+            "b": "dudoso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 74,
+        "source_id": "fp16-074",
+        "text": "Cuando la gente me critica me enojo, en vez de sentirme ayudado.",
+        "options": {
+            "a": "frecuentemente",
+            "b": "ocasionalmente",
+            "c": "nunca"
+        }
+    },
+    {
+        "number": 75,
+        "source_id": "fp16-075",
+        "text": "Estoy dispuesto a expresar mis sentimientos sólo bajo mi estricto control.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no. _(Fin de la Columna 3 en la Hoja de Respuestas)_"
+        }
+    },
+    {
+        "number": 76,
+        "source_id": "fp16-076",
+        "text": "Al inventar algo útil, preferiría:",
+        "options": {
+            "a": "perfeccionarlo en el laboratorio",
+            "b": "indeciso",
+            "c": "vendérselo a la gente"
+        }
+    },
+    {
+        "number": 77,
+        "source_id": "fp16-077",
+        "text": "\"Sorpresa\" es a \"extraño\" como \"miedo\" es a:",
+        "options": {
+            "a": "valiente",
+            "b": "ansioso",
+            "c": "terrible"
+        }
+    },
+    {
+        "number": 78,
+        "source_id": "fp16-078",
+        "text": "¿Cuál de las siguientes fracciones es distinta a las otras dos?",
+        "options": {
+            "a": "3\/7",
+            "b": "3\/9",
+            "c": "3\/11"
+        }
+    },
+    {
+        "number": 79,
+        "source_id": "fp16-079",
+        "text": "Yo no sé por qué, pero algunas personas como que me ignoran o me evitan.",
+        "options": {
+            "a": "cierto",
+            "b": "indeciso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 80,
+        "source_id": "fp16-080",
+        "text": "Las personas me tratan con menos consideración de lo que merecen mis buenas intenciones.",
+        "options": {
+            "a": "a menudo",
+            "b": "en ocasiones",
+            "c": "nunca"
+        }
+    },
+    {
+        "number": 81,
+        "source_id": "fp16-081",
+        "text": "En un grupo, me molesta que se digan albures o groserías aun cuando no haya mujeres delante.",
+        "options": {
+            "a": "cierto",
+            "b": "intermedio",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 82,
+        "source_id": "fp16-082",
+        "text": "Yo tengo indudablemente menos amigos que la mayoría de la gente.",
+        "options": {
+            "a": "sí",
+            "b": "en duda",
+            "c": "no"
+        }
+    },
+    {
+        "number": 83,
+        "source_id": "fp16-083",
+        "text": "Detestaría estar en un lugar donde no hubiera muchas personas con quien platicar.",
+        "options": {
+            "a": "cierto",
+            "b": "indeciso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 84,
+        "source_id": "fp16-084",
+        "text": "Las personas dicen que soy descuidado a veces, aunque ellas me consideren simpático.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 85,
+        "source_id": "fp16-085",
+        "text": "En distintas ocasiones de mi vida social, he experimentado miedo al público.",
+        "options": {
+            "a": "frecuentemente",
+            "b": "en ocasiones",
+            "c": "casi nunca"
+        }
+    },
+    {
+        "number": 86,
+        "source_id": "fp16-086",
+        "text": "Cuando estoy en un grupo pequeño, me agrada permanecer en silencio y mejor dejar que otros hablen.",
+        "options": {
+            "a": "cierto",
+            "b": "intermedio",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 87,
+        "source_id": "fp16-087",
+        "text": "Yo prefiero leer:",
+        "options": {
+            "a": "una narración realista de batallas militares o políticas",
+            "b": "indeciso",
+            "c": "una novela sentimental e imaginativa"
+        }
+    },
+    {
+        "number": 88,
+        "source_id": "fp16-088",
+        "text": "Cuando la gente mandona trata de imponerse, yo hago exactamente lo contrario de lo que ellas quieren.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 89,
+        "source_id": "fp16-089",
+        "text": "Es una regla que mis jefes o los miembros de mi familia me consideren culpable sólo si existe una razón real.",
+        "options": {
+            "a": "cierto",
+            "b": "intermedio",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 90,
+        "source_id": "fp16-090",
+        "text": "Me desagrada la manera como algunas personas observan con descaro o sin recato a otras, en las calles o en las tiendas.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 91,
+        "source_id": "fp16-091",
+        "text": "En un viaje largo, preferiría:",
+        "options": {
+            "a": "leer algo serio pero interesante",
+            "b": "indeciso",
+            "c": "platicar con el pasajero de junto"
+        }
+    },
+    {
+        "number": 92,
+        "source_id": "fp16-092",
+        "text": "En una situación que puede volverse peligrosa, yo creo conveniente hacer ruido y escándalo, aunque se pierda la serenidad y la cortesía.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 93,
+        "source_id": "fp16-093",
+        "text": "Si mis conocidos me tratan mal y me demuestran que les disgusto:",
+        "options": {
+            "a": "me importa poco",
+            "b": "intermedio",
+            "c": "me pongo triste"
+        }
+    },
+    {
+        "number": 94,
+        "source_id": "fp16-094",
+        "text": "Las alabanzas y los cumplidos que me dicen, me desagradan.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 95,
+        "source_id": "fp16-095",
+        "text": "Me gustaría más bien tener un trabajo con:",
+        "options": {
+            "a": "un sueldo fijo y seguro",
+            "b": "intermedio",
+            "c": "un sueldo bastante alto, que dependiera de mi constante persuasión a gente que me desagrada"
+        }
+    },
+    {
+        "number": 96,
+        "source_id": "fp16-096",
+        "text": "Para mantenerme informado, yo prefiero:",
+        "options": {
+            "a": "discutir los asuntos con las personas",
+            "b": "intermedio",
+            "c": "leer los reportes noticiosos diarios"
+        }
+    },
+    {
+        "number": 97,
+        "source_id": "fp16-097",
+        "text": "Me gusta tomar parte activa en asuntos sociales, comités, etc.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 98,
+        "source_id": "fp16-098",
+        "text": "En el desempeño de una tarea, no estoy satisfecho hasta que no se ha realizado con atención el más mínimo detalle.",
+        "options": {
+            "a": "cierto",
+            "b": "intermedio",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 99,
+        "source_id": "fp16-099",
+        "text": "A veces pequeñas contrariedades me irritan demasiado.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 100,
+        "source_id": "fp16-100",
+        "text": "Yo siempre duermo profundo, nunca hablo ni camino durmiendo.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no. _(Fin de la Columna 4 en la Hoja de Respuestas)_"
+        }
+    },
+    {
+        "number": 101,
+        "source_id": "fp16-101",
+        "text": "Sería muy interesante trabajar en una empresa:",
+        "options": {
+            "a": "hablando con los clientes",
+            "b": "intermedio",
+            "c": "llevando las cuentas y el archivo"
+        }
+    },
+    {
+        "number": 102,
+        "source_id": "fp16-102",
+        "text": "\"Tamaño\" es a \"longitud\" como \"deshonestidad\" es a:",
+        "options": {
+            "a": "prisión",
+            "b": "pecado",
+            "c": "robo"
+        }
+    },
+    {
+        "number": 103,
+        "source_id": "fp16-103",
+        "text": "AB es a dc como SR es a:",
+        "options": {
+            "a": "qp",
+            "b": "pq",
+            "c": "tu"
+        }
+    },
+    {
+        "number": 104,
+        "source_id": "fp16-104",
+        "text": "Cuando la gente no es razonable:",
+        "options": {
+            "a": "me quedo callado",
+            "b": "intermedio",
+            "c": "los desprecio"
+        }
+    },
+    {
+        "number": 105,
+        "source_id": "fp16-105",
+        "text": "Si alguien habla en voz alta cuando estoy escuchando música:",
+        "options": {
+            "a": "puedo concentrarme en la música y no me molesta",
+            "b": "intermedio",
+            "c": "acaban con mi placer y me molesto"
+        }
+    },
+    {
+        "number": 106,
+        "source_id": "fp16-106",
+        "text": "Creo que soy bien descrito como:",
+        "options": {
+            "a": "educado y tranquilo",
+            "b": "intermedio",
+            "c": "enérgico"
+        }
+    },
+    {
+        "number": 107,
+        "source_id": "fp16-107",
+        "text": "Asisto a reuniones sociales sólo cuando tengo que hacerlo, de otra manera trato de evitarlas.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 108,
+        "source_id": "fp16-108",
+        "text": "Ser precavido y esperar poco es mejor que ser optimista y esperar siempre el éxito.",
+        "options": {
+            "a": "cierto",
+            "b": "indeciso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 109,
+        "source_id": "fp16-109",
+        "text": "Cuando pienso en las dificultades de mi trabajo:",
+        "options": {
+            "a": "trato de planearlas anticipadamente",
+            "b": "intermedio",
+            "c": "supongo que podré manejarlas cuando se presenten"
+        }
+    },
+    {
+        "number": 110,
+        "source_id": "fp16-110",
+        "text": "Para mí, encuentro fácil incorporarme con las personas en una reunión social.",
+        "options": {
+            "a": "cierto",
+            "b": "intermedio",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 111,
+        "source_id": "fp16-111",
+        "text": "Cuando un poco de diplomacia y persuasión son necesarias para que la gente actúe, yo generalmente soy el primero en fomentarlas.",
+        "options": {
+            "a": "cierto",
+            "b": "indeciso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 112,
+        "source_id": "fp16-112",
+        "text": "Sería muy interesante ser:",
+        "options": {
+            "a": "orientador vocacional de muchachos que tratan de encontrar su carrera",
+            "b": "indeciso",
+            "c": "ingeniero mecánico industrial"
+        }
+    },
+    {
+        "number": 113,
+        "source_id": "fp16-113",
+        "text": "Si estoy completamente seguro de que una persona es injusta o es egoísta, se lo digo, aunque me traiga problemas.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 114,
+        "source_id": "fp16-114",
+        "text": "A veces yo hago observaciones tontas en broma, sólo para que las personas se sorprendan y ver qué es lo que dicen.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 115,
+        "source_id": "fp16-115",
+        "text": "Me gustaría ser reportero de teatro, ópera, conciertos.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 116,
+        "source_id": "fp16-116",
+        "text": "Yo nunca siento la necesidad de hacer garabatos ni ponerme nervioso cuando estoy en una reunión.",
+        "options": {
+            "a": "cierto",
+            "b": "indeciso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 117,
+        "source_id": "fp16-117",
+        "text": "Si alguien me dice algo, que sé que es falso, yo muy probablemente me diga:",
+        "options": {
+            "a": "\"El es un embustero\"",
+            "b": "intermedio",
+            "c": "\"Aparentemente él está mal informado\""
+        }
+    },
+    {
+        "number": 118,
+        "source_id": "fp16-118",
+        "text": "Yo siento que me van a castigar, aun cuando no halla hecho nada",
+        "options": {
+            "a": "a menudo",
+            "b": "ocasionalmente",
+            "c": "nunca"
+        }
+    },
+    {
+        "number": 119,
+        "source_id": "fp16-119",
+        "text": "La idea de que las enfermedades tienen causas tanto físicas como mentales es muy exagerada.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 120,
+        "source_id": "fp16-120",
+        "text": "La pompa y el esplendor de cualquier ceremonia estatal son cosas que deben conservarse.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 121,
+        "source_id": "fp16-121",
+        "text": "Me molesta que las personas piensen que soy demasiado diferente o muy poco convencional.",
+        "options": {
+            "a": "mucho",
+            "b": "algo",
+            "c": "nada"
+        }
+    },
+    {
+        "number": 122,
+        "source_id": "fp16-122",
+        "text": "En la elaboración de alguna cosa, más bien yo trabajaría:",
+        "options": {
+            "a": "en equipo",
+            "b": "indeciso",
+            "c": "por mi propia cuenta"
+        }
+    },
+    {
+        "number": 123,
+        "source_id": "fp16-123",
+        "text": "En algunos momentos me es difícil evitar un sentimiento de lástima hacia mí mismo.",
+        "options": {
+            "a": "a menudo",
+            "b": "en ocasiones",
+            "c": "nunca"
+        }
+    },
+    {
+        "number": 124,
+        "source_id": "fp16-124",
+        "text": "A menudo me enojo demasiado rápido con la gente.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 125,
+        "source_id": "fp16-125",
+        "text": "Yo puedo cambiar viejos hábitos sin dificultad, y sin volver a ellos.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no. _(Fin de la Columna 5 en la Hoja de Respuestas)_"
+        }
+    },
+    {
+        "number": 126,
+        "source_id": "fp16-126",
+        "text": "Si los salarios fueran los mismos, preferiría ser:",
+        "options": {
+            "a": "abogado",
+            "b": "indeciso",
+            "c": "navegante o piloto"
+        }
+    },
+    {
+        "number": 127,
+        "source_id": "fp16-127",
+        "text": "\"Mejor\" es a \"peor\" como \"más lento\" es a:",
+        "options": {
+            "a": "rápido",
+            "b": "óptimo",
+            "c": "más veloz"
+        }
+    },
+    {
+        "number": 128,
+        "source_id": "fp16-128",
+        "text": "¿Cuáles de las siguientes letras deben ir al final de esta lista: xooooxxoooxxx?",
+        "options": {
+            "a": "oxxx",
+            "b": "ooxx",
+            "c": "xooo"
+        }
+    },
+    {
+        "number": 129,
+        "source_id": "fp16-129",
+        "text": "Cuando se llega la hora de algo que yo había planeado o anticipado, a veces no siento ganas de ir.",
+        "options": {
+            "a": "cierto",
+            "b": "intermedio",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 130,
+        "source_id": "fp16-130",
+        "text": "Yo puedo trabajar con cuidado en muchas cosas, sin ser molestado por las personas que hacen ruido a mi alrededor.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 131,
+        "source_id": "fp16-131",
+        "text": "A veces platico a personas desconocidas, cosas que me parecen importantes aunque no me las pregunten.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 132,
+        "source_id": "fp16-132",
+        "text": "Yo paso mucho de mi tiempo libre platicando con amigos sobre reuniones sociales en las que nos divertimos en el pasado.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 133,
+        "source_id": "fp16-133",
+        "text": "Me agrada hacer cosas temerarias y atrevidas nada más por gusto.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 134,
+        "source_id": "fp16-134",
+        "text": "La escena de un cuarto desarreglado me molesta.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 135,
+        "source_id": "fp16-135",
+        "text": "Me considero una persona muy sociable con la que es fácil llevarse.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 136,
+        "source_id": "fp16-136",
+        "text": "En mi trato social:",
+        "options": {
+            "a": "demuestro mis emociones como quiero",
+            "b": "intermedio",
+            "c": "me guardo mis emociones"
+        }
+    },
+    {
+        "number": 137,
+        "source_id": "fp16-137",
+        "text": "Me gusta la música:",
+        "options": {
+            "a": "alegre, ligera y animada",
+            "b": "intermedio",
+            "c": "emotiva y sentimental"
+        }
+    },
+    {
+        "number": 138,
+        "source_id": "fp16-138",
+        "text": "Yo admiro más la belleza de un hermoso poema que la belleza de un arma bien hecha.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 139,
+        "source_id": "fp16-139",
+        "text": "Si nadie se da cuenta de una buena observación mía:",
+        "options": {
+            "a": "no le doy importancia",
+            "b": "indeciso",
+            "c": "repito la frase para que la gente pueda escucharla nuevamente"
+        }
+    },
+    {
+        "number": 140,
+        "source_id": "fp16-140",
+        "text": "Me gustaría trabajar como vigilante con criminales que estuvieran en libertad bajo palabra.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 141,
+        "source_id": "fp16-141",
+        "text": "Uno debe tener cuidado al mezclarse con toda clase de extraños, por el peligro de una infección.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 142,
+        "source_id": "fp16-142",
+        "text": "En un viaje al extranjero, yo preferiría ir en un \"tour\" planeado con un conductor de viajes experimentado, que planear por mí mismo los lugares que desearía visitar.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 143,
+        "source_id": "fp16-143",
+        "text": "Me consideran, acertadamente, como una persona trabajadora y de mediano éxito.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 144,
+        "source_id": "fp16-144",
+        "text": "Si las personas abusan de mi amistad, no lo resiento y lo olvido pronto.",
+        "options": {
+            "a": "cierto",
+            "b": "indeciso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 145,
+        "source_id": "fp16-145",
+        "text": "Si se desarrolla una discusión acalorada entre los miembros de un grupo, yo:",
+        "options": {
+            "a": "quisiera ver a un \"ganador\"",
+            "b": "intermedio",
+            "c": "desearía que se calmaran rápidamente"
+        }
+    },
+    {
+        "number": 146,
+        "source_id": "fp16-146",
+        "text": "Me gusta hacer mis planes yo solo, sin que nadie me interrumpa para aconsejarme.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 147,
+        "source_id": "fp16-147",
+        "text": "A veces dejo que mis acciones se vean influidas por mis celos.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 148,
+        "source_id": "fp16-148",
+        "text": "Yo creo firmemente que \"el jefe puede no tener la razón, pero siempre tiene la razón por ser el jefe\".",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 149,
+        "source_id": "fp16-149",
+        "text": "Me pongo tenso cuando pienso en todas las cosas que me aquejan.",
+        "options": {
+            "a": "sí",
+            "b": "a veces",
+            "c": "no"
+        }
+    },
+    {
+        "number": 150,
+        "source_id": "fp16-150",
+        "text": "No me desconcierta que la gente me grite lo que tengo que hacer cuando estoy jugando.",
+        "options": {
+            "a": "cierto",
+            "b": "indeciso",
+            "c": "falso. _(Fin de la Columna 6 en la Hoja de Respuestas)_"
+        }
+    },
+    {
+        "number": 151,
+        "source_id": "fp16-151",
+        "text": "Preferiría la vida de:",
+        "options": {
+            "a": "un artista",
+            "b": "indeciso",
+            "c": "secretario de un club social"
+        }
+    },
+    {
+        "number": 152,
+        "source_id": "fp16-152",
+        "text": "¿Cuál de las siguientes palabras no corresponde a las otras dos?",
+        "options": {
+            "a": "alguno",
+            "b": "unos",
+            "c": "muchos"
+        }
+    },
+    {
+        "number": 153,
+        "source_id": "fp16-153",
+        "text": "\"Llama\" es a \"calor\" como \"rosa\" es a:",
+        "options": {
+            "a": "espina",
+            "b": "pétalo rojo",
+            "c": "perfume"
+        }
+    },
+    {
+        "number": 154,
+        "source_id": "fp16-154",
+        "text": "Tengo sueños tan intensos que me inquietan cuando duermo.",
+        "options": {
+            "a": "a menudo",
+            "b": "en ocasiones",
+            "c": "casi nunca"
+        }
+    },
+    {
+        "number": 155,
+        "source_id": "fp16-155",
+        "text": "Aunque las probabilidades de que algo tenga éxito estén completamente en contra, sigo pensando en aceptar el riesgo.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 156,
+        "source_id": "fp16-156",
+        "text": "Me agrada saber bien lo que el grupo tiene que hacer para que así sea yo el que manda.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 157,
+        "source_id": "fp16-157",
+        "text": "Preferiría vestirme sencilla y correctamente, y no con un estilo peculiar y llamativo.",
+        "options": {
+            "a": "cierto",
+            "b": "indeciso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 158,
+        "source_id": "fp16-158",
+        "text": "Me llama más la atención pasar una tarde con un pasatiempo tranquilo que en una fiesta animada.",
+        "options": {
+            "a": "cierto",
+            "b": "indeciso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 159,
+        "source_id": "fp16-159",
+        "text": "No hago caso a las sugerencias bien intencionadas de los demás, aunque pienso que no debería.",
+        "options": {
+            "a": "en ocasiones",
+            "b": "casi nunca",
+            "c": "nunca"
+        }
+    },
+    {
+        "number": 160,
+        "source_id": "fp16-160",
+        "text": "Siempre mi criterio para cualquier decisión se basa en los principios del bien y el mal.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 161,
+        "source_id": "fp16-161",
+        "text": "Me disgusta un poco que un grupo me observe cuando trabajo.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 162,
+        "source_id": "fp16-162",
+        "text": "Debido a que no siempre es posible obtener las cosas por medio de métodos graduables y razonables, a veces es necesario usar la fuerza.",
+        "options": {
+            "a": "cierto",
+            "b": "intermedio",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 163,
+        "source_id": "fp16-163",
+        "text": "En la escuela prefiero (o preferí):",
+        "options": {
+            "a": "español y literatura",
+            "b": "indeciso",
+            "c": "aritmética y matemáticas"
+        }
+    },
+    {
+        "number": 164,
+        "source_id": "fp16-164",
+        "text": "A veces me causa problemas el que la gente hable mal de mí a mis espaldas, sin tener razón.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 165,
+        "source_id": "fp16-165",
+        "text": "Platicar con la gente convencional, común y corriente:",
+        "options": {
+            "a": "es a menudo interesante e importante",
+            "b": "intermedio",
+            "c": "me molesta porque dicen cosas tontas y superficiales"
+        }
+    },
+    {
+        "number": 166,
+        "source_id": "fp16-166",
+        "text": "Algunas cosas me enojan tanto que prefiero no hablar de ellas.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 167,
+        "source_id": "fp16-167",
+        "text": "Es muy importante en la educación:",
+        "options": {
+            "a": "dar suficiente afecto a los niños",
+            "b": "intermedio",
+            "c": "que los niños aprendan hábitos y actitudes convenientes"
+        }
+    },
+    {
+        "number": 168,
+        "source_id": "fp16-168",
+        "text": "La gente me considera una persona estable, sin perturbaciones, ante las altas y bajas de la vida.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 169,
+        "source_id": "fp16-169",
+        "text": "Pienso que la sociedad debe crear nuevas costumbres por razones modernas y eliminar viejas costumbres o simples tradiciones.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 170,
+        "source_id": "fp16-170",
+        "text": "Yo pienso que en el mundo actual es más importante resolver:",
+        "options": {
+            "a": "los asuntos sobre moralidad",
+            "b": "indeciso",
+            "c": "las dificultades políticas"
+        }
+    },
+    {
+        "number": 171,
+        "source_id": "fp16-171",
+        "text": "Yo aprendo mejor:",
+        "options": {
+            "a": "leyendo un libro bien escrito",
+            "b": "intermedio",
+            "c": "participando en una discusión de grupo"
+        }
+    },
+    {
+        "number": 172,
+        "source_id": "fp16-172",
+        "text": "Prefiero guiarme yo mismo en lugar de actuar según las reglas aprobadas.",
+        "options": {
+            "a": "cierto",
+            "b": "indeciso",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 173,
+        "source_id": "fp16-173",
+        "text": "Prefiero esperar hasta que estoy seguro que es correcto lo que pienso decir, antes de exponer mis razones.",
+        "options": {
+            "a": "siempre",
+            "b": "en general",
+            "c": "solamente si es posible"
+        }
+    },
+    {
+        "number": 174,
+        "source_id": "fp16-174",
+        "text": "Algunas cosas que no tienen importancia, \"me ponen los nervios de punta\".",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 175,
+        "source_id": "fp16-175",
+        "text": "Pocas veces digo cosas que pienso sin reflexionar y que después tengo que lamentar grandemente.",
+        "options": {
+            "a": "cierto",
+            "b": "indeciso",
+            "c": "falso. _(Fin de la Columna 7 en la Hoja de Respuestas)_ #####"
+        }
+    },
+    {
+        "number": 176,
+        "source_id": "fp16-176",
+        "text": "Si me pidieran que trabajara en una obra de caridad:",
+        "options": {
+            "a": "aceptaría",
+            "b": "indeciso",
+            "c": "diría con cortesía que estoy ocupado"
+        }
+    },
+    {
+        "number": 177,
+        "source_id": "fp16-177",
+        "text": "¿Cuál de las siguientes palabras es distinta a las otras dos?",
+        "options": {
+            "a": "ancho",
+            "b": "zigzag",
+            "c": "derecho"
+        }
+    },
+    {
+        "number": 178,
+        "source_id": "fp16-178",
+        "text": "\"Pronto\" es a \"nunca\", como \"cerca\" es a:",
+        "options": {
+            "a": "nada",
+            "b": "lejos",
+            "c": "fuera"
+        }
+    },
+    {
+        "number": 179,
+        "source_id": "fp16-179",
+        "text": "Cuando cometo una torpeza social, yo puedo olvidarla pronto.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 180,
+        "source_id": "fp16-180",
+        "text": "Me reconocen como un \"hombre de ideas\" porque siempre se me ocurren algunas cuando hay algún problema.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 181,
+        "source_id": "fp16-181",
+        "text": "Yo creo que me muestro más:",
+        "options": {
+            "a": "animado en reuniones de crítica y protesta",
+            "b": "indeciso",
+            "c": "tolerante a los deseos de otras personas"
+        }
+    },
+    {
+        "number": 182,
+        "source_id": "fp16-182",
+        "text": "Me consideran como una persona muy entusiasta.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 183,
+        "source_id": "fp16-183",
+        "text": "Prefiero un trabajo con variedad, viajes y cambios aunque tenga riesgos.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 184,
+        "source_id": "fp16-184",
+        "text": "Soy una persona bastante estricta que insiste siempre en hacer las cosas tan correctamente como sea posible.",
+        "options": {
+            "a": "cierto",
+            "b": "intermedio",
+            "c": "falso"
+        }
+    },
+    {
+        "number": 185,
+        "source_id": "fp16-185",
+        "text": "Me agradan los trabajos que requieren concentración y habilidades precisas.",
+        "options": {
+            "a": "sí",
+            "b": "intermedio",
+            "c": "no"
+        }
+    },
+    {
+        "number": 186,
+        "source_id": "fp16-186",
+        "text": "Me considero un tipo enérgico que se mantiene activo.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    },
+    {
+        "number": 187,
+        "source_id": "fp16-187",
+        "text": "Estoy seguro de haber contestado correctamente, y de no haber dejado ninguna pregunta sin contestar.",
+        "options": {
+            "a": "sí",
+            "b": "indeciso",
+            "c": "no"
+        }
+    }
+]

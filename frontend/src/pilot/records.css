@@ -1,0 +1,228 @@
+.pilot-record-container {
+  width: 100% !important;
+  max-width: 1320px;
+  min-width: 0;
+}
+
+.pilot-record-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+}
+
+.pilot-record-filters {
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.pilot-record-search,
+.pilot-record-status-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.pilot-record-search {
+  flex: 1 1 280px;
+}
+
+.pilot-record-status-filter {
+  flex: 0 1 240px;
+}
+
+.pilot-record-table,
+.pilot-record-content,
+.pilot-record-history-panel {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.pilot-record-table .ant-table-cell,
+.pilot-record-content .ant-descriptions-item-content,
+.pilot-record-observations,
+.pilot-record-history {
+  overflow-wrap: anywhere;
+}
+
+/* Labels wrap between words, never mid-word, and keep a readable column.
+   The minimum width only applies where the two-column table still fits. */
+.pilot-record-content .ant-descriptions-item-label {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+@media (min-width: 576px) {
+  .pilot-record-content .ant-descriptions-item-label {
+    min-width: 148px;
+  }
+}
+
+/* One markup for every width: value beside the label, and below it when narrow. */
+.pilot-review-facts {
+  margin: 12px 0 16px;
+  padding: 0;
+  border: 1px solid var(--pilot-border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.pilot-review-fact {
+  display: grid;
+  grid-template-columns: minmax(150px, 220px) minmax(0, 1fr);
+  gap: 2px 16px;
+  padding: 10px 12px;
+  min-width: 0;
+}
+
+.pilot-review-fact + .pilot-review-fact {
+  border-top: 1px solid var(--pilot-border);
+}
+
+.pilot-review-facts dt {
+  color: var(--pilot-secondary);
+  font-size: 14px;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+.pilot-review-facts dd {
+  margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.pilot-review-facts dd > *,
+.pilot-review-facts dd .ant-typography {
+  max-width: 100%;
+}
+
+/* Downloads and long values stay inside the available width. */
+.pilot-review-facts dd .ant-btn,
+.pilot-record-content .ant-descriptions-item-content .ant-btn {
+  max-width: 100%;
+  height: auto;
+  min-height: 32px;
+  padding-block: 4px;
+  white-space: normal;
+}
+
+@media (max-width: 575px) {
+  .pilot-review-fact {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+}
+
+.pilot-record-context,
+.pilot-record-loading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 24px;
+}
+
+.pilot-record-observations > div {
+  padding-block: 16px;
+  border-bottom: 1px solid var(--pilot-border);
+}
+
+.pilot-record-history {
+  padding-inline-start: 24px;
+  margin: 0;
+}
+
+.pilot-record-history > li + li {
+  margin-top: 16px;
+}
+
+.pilot-record-cards {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  min-width: 0;
+}
+
+.pilot-record-list-card,
+.pilot-review-section {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.pilot-record-list-card .ant-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.pilot-record-list-card .ant-descriptions {
+  width: 100%;
+}
+
+.pilot-record-list-card h3 {
+  margin: 0;
+}
+
+.pilot-review-section {
+  border-top: 1px solid var(--pilot-border);
+  padding-block-start: 16px;
+  scroll-margin-top: 24px;
+}
+
+.pilot-review-section .ant-descriptions {
+  margin-block: 12px 16px;
+}
+
+/* Compact metadata rows: less scrolling for the same content, still readable. */
+.pilot-review-section .ant-descriptions-item-label,
+.pilot-review-section .ant-descriptions-item-content,
+.pilot-record-history-panel .ant-descriptions-item-label,
+.pilot-record-history-panel .ant-descriptions-item-content,
+.pilot-record-content .ant-descriptions-item-label,
+.pilot-record-content .ant-descriptions-item-content {
+  padding-block: 10px;
+}
+
+.pilot-review-section > .ant-typography:first-child {
+  margin-block: 0 8px;
+}
+
+.pilot-review-panel .ant-card-body,
+.pilot-record-submit .ant-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pilot-identity .pilot-record-context {
+  padding: 16px;
+  background: var(--pilot-background);
+  border-inline-start: 3px solid var(--pilot-blue);
+}
+
+.pilot-identity .pilot-review-panel {
+  border-top: 3px solid var(--pilot-blue);
+}
+
+.pilot-record-content .ant-descriptions-view {
+  overflow-x: auto;
+}
+
+@media (max-width: 575px) {
+  .pilot-record-filters {
+    align-items: stretch;
+  }
+
+  .pilot-record-search,
+  .pilot-record-status-filter {
+    flex-basis: 100%;
+  }
+
+  .pilot-record-stack {
+    gap: 16px;
+  }
+}

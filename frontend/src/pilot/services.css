@@ -1,0 +1,218 @@
+.pilot-service-container {
+  width: 100% !important;
+  max-width: 1320px;
+  min-width: 0;
+}
+
+.pilot-service-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+}
+
+.pilot-service-filters {
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.pilot-service-search,
+.pilot-service-status,
+.pilot-service-company-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.pilot-service-search {
+  flex: 1 1 280px;
+}
+
+.pilot-service-status {
+  flex: 0 1 240px;
+}
+
+.pilot-service-company-input {
+  flex: 1 1 320px;
+}
+
+.pilot-service-loading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.pilot-service-descriptions {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.pilot-service-descriptions .ant-descriptions-item-label {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+.pilot-service-descriptions .ant-descriptions-item-content {
+  overflow-wrap: anywhere;
+}
+
+.pilot-service-descriptions .ant-descriptions-view {
+  overflow-x: auto;
+}
+
+@media (min-width: 576px) {
+  .pilot-service-descriptions .ant-descriptions-item-label {
+    min-width: 220px;
+  }
+}
+
+.pilot-service-actions {
+  margin-block-start: 24px;
+}
+
+.pilot-service-folio,
+.pilot-service-access-code {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+
+.pilot-service-languages,
+.pilot-service-activities {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+/* Filas de longitud variable sin `Row gutter`: los márgenes negativos de Ant Design
+   desbordaban seis píxeles el contenedor del formulario en escritorio. */
+.pilot-service-language-row,
+.pilot-service-activity-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 12px;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.pilot-service-activity-row {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.pilot-service-language-row .ant-form-item,
+.pilot-service-activity-row .ant-form-item {
+  margin-block-end: 0;
+  min-width: 0;
+}
+
+.pilot-service-language-row {
+  margin-block-end: 16px;
+}
+
+.pilot-service-activity-row + .pilot-service-activity-row {
+  margin-block-start: 8px;
+}
+
+.pilot-service-row-remove {
+  margin-block-end: 0;
+}
+
+@media (max-width: 575px) {
+  .pilot-service-language-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.pilot-service-activities-summary {
+  margin: 0;
+  padding-inline-start: 20px;
+}
+
+.pilot-service-candidate-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  min-width: 0;
+}
+
+.pilot-service-candidate {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.pilot-service-candidate .ant-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.pilot-service-history ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pilot-service-history li + li {
+  margin-block-start: 20px;
+  padding-block-start: 20px;
+  border-top: 1px solid var(--pilot-border);
+}
+
+.pilot-service-history-meta {
+  color: var(--pilot-secondary);
+  font-size: 14px;
+  padding-block: 4px 8px;
+  overflow-wrap: anywhere;
+}
+
+.pilot-service-history-changes {
+  min-width: 0;
+}
+
+.pilot-service-history-changes .ant-descriptions-item-content {
+  overflow-wrap: anywhere;
+}
+
+.pilot-service-link {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+
+.pilot-service-consult {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.pilot-service-steps {
+  min-width: 0;
+}
+
+@media (max-width: 575px) {
+  .pilot-service-filters {
+    align-items: stretch;
+  }
+
+  .pilot-service-search,
+  .pilot-service-status {
+    flex-basis: 100%;
+  }
+
+  .pilot-service-stack {
+    gap: 16px;
+  }
+
+  .pilot-service-row-remove {
+    justify-self: start;
+  }
+}

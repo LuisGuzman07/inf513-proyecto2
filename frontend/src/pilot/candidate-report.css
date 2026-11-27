@@ -1,0 +1,184 @@
+/* ==========================================================================
+   Candidate Report & Printable PDF Styles (Grupo 18B — UAGRM)
+   ========================================================================== */
+
+.candidate-report-printable {
+  background: #ffffff;
+  color: #1e293b;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  padding: 10px;
+}
+
+.report-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 3px solid #1e3a8a;
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+
+.report-header-brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.report-header-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.report-section-box {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 18px 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.report-section-title {
+  font-size: 14px;
+  font-weight: 800;
+  color: #1e3a8a;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid #f1f5f9;
+  padding-bottom: 8px;
+}
+
+.report-descriptions {
+  margin-bottom: 0 !important;
+}
+
+.report-descriptions .ant-descriptions-item-label {
+  font-weight: 600;
+  color: #475569;
+  width: 160px;
+  background: #f8fafc;
+}
+
+.report-summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.report-summary-table th {
+  background: #f1f5f9;
+  color: #1e293b;
+  font-weight: 700;
+  text-align: left;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+}
+
+.report-summary-table td {
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  vertical-align: middle;
+}
+
+.report-summary-table tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+.report-footer {
+  margin-top: 36px;
+  padding-top: 16px;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* ==========================================================================
+   Print & PDF Export Optimization (@media print)
+   ========================================================================== */
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm 15mm;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+
+  /* Ocultar elementos de UI */
+  .no-print,
+  .ant-modal-mask,
+  .ant-modal-close,
+  .ant-modal-footer,
+  .ant-modal-header,
+  header,
+  nav,
+  .ant-layout-header,
+  .ant-layout-sider {
+    display: none !important;
+  }
+
+  /* Expandir modal a página completa */
+  .ant-modal {
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    top: 0 !important;
+  }
+
+  .ant-modal-content {
+    box-shadow: none !important;
+    padding: 0 !important;
+    border: none !important;
+  }
+
+  .ant-modal-body {
+    padding: 0 !important;
+  }
+
+  .candidate-report-printable {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  /* Preservar colores exactos en barras, badges, svg */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .report-break-before {
+    page-break-before: always !important;
+    break-before: page !important;
+  }
+
+  .report-break-inside-avoid {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .report-section-box {
+    box-shadow: none !important;
+    border: 1px solid #94a3b8 !important;
+    page-break-inside: auto;
+  }
+
+  .soft-skills-table-container,
+  .fp16-profile-card,
+  .fp16-personality-chart-card,
+  .dominos-kpi-card,
+  .mcclelland-chart-card {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+}

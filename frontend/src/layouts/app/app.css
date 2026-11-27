@@ -1,0 +1,101 @@
+body:has(.template-app-layout) {
+  overflow-x: auto;
+}
+.template-app-layout,
+.template-app-main {
+  height: 100dvh;
+  min-height: 0;
+  min-width: 0;
+}
+.template-app-main {
+  overflow: hidden;
+}
+.template-app-sidebar {
+  position: fixed;
+  inset: 0 auto 0 0;
+  height: 100dvh;
+  overflow-y: auto;
+  z-index: 2;
+  border-inline-end: 1px solid #e4e7ec;
+}
+.template-app-sidebar .functional-brand {
+  min-height: 80px;
+  padding: 24px 16px;
+}
+.template-app-sidebar .functional-sidebar-menu {
+  border-inline-end: none;
+}
+.template-app-sidebar:not(.ant-layout-sider-collapsed) .ant-menu-item {
+  height: auto;
+  min-height: 40px;
+  padding-block: 8px;
+  line-height: 1.35;
+}
+.template-app-sidebar:not(.ant-layout-sider-collapsed) .ant-menu-title-content {
+  white-space: normal;
+}
+.template-app-header,
+.template-app-content,
+.template-app-footer,
+.template-app-navigation {
+  margin-inline-start: var(--template-sidebar-margin);
+  min-width: 0;
+}
+.template-app-header {
+  height: auto;
+  min-height: 80px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  line-height: normal;
+  flex-shrink: 0;
+  border-bottom: 1px solid #e4e7ec;
+}
+.template-app-header-identity {
+  min-width: 0;
+  flex: 1;
+}
+.template-app-header-identity a {
+  min-width: 0;
+}
+.template-app-header .functional-brand-title {
+  display: block;
+  max-width: 650px;
+  overflow-wrap: anywhere;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #174a7e;
+}
+.template-app-navigation {
+  padding-inline: 24px;
+  background: #ffffff;
+  flex-shrink: 0;
+}
+.template-app-content {
+  flex: 1;
+  overflow: auto;
+  padding: 24px 32px;
+}
+.template-app-content > * {
+  min-width: 0;
+  max-width: 100%;
+}
+.template-app-footer {
+  flex-shrink: 0;
+  padding: 16px 24px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .template-app-header {
+    padding: 16px;
+    align-items: flex-start;
+  }
+  .template-app-header .functional-brand-title {
+    font-size: 14px;
+  }
+  .template-app-content {
+    padding: 16px;
+  }
+}

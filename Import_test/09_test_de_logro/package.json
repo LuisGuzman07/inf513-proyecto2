@@ -1,0 +1,66 @@
+{
+  "name": "Test de Logro y Liderazgo (Motivación de McClelland)",
+  "slug": "test-de-logro-liderazgo",
+  "category": "Liderazgo y Motivación",
+  "author": "David McClelland / Grupo 18B",
+  "time_limit_minutes": 15,
+  "instructions": "Para cada una de las 15 afirmaciones, seleccione una única opción del 1 al 5 según su grado de acuerdo sincero en el contexto laboral (1: En total desacuerdo a 5: Totalmente de acuerdo). No hay respuestas buenas ni malas.",
+  "example_text": "Ejemplo: 'Siempre trato de mejorar mi desempeño en el trabajo' -> Seleccione de 1 a 5 según su autopercepción real.",
+  "example_image": "assets/esquema_evaluacion_logro.jpg",
+  "answer_type": "single_choice_unscored",
+  "option_labels": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "total_exercises": 15,
+  "scoring_enabled": false,
+  "scoring_model": {
+    "type": "tri_dimensional_bars",
+    "scale": "likert_1_to_5",
+    "dimensions": {
+      "logro": {
+        "name": "Motivación de Logro",
+        "items": [
+          1,
+          4,
+          7,
+          10,
+          13
+        ],
+        "min_score": 5,
+        "max_score": 25,
+        "description": "Búsqueda de excelencia, fijación de metas elevadas y retroalimentación constante sobre el desempeño."
+      },
+      "poder": {
+        "name": "Motivación de Poder",
+        "items": [
+          2,
+          5,
+          8,
+          11,
+          14
+        ],
+        "min_score": 5,
+        "max_score": 25,
+        "description": "Liderazgo, competencia, deseo de influir sobre personas y orientar decisiones de grupo."
+      },
+      "afiliacion": {
+        "name": "Motivación de Afiliación",
+        "items": [
+          3,
+          6,
+          9,
+          12,
+          15
+        ],
+        "min_score": 5,
+        "max_score": 25,
+        "description": "Preferencia por relaciones interpersonales cercanas, cooperación y pertenencia a equipos armoniosos."
+      }
+    },
+    "evaluation_rule": "Se suman los puntajes directos (1 a 5) de cada ítem por dimensión. Se construye una gráfica comparativa de barras para Logro, Afiliación y Poder, destacando con color la barra con el puntaje más alto (motivador dominante)."
+  }
+}

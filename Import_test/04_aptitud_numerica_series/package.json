@@ -1,0 +1,20 @@
+{
+  "name": "Test de Aptitud Numérica - Series de Números",
+  "slug": "aptitud-numerica-series",
+  "category": "Aptitud Numérica",
+  "author": "J. Ken Klein y Celia Unterman",
+  "time_limit_minutes": 20,
+  "instructions": "Cada pregunta se compone de una serie de números que siguen un orden lógico definido. Estudie cada serie para determinar la regla y seleccione la opción que completa la serie de acuerdo al esquema.",
+  "example_text": "Ejemplo: 2, 4, 6, 8, ? -> La opción correcta es 10.",
+  "example_image": null,
+  "answer_type": "single_choice",
+  "option_labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "total_exercises": 25,
+  "scoring_enabled": true
+}

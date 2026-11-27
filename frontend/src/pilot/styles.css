@@ -1,0 +1,115 @@
+.pilot-login {
+  max-width: 520px;
+  margin: 0 auto;
+}
+.pilot-code {
+  overflow-wrap: anywhere;
+  font-family: monospace;
+}
+.pilot-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+  max-width: 100%;
+}
+.pilot-table {
+  overflow-x: auto;
+}
+.pilot-history {
+  padding-left: 24px;
+}
+.pilot-history li {
+  margin-bottom: 24px;
+}
+.pilot-page-intro {
+  margin-bottom: 8px;
+  min-width: 0;
+}
+.pilot-page-intro-copy {
+  min-width: 0;
+  flex: 1;
+}
+.pilot-page-title.ant-typography {
+  margin: 0;
+}
+.pilot-next-action {
+  margin-bottom: 8px;
+}
+.pilot-account-menu {
+  flex-shrink: 0;
+  max-width: 240px;
+}
+.pilot-account-name {
+  display: inline-block;
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pilot-home-container,
+.pilot-access-container {
+  max-width: 100%;
+}
+.pilot-home-intro > .ant-card-body {
+  padding: 32px;
+}
+.pilot-home-intro {
+  border-top: 4px solid var(--pilot-red);
+}
+.pilot-identity .ant-card-head-title {
+  white-space: normal;
+}
+.pilot-identity .ant-form-item-label > label {
+  height: auto;
+  line-height: 1.5;
+}
+.pilot-home-title.ant-typography {
+  max-width: 960px;
+}
+.pilot-home-list {
+  margin: 0;
+  padding-inline-start: 20px;
+  color: var(--pilot-secondary);
+}
+.pilot-home-list li + li {
+  margin-top: 8px;
+}
+/* Anchors and focused controls stop below the fixed header instead of flush
+   against the scroll container edge. */
+.pilot-identity .template-app-content {
+  scroll-padding-top: 16px;
+}
+.pilot-record-content :is([id], h1, h2, h3, h4),
+.pilot-record-content .ant-form-item,
+.pilot-portal-editor .ant-form-item {
+  scroll-margin-top: 16px;
+}
+.pilot-access-container {
+  padding-block: 32px;
+}
+.pilot-access-context {
+  max-width: 480px;
+}
+.pilot-access-card {
+  max-width: 520px;
+  margin-inline: auto;
+}
+@media (max-width: 767px) {
+  .pilot-page-title.ant-typography {
+    font-size: 24px;
+    line-height: 1.35;
+  }
+  .pilot-account-name {
+    display: none;
+  }
+  .pilot-account-avatar .ant-typography {
+    display: none;
+  }
+  .pilot-home-intro > .ant-card-body {
+    padding: 24px;
+  }
+  .pilot-access-container {
+    padding-block: 0;
+  }
+}

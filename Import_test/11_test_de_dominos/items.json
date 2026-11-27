@@ -1,0 +1,482 @@
+[
+    {
+        "number": 1,
+        "source_id": "DOM-EX-001",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/1.jpg",
+        "correct_first": 2,
+        "correct_second": 4,
+        "correct_literal": "2\/4",
+        "points": 1
+    },
+    {
+        "number": 2,
+        "source_id": "DOM-EX-002",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/2.jpg",
+        "correct_first": 6,
+        "correct_second": 1,
+        "correct_literal": "6\/1",
+        "points": 1
+    },
+    {
+        "number": 3,
+        "source_id": "DOM-EX-003",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/3.jpg",
+        "correct_first": 3,
+        "correct_second": 5,
+        "correct_literal": "3\/5",
+        "points": 1
+    },
+    {
+        "number": 4,
+        "source_id": "DOM-EX-004",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/4.jpg",
+        "correct_first": 0,
+        "correct_second": 2,
+        "correct_literal": "0\/2",
+        "points": 1
+    },
+    {
+        "number": 5,
+        "source_id": "DOM-EX-005",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/5.jpg",
+        "correct_first": 4,
+        "correct_second": 1,
+        "correct_literal": "4\/1",
+        "points": 1
+    },
+    {
+        "number": 6,
+        "source_id": "DOM-EX-006",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/6.jpg",
+        "correct_first": 3,
+        "correct_second": 6,
+        "correct_literal": "3\/6",
+        "points": 1
+    },
+    {
+        "number": 7,
+        "source_id": "DOM-EX-007",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/7.jpg",
+        "correct_first": 5,
+        "correct_second": 2,
+        "correct_literal": "5\/2",
+        "points": 1
+    },
+    {
+        "number": 8,
+        "source_id": "DOM-EX-008",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/8.jpg",
+        "correct_first": 0,
+        "correct_second": 4,
+        "correct_literal": "0\/4",
+        "points": 1
+    },
+    {
+        "number": 9,
+        "source_id": "DOM-EX-009",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/9.jpg",
+        "correct_first": 2,
+        "correct_second": 6,
+        "correct_literal": "2\/6",
+        "points": 1
+    },
+    {
+        "number": 10,
+        "source_id": "DOM-EX-010",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/10.jpg",
+        "correct_first": 3,
+        "correct_second": 3,
+        "correct_literal": "3\/3",
+        "points": 1
+    },
+    {
+        "number": 11,
+        "source_id": "DOM-EX-011",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/11.jpg",
+        "correct_first": 4,
+        "correct_second": 0,
+        "correct_literal": "4\/0",
+        "points": 1
+    },
+    {
+        "number": 12,
+        "source_id": "DOM-EX-012",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/12.jpg",
+        "correct_first": 5,
+        "correct_second": 1,
+        "correct_literal": "5\/1",
+        "points": 1
+    },
+    {
+        "number": 13,
+        "source_id": "DOM-EX-013",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/13.jpg",
+        "correct_first": 2,
+        "correct_second": 3,
+        "correct_literal": "2\/3",
+        "points": 1
+    },
+    {
+        "number": 14,
+        "source_id": "DOM-EX-014",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/14.jpg",
+        "correct_first": 5,
+        "correct_second": 6,
+        "correct_literal": "5\/6",
+        "points": 1
+    },
+    {
+        "number": 15,
+        "source_id": "DOM-EX-015",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/15.jpg",
+        "correct_first": 1,
+        "correct_second": 4,
+        "correct_literal": "1\/4",
+        "points": 1
+    },
+    {
+        "number": 16,
+        "source_id": "DOM-EX-016",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/16.jpg",
+        "correct_first": 2,
+        "correct_second": 5,
+        "correct_literal": "2\/5",
+        "points": 1
+    },
+    {
+        "number": 17,
+        "source_id": "DOM-EX-017",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/17.jpg",
+        "correct_first": 6,
+        "correct_second": 0,
+        "correct_literal": "6\/0",
+        "points": 1
+    },
+    {
+        "number": 18,
+        "source_id": "DOM-EX-018",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/18.jpg",
+        "correct_first": 1,
+        "correct_second": 4,
+        "correct_literal": "1\/4",
+        "points": 1
+    },
+    {
+        "number": 19,
+        "source_id": "DOM-EX-019",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/19.jpg",
+        "correct_first": 2,
+        "correct_second": 2,
+        "correct_literal": "2\/2",
+        "points": 1
+    },
+    {
+        "number": 20,
+        "source_id": "DOM-EX-020",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/20.jpg",
+        "correct_first": 1,
+        "correct_second": 5,
+        "correct_literal": "1\/5",
+        "points": 1
+    },
+    {
+        "number": 21,
+        "source_id": "DOM-EX-021",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/21.jpg",
+        "correct_first": 0,
+        "correct_second": 4,
+        "correct_literal": "0\/4",
+        "points": 1
+    },
+    {
+        "number": 22,
+        "source_id": "DOM-EX-022",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/22.jpg",
+        "correct_first": 6,
+        "correct_second": 3,
+        "correct_literal": "6\/3",
+        "points": 1
+    },
+    {
+        "number": 23,
+        "source_id": "DOM-EX-023",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/23.jpg",
+        "correct_first": 2,
+        "correct_second": 1,
+        "correct_literal": "2\/1",
+        "points": 1
+    },
+    {
+        "number": 24,
+        "source_id": "DOM-EX-024",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/24.jpg",
+        "correct_first": 3,
+        "correct_second": 5,
+        "correct_literal": "3\/5",
+        "points": 1
+    },
+    {
+        "number": 25,
+        "source_id": "DOM-EX-025",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/25.jpg",
+        "correct_first": 6,
+        "correct_second": 4,
+        "correct_literal": "6\/4",
+        "points": 1
+    },
+    {
+        "number": 26,
+        "source_id": "DOM-EX-026",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/26.jpg",
+        "correct_first": 3,
+        "correct_second": 0,
+        "correct_literal": "3\/0",
+        "points": 1
+    },
+    {
+        "number": 27,
+        "source_id": "DOM-EX-027",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/27.jpg",
+        "correct_first": 1,
+        "correct_second": 5,
+        "correct_literal": "1\/5",
+        "points": 1
+    },
+    {
+        "number": 28,
+        "source_id": "DOM-EX-028",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/28.jpg",
+        "correct_first": 2,
+        "correct_second": 4,
+        "correct_literal": "2\/4",
+        "points": 1
+    },
+    {
+        "number": 29,
+        "source_id": "DOM-EX-029",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/29.jpg",
+        "correct_first": 5,
+        "correct_second": 5,
+        "correct_literal": "5\/5",
+        "points": 1
+    },
+    {
+        "number": 30,
+        "source_id": "DOM-EX-030",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/30.jpg",
+        "correct_first": 3,
+        "correct_second": 6,
+        "correct_literal": "3\/6",
+        "points": 1
+    },
+    {
+        "number": 31,
+        "source_id": "DOM-EX-031",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/31.jpg",
+        "correct_first": 5,
+        "correct_second": 6,
+        "correct_literal": "5\/6",
+        "points": 1
+    },
+    {
+        "number": 32,
+        "source_id": "DOM-EX-032",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/32.jpg",
+        "correct_first": 4,
+        "correct_second": 0,
+        "correct_literal": "4\/0",
+        "points": 1
+    },
+    {
+        "number": 33,
+        "source_id": "DOM-EX-033",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/33.jpg",
+        "correct_first": 4,
+        "correct_second": 4,
+        "correct_literal": "4\/4",
+        "points": 1
+    },
+    {
+        "number": 34,
+        "source_id": "DOM-EX-034",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/34.jpg",
+        "correct_first": 1,
+        "correct_second": 0,
+        "correct_literal": "1\/0",
+        "points": 1
+    },
+    {
+        "number": 35,
+        "source_id": "DOM-EX-035",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/35.jpg",
+        "correct_first": 6,
+        "correct_second": 2,
+        "correct_literal": "6\/2",
+        "points": 1
+    },
+    {
+        "number": 36,
+        "source_id": "DOM-EX-036",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/36.jpg",
+        "correct_first": 3,
+        "correct_second": 5,
+        "correct_literal": "3\/5",
+        "points": 1
+    },
+    {
+        "number": 37,
+        "source_id": "DOM-EX-037",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/37.jpg",
+        "correct_first": 6,
+        "correct_second": 0,
+        "correct_literal": "6\/0",
+        "points": 1
+    },
+    {
+        "number": 38,
+        "source_id": "DOM-EX-038",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/38.jpg",
+        "correct_first": 4,
+        "correct_second": 6,
+        "correct_literal": "4\/6",
+        "points": 1
+    },
+    {
+        "number": 39,
+        "source_id": "DOM-EX-039",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/39.jpg",
+        "correct_first": 3,
+        "correct_second": 5,
+        "correct_literal": "3\/5",
+        "points": 1
+    },
+    {
+        "number": 40,
+        "source_id": "DOM-EX-040",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/40.jpg",
+        "correct_first": 2,
+        "correct_second": 1,
+        "correct_literal": "2\/1",
+        "points": 1
+    },
+    {
+        "number": 41,
+        "source_id": "DOM-EX-041",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/41.jpg",
+        "correct_first": 6,
+        "correct_second": 1,
+        "correct_literal": "6\/1",
+        "points": 1
+    },
+    {
+        "number": 42,
+        "source_id": "DOM-EX-042",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/42.jpg",
+        "correct_first": 0,
+        "correct_second": 6,
+        "correct_literal": "0\/6",
+        "points": 1
+    },
+    {
+        "number": 43,
+        "source_id": "DOM-EX-043",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/43.jpg",
+        "correct_first": 4,
+        "correct_second": 6,
+        "correct_literal": "4\/6",
+        "points": 1
+    },
+    {
+        "number": 44,
+        "source_id": "DOM-EX-044",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/44.jpg",
+        "correct_first": 3,
+        "correct_second": 0,
+        "correct_literal": "3\/0",
+        "points": 1
+    },
+    {
+        "number": 45,
+        "source_id": "DOM-EX-045",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/45.jpg",
+        "correct_first": 2,
+        "correct_second": 5,
+        "correct_literal": "2\/5",
+        "points": 1
+    },
+    {
+        "number": 46,
+        "source_id": "DOM-EX-046",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/46.jpg",
+        "correct_first": 5,
+        "correct_second": 6,
+        "correct_literal": "5\/6",
+        "points": 1
+    },
+    {
+        "number": 47,
+        "source_id": "DOM-EX-047",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/47.jpg",
+        "correct_first": 2,
+        "correct_second": 2,
+        "correct_literal": "2\/2",
+        "points": 1
+    },
+    {
+        "number": 48,
+        "source_id": "DOM-EX-048",
+        "text": "Identifique los valores de la ficha vacía (0 a 6)",
+        "image": "assets\/48.jpg",
+        "correct_first": 1,
+        "correct_second": 3,
+        "correct_literal": "1\/3",
+        "points": 1
+    }
+]

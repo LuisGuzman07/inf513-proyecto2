@@ -1,0 +1,87 @@
+[
+  {
+    "number": 1,
+    "source_id": "mem2-01",
+    "text": "¿Cuál de los elementos siguientes NO se ve en la imagen?",
+    "options": {
+      "A": "calendario",
+      "B": "teléfono",
+      "C": "jarrita de café",
+      "D": "archivador",
+      "E": "vaso de agua"
+    },
+    "image": "assets/escena_2.jpg",
+    "correct_option": "E",
+    "explanation": "Plantilla: E o también A."
+  },
+  {
+    "number": 2,
+    "source_id": "mem2-02",
+    "text": "El papelero de la mesa:",
+    "options": {
+      "A": "tiene la cesta de «in» arriba",
+      "B": "tiene la cesta de «out» arriba",
+      "C": "sólo tiene papeles de entrada",
+      "D": "está vacía",
+      "E": "está hacinada de papeles"
+    },
+    "image": "assets/escena_2.jpg",
+    "correct_option": "A"
+  },
+  {
+    "number": 3,
+    "source_id": "mem2-03",
+    "text": "¿Cuál de estas frases sobre la imagen es cierta?",
+    "options": {
+      "A": "hay un reloj en la pared",
+      "B": "un cajón del archivador está abierto",
+      "C": "el hombre de la mesa está escribiendo",
+      "D": "el hombre que está de pie sostiene un trapo",
+      "E": "hay una máquina sumadora sobre la mesa"
+    },
+    "image": "assets/escena_2.jpg",
+    "correct_option": "D"
+  },
+  {
+    "number": 4,
+    "source_id": "mem2-04",
+    "text": "El hombre que está sentado en la mesa:",
+    "options": {
+      "A": "tiene el pelo claro",
+      "B": "sostiene un papel en la mano derecha",
+      "C": "habla por el teléfono",
+      "D": "lleva corbata de lazo",
+      "E": "lleva camisa de mangas largas"
+    },
+    "image": "assets/escena_2.jpg",
+    "correct_option": "D"
+  },
+  {
+    "number": 5,
+    "source_id": "mem2-05",
+    "text": "Junto al teléfono, lo más cerca de él, hay:",
+    "options": {
+      "A": "un sujeta-lápices",
+      "B": "una jarrita de café",
+      "C": "una grapadora de hojas sueltas",
+      "D": "un pisapapeles",
+      "E": "un dispositivo de cinta adhesiva"
+    },
+    "image": "assets/escena_2.jpg",
+    "correct_option": "A"
+  },
+  {
+    "number": 6,
+    "source_id": "mem2-06",
+    "text": "¿Cuántos lápices hay en el sujeta-lápices?",
+    "options": {
+      "A": "dos",
+      "B": "tres",
+      "C": "cuatro",
+      "D": "cinco",
+      "E": "seis"
+    },
+    "image": "assets/escena_2.jpg",
+    "correct_option": "C"
+  }
+]

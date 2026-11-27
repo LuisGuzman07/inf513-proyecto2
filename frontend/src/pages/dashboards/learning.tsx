@@ -1,0 +1,163 @@
+import { Col, Row } from 'antd';
+import {
+  FileProtectOutlined,
+  FileSyncOutlined,
+  SafetyCertificateOutlined,
+  UsergroupAddOutlined,
+} from '@ant-design/icons';
+import {
+  CommunityGroupCard,
+  CoursesCard,
+  CoursesCarousel,
+  ExamsCard,
+  LearningStatsCard,
+  PageHeader,
+  ProgressCard,
+  StudyStatisticsCard,
+} from '../../components';
+import { Helmet } from 'react-helmet-async';
+import { useCourses, useStudyStatistics, useRecommendedCourses, useExams, useCommunityGroups } from '../../lib/queries';
+import { useStylesContext } from '../../contexts';
+import { LearningCourses, StudyStatistics, RecommendedCourses, Exam, CommunityGroup } from '../../types';
+
+export const LearningDashboardPage = () => {
+  const stylesContext = useStylesContext();
+
+  // Fetch courses data with proper typing
+  const {
+    data: coursesDataRaw,
+    isLoading: coursesDataLoading,
+    error: coursesDataError,
+  } = useCourses();
+  const coursesData = coursesDataRaw ?? [];
+
+  // Fetch study statistics data with proper typing
+  const {
+    data: studyDataRaw,
+    isLoading: studyDataLoading,
+    error: studyDataError,
+  } = useStudyStatistics();
+  const studyData = studyDataRaw ?? [];
+
+  // Fetch recommended courses data with proper typing
+  const {
+    data: recommendedCoursesDataRaw,
+    isLoading: recommendedCoursesDataLoading,
+    error: recommendedCoursesDataError,
+  } = useRecommendedCourses();
+  const recommendedCoursesData = recommendedCoursesDataRaw ?? [];
+
+  // Fetch exams data with proper typing
+  const {
+    data: examsDataRaw,
+    isLoading: examsDataLoading,
+    error: examsDataError,
+  } = useExams();
+  const examsData = examsDataRaw ?? [];
+
+  // Fetch communities data with proper typing
+  const {
+    data: communitiesDataRaw,
+    isLoading: communitiesDataLoading,
+    error: communitiesDataError,
+  } = useCommunityGroups();
+  const communitiesData = communitiesDataRaw ?? [];
+
+  return (
+    <div>
+      <Helmet>
+        <title>Learning | Antd Dashboard</title>
+      </Helmet>
+      <PageHeader
+        title="learning dashboard"
+      />
+      <Row {...stylesContext?.rowProps}>
+        {/* Stats cards - top row */}
+        <Col xs={24} sm={12} lg={6}>
+          <LearningStatsCard
+            title="Courses in Progress"
+            value={18}
+            icon={FileSyncOutlined}
+            color="teal"
+            progress={30}
+            style={{ height: '100%' }}
+          />
+        </Col>
+        <Col xs={24} sm={12} lg={6}>
+          <LearningStatsCard
+            title="Courses completed"
+            value={97}
+            icon={FileProtectOutlined}
+            color="green"
+            progress={90}
+            style={{ height: '100%' }}
+          />
+        </Col>
+        <Col xs={24} sm={12} lg={6}>
+          <LearningStatsCard
+            title="Certificates earned"
+            value={62}
+            icon={SafetyCertificateOutlined}
+            color="blue"
+            progress={76}
+            style={{ height: '100%' }}
+          />
+        </Col>
+        <Col xs={24} sm={12} lg={6}>
+          <LearningStatsCard
+            title="Community support"
+            value={245}
+            icon={UsergroupAddOutlined}
+            color="purple"
+            progress={78}
+            style={{ height: '100%' }}
+          />
+        </Col>
+
+        {/* Progress + Study Statistics side by side */}
+        <Col xs={24} lg={12}>
+          <ProgressCard style={{ height: '100%' }} />
+        </Col>
+        <Col xs={24} lg={12}>
+          <StudyStatisticsCard
+            data={studyData as unknown as StudyStatistics[]}
+            loading={studyDataLoading}
+            error={studyDataError?.toString()}
+          />
+        </Col>
+
+        {/* Courses table - full width */}
+        <Col span={24}>
+          <CoursesCard
+            data={coursesData as unknown as LearningCourses[]}
+            loading={coursesDataLoading}
+            error={coursesDataError?.toString()}
+          />
+        </Col>
+
+        {/* Exams + Community + Recommended Courses row */}
+        <Col xs={24} sm={12} lg={8}>
+          <ExamsCard
+            data={examsData as unknown as Exam[]}
+            loading={examsDataLoading}
+            error={examsDataError?.toString()}
+          />
+        </Col>
+        <Col xs={24} sm={12} lg={8}>
+          <CommunityGroupCard
+            data={communitiesData as unknown as CommunityGroup[]}
+            loading={communitiesDataLoading}
+            error={communitiesDataError?.toString()}
+          />
+        </Col>
+        <Col xs={24} lg={8}>
+          <CoursesCarousel
+            data={recommendedCoursesData as unknown as RecommendedCourses[]}
+            loading={recommendedCoursesDataLoading}
+            error={recommendedCoursesDataError?.toString()}
+          />
+        </Col>
+      </Row>
+    </div>
+  );
+};

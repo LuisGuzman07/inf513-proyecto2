@@ -1,0 +1,40 @@
+{
+    "name": "Cuestionario 16 FP — Forma A",
+    "slug": "cuestionario-16-fp-forma-a",
+    "category": "Personalidad",
+    "author": "Raymond B. Cattell \/ Grupo 18B",
+    "time_limit_minutes": 45,
+    "instructions": "Dentro de este cuestionario hay 187 preguntas que exploran sus actitudes e intereses personales. No hay respuestas \"buenas\" ni \"malas\". Responda de manera sincera, procurando no inclinarse frecuentemente por la alternativa central (b) a menos que le sea imposible decidirse.",
+    "example_text": "Ejemplos: 1) Me gusta ver juegos deportivos: a) sí, b) en ocasiones, c) no.",
+    "answer_type": "single_choice",
+    "option_labels": [
+        "A",
+        "B",
+        "C"
+    ],
+    "total_exercises": 187,
+    "scoring_enabled": true,
+    "scoring_model": {
+        "type": "16_factors_personality",
+        "norm": "Cuadro 7.c — Normas Chilenas para Adultos (Forma A)",
+        "factors": [
+            "A",
+            "B",
+            "C",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "L",
+            "M",
+            "N",
+            "O",
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4"
+        ],
+        "scale": "sten_1_to_10"
+    }
+}

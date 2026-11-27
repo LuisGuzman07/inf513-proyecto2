@@ -1,0 +1,23 @@
+{
+  "name": "Test de Matrices Progresivas (Raven - 1995)",
+  "slug": "raven-matrices-1995",
+  "category": "Inteligencia General (Factor G)",
+  "author": "John C. Raven",
+  "time_limit_minutes": 45,
+  "instructions": "El Test de Matrices Progresivas de Raven consta de 60 ejercicios distribuidos en 5 series (A, B, C, D y E) de 12 matrices cada una. Seleccioná el número correspondiente a la figura que completa la matriz lógica.",
+  "example_text": "Observá la matriz principal e identificá la figura faltante seleccionando el número que completa el patrón.",
+  "example_image": "assets/A1.jpg",
+  "answer_type": "single_choice",
+  "option_labels": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "total_exercises": 60,
+  "scoring_enabled": true
+}

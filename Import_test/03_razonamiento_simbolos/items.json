@@ -1,0 +1,247 @@
+[
+  {
+    "number": 1,
+    "source_id": "simb-01",
+    "text": "Ejercicio 1 (Analogías de símbolos: Ítems 1 a 4). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p229_1_4.jpg",
+    "correct_option": "C"
+  },
+  {
+    "number": 2,
+    "source_id": "simb-02",
+    "text": "Ejercicio 2 (Analogías de símbolos: Ítems 1 a 4). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p229_1_4.jpg",
+    "correct_option": "A"
+  },
+  {
+    "number": 3,
+    "source_id": "simb-03",
+    "text": "Ejercicio 3 (Analogías de símbolos: Ítems 1 a 4). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p229_1_4.jpg",
+    "correct_option": "D"
+  },
+  {
+    "number": 4,
+    "source_id": "simb-04",
+    "text": "Ejercicio 4 (Analogías de símbolos: Ítems 1 a 4). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p229_1_4.jpg",
+    "correct_option": "C"
+  },
+  {
+    "number": 5,
+    "source_id": "simb-05",
+    "text": "Ejercicio 5 (Analogías de símbolos: Ítems 5 a 10). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p230_5_10.jpg",
+    "correct_option": "B"
+  },
+  {
+    "number": 6,
+    "source_id": "simb-06",
+    "text": "Ejercicio 6 (Analogías de símbolos: Ítems 5 a 10). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p230_5_10.jpg",
+    "correct_option": "B"
+  },
+  {
+    "number": 7,
+    "source_id": "simb-07",
+    "text": "Ejercicio 7 (Analogías de símbolos: Ítems 5 a 10). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p230_5_10.jpg",
+    "correct_option": "E"
+  },
+  {
+    "number": 8,
+    "source_id": "simb-08",
+    "text": "Ejercicio 8 (Analogías de símbolos: Ítems 5 a 10). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p230_5_10.jpg",
+    "correct_option": "E"
+  },
+  {
+    "number": 9,
+    "source_id": "simb-09",
+    "text": "Ejercicio 9 (Analogías de símbolos: Ítems 5 a 10). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p230_5_10.jpg",
+    "correct_option": "B"
+  },
+  {
+    "number": 10,
+    "source_id": "simb-10",
+    "text": "Ejercicio 10 (Analogías de símbolos: Ítems 5 a 10). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p230_5_10.jpg",
+    "correct_option": "D"
+  },
+  {
+    "number": 11,
+    "source_id": "simb-11",
+    "text": "Ejercicio 11 (Series de símbolos: Ítems 11 a 15). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p231_11_15.jpg",
+    "correct_option": "B"
+  },
+  {
+    "number": 12,
+    "source_id": "simb-12",
+    "text": "Ejercicio 12 (Series de símbolos: Ítems 11 a 15). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p231_11_15.jpg",
+    "correct_option": "C"
+  },
+  {
+    "number": 13,
+    "source_id": "simb-13",
+    "text": "Ejercicio 13 (Series de símbolos: Ítems 11 a 15). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p231_11_15.jpg",
+    "correct_option": "B"
+  },
+  {
+    "number": 14,
+    "source_id": "simb-14",
+    "text": "Ejercicio 14 (Series de símbolos: Ítems 11 a 15). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p231_11_15.jpg",
+    "correct_option": "B"
+  },
+  {
+    "number": 15,
+    "source_id": "simb-15",
+    "text": "Ejercicio 15 (Series de símbolos: Ítems 11 a 15). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p231_11_15.jpg",
+    "correct_option": "A"
+  },
+  {
+    "number": 16,
+    "source_id": "simb-16",
+    "text": "Ejercicio 16 (Series de símbolos: Ítems 16 a 20). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p232_16_20.jpg",
+    "correct_option": "D"
+  },
+  {
+    "number": 17,
+    "source_id": "simb-17",
+    "text": "Ejercicio 17 (Series de símbolos: Ítems 16 a 20). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p232_16_20.jpg",
+    "correct_option": "E"
+  },
+  {
+    "number": 18,
+    "source_id": "simb-18",
+    "text": "Ejercicio 18 (Series de símbolos: Ítems 16 a 20). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p232_16_20.jpg",
+    "correct_option": "A"
+  },
+  {
+    "number": 19,
+    "source_id": "simb-19",
+    "text": "Ejercicio 19 (Series de símbolos: Ítems 16 a 20). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p232_16_20.jpg",
+    "correct_option": "B"
+  },
+  {
+    "number": 20,
+    "source_id": "simb-20",
+    "text": "Ejercicio 20 (Series de símbolos: Ítems 16 a 20). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p232_16_20.jpg",
+    "correct_option": "D"
+  },
+  {
+    "number": 21,
+    "source_id": "simb-21",
+    "text": "Ejercicio 21 (Clasificación de figuras: Ítems 21 a 28). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p233_21_28.jpg",
+    "correct_option": "E"
+  },
+  {
+    "number": 22,
+    "source_id": "simb-22",
+    "text": "Ejercicio 22 (Clasificación de figuras: Ítems 21 a 28). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p233_21_28.jpg",
+    "correct_option": "D"
+  },
+  {
+    "number": 23,
+    "source_id": "simb-23",
+    "text": "Ejercicio 23 (Clasificación de figuras: Ítems 21 a 28). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p233_21_28.jpg",
+    "correct_option": "A"
+  },
+  {
+    "number": 24,
+    "source_id": "simb-24",
+    "text": "Ejercicio 24 (Clasificación de figuras: Ítems 21 a 28). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p233_21_28.jpg",
+    "correct_option": "E"
+  },
+  {
+    "number": 25,
+    "source_id": "simb-25",
+    "text": "Ejercicio 25 (Clasificación de figuras: Ítems 21 a 28). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p233_21_28.jpg",
+    "correct_option": "E"
+  },
+  {
+    "number": 26,
+    "source_id": "simb-26",
+    "text": "Ejercicio 26 (Clasificación de figuras: Ítems 21 a 28). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p233_21_28.jpg",
+    "correct_option": "B"
+  },
+  {
+    "number": 27,
+    "source_id": "simb-27",
+    "text": "Ejercicio 27 (Clasificación de figuras: Ítems 21 a 28). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p233_21_28.jpg",
+    "correct_option": "C"
+  },
+  {
+    "number": 28,
+    "source_id": "simb-28",
+    "text": "Ejercicio 28 (Clasificación de figuras: Ítems 21 a 28). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p233_21_28.jpg",
+    "correct_option": "C"
+  },
+  {
+    "number": 29,
+    "source_id": "simb-29",
+    "text": "Ejercicio 29 (Clasificación de figuras: Ítems 29 a 35). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p234_29_35.jpg",
+    "correct_option": "A"
+  },
+  {
+    "number": 30,
+    "source_id": "simb-30",
+    "text": "Ejercicio 30 (Clasificación de figuras: Ítems 29 a 35). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p234_29_35.jpg",
+    "correct_option": "E"
+  },
+  {
+    "number": 31,
+    "source_id": "simb-31",
+    "text": "Ejercicio 31 (Clasificación de figuras: Ítems 29 a 35). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p234_29_35.jpg",
+    "correct_option": "B"
+  },
+  {
+    "number": 32,
+    "source_id": "simb-32",
+    "text": "Ejercicio 32 (Clasificación de figuras: Ítems 29 a 35). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p234_29_35.jpg",
+    "correct_option": "E"
+  },
+  {
+    "number": 33,
+    "source_id": "simb-33",
+    "text": "Ejercicio 33 (Clasificación de figuras: Ítems 29 a 35). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p234_29_35.jpg",
+    "correct_option": "B"
+  },
+  {
+    "number": 34,
+    "source_id": "simb-34",
+    "text": "Ejercicio 34 (Clasificación de figuras: Ítems 29 a 35). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p234_29_35.jpg",
+    "correct_option": "B"
+  },
+  {
+    "number": 35,
+    "source_id": "simb-35",
+    "text": "Ejercicio 35 (Clasificación de figuras: Ítems 29 a 35). Observe la lámina y elija la alternativa correcta (A, B, C, D o E):",
+    "image": "assets/simbolos_p234_29_35.jpg",
+    "correct_option": "E"
+  }
+]

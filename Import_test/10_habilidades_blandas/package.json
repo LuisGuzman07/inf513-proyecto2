@@ -1,0 +1,90 @@
+{
+  "name": "Formulario de Evaluación de Habilidades Blandas",
+  "slug": "evaluacion-habilidades-blandas",
+  "category": "Competencias Laborales y Habilidades Blandas",
+  "author": "Dirección de Selección y Talento / Grupo 18B",
+  "time_limit_minutes": 25,
+  "instructions": "Complete este formulario con total honestidad calificando del 1 al 5 su comportamiento real actual en el entorno laboral (1: Nivel más bajo a 5: Nivel superlativo). Su autopercepción servirá para contrastar su perfil con los requerimientos específicos del cargo.",
+  "example_text": "Califique cada comportamiento del 1 al 5 según su desempeño habitual en situaciones reales de trabajo.",
+  "example_image": null,
+  "answer_type": "single_choice_unscored",
+  "option_labels": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "total_exercises": 28,
+  "scoring_enabled": false,
+  "scoring_model": {
+    "type": "competency_radar_and_bars",
+    "scale": "likert_1_to_5",
+    "dimensions": {
+      "comunicacion": {
+        "name": "Habilidades Comunicativas",
+        "items": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "min_score": 6,
+        "max_score": 30
+      },
+      "trabajo_equipo": {
+        "name": "Capacidad para el Trabajo en Equipo",
+        "items": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "min_score": 4,
+        "max_score": 20
+      },
+      "manejo_estres": {
+        "name": "Manejo del Estrés y Conflictos",
+        "items": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "min_score": 10,
+        "max_score": 50
+      },
+      "responsabilidad": {
+        "name": "Evaluación de la Responsabilidad",
+        "items": [
+          21,
+          22,
+          23,
+          24
+        ],
+        "min_score": 4,
+        "max_score": 20
+      },
+      "aprendizaje": {
+        "name": "Búsqueda de Información y Aprendizaje",
+        "items": [
+          25,
+          26,
+          27,
+          28
+        ],
+        "min_score": 4,
+        "max_score": 20
+      }
+    },
+    "evaluation_rule": "Se calcula el promedio o suma por dimensión para contrastar las competencias reales del candidato frente al perfil requerido del puesto (gráfico radial/radar o barras de competencias)."
+  }
+}

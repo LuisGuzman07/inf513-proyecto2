@@ -1,0 +1,28 @@
+{
+  "name": "Test de Capacidad Perceptiva - Relaciones Espaciales",
+  "slug": "capacidad-perceptiva-espaciales",
+  "category": "Aptitud Espacial",
+  "author": "J. Ken Klein y Celia Unterman",
+  "time_limit_minutes": 25,
+  "instructions": "El test consta de 25 ejercicios divididos en: Similaridades y diferencias entre objetos (1-5), Clasificación de líneas de menor a mayor longitud (6-15) y Comparación de ángulos (16-25). Observe la lámina indicada en cada ejercicio y elija la opción correspondiente.",
+  "example_text": "Observe la figura de la lámina e identifique la relación espacial o ángulo correspondiente.",
+  "example_image": "assets/espacial_p247_1_4.jpg",
+  "answer_type": "single_choice",
+  "option_labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "total_exercises": 25,
+  "scoring_enabled": true
+}

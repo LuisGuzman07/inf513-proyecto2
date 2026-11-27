@@ -1,0 +1,87 @@
+[
+  {
+    "number": 1,
+    "source_id": "mem1-01",
+    "text": "Todos los elementos siguientes están sobre la mesa de café EXCEPTO:",
+    "options": {
+      "A": "una cafetera",
+      "B": "una taza y un plato",
+      "C": "un cuenco de frutas",
+      "D": "un cenicero",
+      "E": "un azucarero"
+    },
+    "image": "assets/escena_1.jpg",
+    "correct_option": "D",
+    "explanation": "Respuesta marcada en plantilla: D (o también A)."
+  },
+  {
+    "number": 2,
+    "source_id": "mem1-02",
+    "text": "El chico que está tumbado en el suelo está:",
+    "options": {
+      "A": "leyendo un libro",
+      "B": "comiendo una galleta",
+      "C": "bebiendo leche",
+      "D": "mirando a su padre",
+      "E": "comiendo una manzana"
+    },
+    "image": "assets/escena_1.jpg",
+    "correct_option": "B"
+  },
+  {
+    "number": 3,
+    "source_id": "mem1-03",
+    "text": "¿Cuál de los elementos siguientes se ve en la librería?",
+    "options": {
+      "A": "una escultura",
+      "B": "un jarrón",
+      "C": "una pila de revistas",
+      "D": "un reloj",
+      "E": "una radio"
+    },
+    "image": "assets/escena_1.jpg",
+    "correct_option": "A"
+  },
+  {
+    "number": 4,
+    "source_id": "mem1-04",
+    "text": "El padre está:",
+    "options": {
+      "A": "sentado en el sofá",
+      "B": "fumando en pipa",
+      "C": "bebiendo café",
+      "D": "leyendo el periódico",
+      "E": "con su hijo en el regazo"
+    },
+    "image": "assets/escena_1.jpg",
+    "correct_option": "B"
+  },
+  {
+    "number": 5,
+    "source_id": "mem1-05",
+    "text": "El programa de TV debe ser:",
+    "options": {
+      "A": "interesante sólo para los niños",
+      "B": "interesante sólo para los adultos",
+      "C": "divertido",
+      "D": "de miedo",
+      "E": "aburrido"
+    },
+    "image": "assets/escena_1.jpg",
+    "correct_option": "C"
+  },
+  {
+    "number": 6,
+    "source_id": "mem1-06",
+    "text": "¿Qué puede decir de los niños de la imagen?",
+    "options": {
+      "A": "todos son niños",
+      "B": "hay dos niños y una niña",
+      "C": "hay tres niñas y un niño",
+      "D": "hay dos niñas y dos niños",
+      "E": "hay dos niños y tres niñas"
+    },
+    "image": "assets/escena_1.jpg",
+    "correct_option": "D"
+  }
+]

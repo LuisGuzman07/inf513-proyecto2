@@ -1,0 +1,146 @@
+import { Col, Row } from 'antd';
+import {
+  StopOutlined,
+  CarOutlined,
+  GroupOutlined,
+  ShoppingOutlined,
+} from '@ant-design/icons';
+import {
+  DailyPlanCard,
+  DeliveryAnalyticsCard,
+  DeliveryRequestCard,
+  DeliveryTableCard,
+  LogisticsStatsCard,
+  PageHeader,
+  TruckListCard,
+} from '../../components';
+import { Helmet } from 'react-helmet-async';
+import { useDeliveries, useDeliveryAnalytics, useTrucks, useDeliveryRequests } from '../../lib/queries';
+import { useStylesContext } from '../../contexts';
+
+const STATS = [
+  {
+    icon: StopOutlined,
+    value: 1245,
+    title: 'new packages',
+    diff: 16,
+  },
+  {
+    icon: ShoppingOutlined,
+    value: 8482,
+    title: 'ready for shipping',
+    diff: 18,
+  },
+  {
+    icon: CarOutlined,
+    value: 747,
+    title: 'in transit',
+    diff: -20,
+  },
+  {
+    icon: GroupOutlined,
+    value: 10747,
+    title: 'delivered',
+    diff: -4.1,
+  },
+];
+
+const PLAN_DATA = [
+  {
+    type: 'Shipment processed',
+    value: 38,
+  },
+  {
+    type: 'Orders processed',
+    value: 52,
+  },
+  {
+    type: 'Requests queue',
+    value: 61,
+  },
+];
+
+export const LogisticsDashboardPage = () => {
+  const stylesContext = useStylesContext();
+
+  // Fetch truck deliveries data with proper typing
+  const {
+    data: trucksDeliveryDataRaw,
+    isLoading: trucksDeliveryDataLoading,
+    error: trucksDeliveryDataError,
+  } = useDeliveries();
+  const trucksDeliveryData = trucksDeliveryDataRaw ?? [];
+
+  // Fetch delivery analytics data with proper typing
+  const {
+    data: deliveryAnalyticsDataRaw,
+    isLoading: deliveryAnalyticsDataLoading,
+    error: deliveryAnalyticsDataError,
+  } = useDeliveryAnalytics();
+  const deliveryAnalyticsData = deliveryAnalyticsDataRaw ?? [];
+
+  // Fetch trucks data with proper typing
+  const {
+    data: trucksDataRaw,
+    isLoading: trucksDataLoading,
+    error: trucksDataError,
+  } = useTrucks();
+  const trucksData = trucksDataRaw ?? [];
+
+  // Fetch truck delivery requests data with proper typing
+  const {
+    data: trucksDeliveryRequestDataRaw,
+    isLoading: trucksDeliveryRequestDataLoading,
+    error: trucksDeliveryRequestDataError,
+  } = useDeliveryRequests();
+  const trucksDeliveryRequestData = trucksDeliveryRequestDataRaw ?? [];
+
+  return (
+    <div>
+      <Helmet>
+        <title>Logistics | Antd Dashboard</title>
+      </Helmet>
+      <PageHeader
+        title="logistics dashboard"
+      />
+      <Row {...stylesContext?.rowProps}>
+        {STATS.map((s) => (
+          <Col xs={24} sm={12} xl={6} key={s.title}>
+            <LogisticsStatsCard {...s} />
+          </Col>
+        ))}
+        <Col xs={24} xl={12}>
+          <DeliveryAnalyticsCard
+            data={deliveryAnalyticsData}
+            loading={deliveryAnalyticsDataLoading}
+            error={deliveryAnalyticsDataError?.toString()}
+          />
+        </Col>
+        <Col xs={24} xl={12}>
+          <DailyPlanCard data={PLAN_DATA} />
+        </Col>
+        <Col span={24}>
+          <DeliveryTableCard
+            data={trucksDeliveryData}
+            error={trucksDeliveryDataError?.toString()}
+            loading={trucksDeliveryDataLoading}
+          />
+        </Col>
+        <Col xs={24} xl={12}>
+          <TruckListCard
+            data={trucksData}
+            loading={trucksDataLoading}
+            error={trucksDataError?.toString()}
+          />
+        </Col>
+        <Col xs={24} xl={12}>
+          <DeliveryRequestCard
+            data={trucksDeliveryRequestData}
+            loading={trucksDeliveryRequestDataLoading}
+            error={trucksDeliveryRequestDataError?.toString()}
+          />
+        </Col>
+      </Row>
+    </div>
+  );
+};

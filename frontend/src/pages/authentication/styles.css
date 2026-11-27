@@ -1,0 +1,29 @@
+.template-auth-frame {
+  overflow: hidden;
+  position: relative;
+}
+
+.template-auth-controls {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+}
+
+.template-auth-introduction {
+  height: 100%;
+  padding: 1rem;
+}
+
+.template-auth-description {
+  font-size: 18px;
+}
+
+.template-auth-form-panel {
+  height: 100%;
+  padding: 2rem;
+}
+
+.template-auth-form-panel > form {
+  width: 100%;
+}

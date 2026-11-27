@@ -1,0 +1,19 @@
+{
+  "name": "Test de Aptitud Numérica - Razonamiento Aritmético",
+  "slug": "aptitud-numerica-aritmetico",
+  "category": "Aptitud Numérica",
+  "author": "J. Ken Klein y Celia Unterman",
+  "time_limit_minutes": 30,
+  "instructions": "Resuelva cada problema matemático práctico de razonamiento y elija la alternativa que contiene la respuesta correcta.",
+  "example_text": "Lea el enunciado con atención, calcule la solución y seleccione la alternativa correcta.",
+  "example_image": null,
+  "answer_type": "single_choice",
+  "option_labels": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "total_exercises": 29,
+  "scoring_enabled": true
+}

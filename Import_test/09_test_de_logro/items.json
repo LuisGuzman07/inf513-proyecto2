@@ -1,0 +1,212 @@
+[
+  {
+    "number": 1,
+    "source_id": "log-01",
+    "text": "Siempre trato de mejorar mi desempeño en el trabajo",
+    "dimension": "Logro",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 2,
+    "source_id": "log-02",
+    "text": "Me gusta competir y ganar",
+    "dimension": "Poder",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 3,
+    "source_id": "log-03",
+    "text": "A menudo me encuentro hablando con personas acerca de asuntos que no se relacionan con mi trabajo",
+    "dimension": "Afiliación",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 4,
+    "source_id": "log-04",
+    "text": "Me gustan los retos difíciles",
+    "dimension": "Logro",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 5,
+    "source_id": "log-05",
+    "text": "Me gusta ser el jefe",
+    "dimension": "Poder",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 6,
+    "source_id": "log-06",
+    "text": "Me gusta agradar a otros",
+    "dimension": "Afiliación",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 7,
+    "source_id": "log-07",
+    "text": "Deseo saber cómo voy progresando al terminar mis tareas",
+    "dimension": "Logro",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 8,
+    "source_id": "log-08",
+    "text": "Me enfrento a las personas que hacen cosas con las que no estoy de acuerdo",
+    "dimension": "Poder",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 9,
+    "source_id": "log-09",
+    "text": "Tiendo a construir relaciones cercanas con mis compañeros de trabajo",
+    "dimension": "Afiliación",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 10,
+    "source_id": "log-10",
+    "text": "Me gustaría fijarme y alcanzar metas realistas",
+    "dimension": "Logro",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 11,
+    "source_id": "log-11",
+    "text": "Me gustaría influir en otras personas para que hagan lo que deseo",
+    "dimension": "Poder",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 12,
+    "source_id": "log-12",
+    "text": "Me gustaría pertenecer a grupos y organizaciones",
+    "dimension": "Afiliación",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 13,
+    "source_id": "log-13",
+    "text": "Me agrada la satisfacción de terminar una tarea difícil",
+    "dimension": "Logro",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 14,
+    "source_id": "log-14",
+    "text": "Con frecuencia me capacito para obtener más control sobre los acontecimientos laborales",
+    "dimension": "Poder",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  },
+  {
+    "number": 15,
+    "source_id": "log-15",
+    "text": "Me gusta trabajar más con otras personas que solo",
+    "dimension": "Afiliación",
+    "options": {
+      "a": "1. En total desacuerdo",
+      "b": "2. En desacuerdo",
+      "c": "3. Ni lo uno ni lo otro",
+      "d": "4. De acuerdo",
+      "e": "5. Totalmente de acuerdo"
+    },
+    "correct_option": null
+  }
+]

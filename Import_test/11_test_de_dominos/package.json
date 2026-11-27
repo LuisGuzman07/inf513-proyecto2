@@ -1,0 +1,19 @@
+{
+    "name": "Test de Dominós (D-48)",
+    "slug": "test-de-dominos-d48",
+    "category": "Razonamiento y Aptitud General",
+    "author": "Pierre Pichot \/ Anstey \/ Grupo 18B",
+    "time_limit_minutes": 25,
+    "instructions": "Cada ejercicio presenta una serie de fichas de dominó dispuestas según un orden lógico. Su tarea consiste en descubrir la regla y determinar los puntos que corresponden a la ficha vacía, indicando un número de 0 a 6 en cada una de sus dos mitades (superior e inferior).",
+    "example_text": "Ejemplo: observe la secuencia de las fichas en la imagen de muestra y deduzca qué valores completan la ficha en blanco.",
+    "example_image": "assets\/Introducción.jpg",
+    "answer_type": "two_halves",
+    "total_exercises": 48,
+    "scoring_enabled": true,
+    "scoring_model": {
+        "type": "percentage_correct",
+        "max_score": 48,
+        "rule": "dominos_porcentaje_aciertos_v1",
+        "description": "Cada ficha con ambas mitades coincidentes suma 1 punto. El puntaje final se reporta en aciertos absolutos y en porcentaje sobre el total de 48 ejercicios."
+    }
+}
